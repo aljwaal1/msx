@@ -1,7 +1,7 @@
 {
   "type": "pages",
   "headline": "{txt:#172b4d:الأخبار والقنوات}",
-  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
+  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
   "template": {
     "type": "separate",
     "layout": "0,0,4,3",
@@ -46,7 +46,7 @@
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
       },
       "id": "live-1",
       "badge": "{txt:#ffffff:يوتيوب}",
@@ -63,7 +63,7 @@
       "options": {
         "type": "pages",
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}",
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
           "type": "control",
           "layout": "0,0,12,1",
@@ -116,7 +116,7 @@
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
       },
       "id": "live-3",
       "badge": "{txt:#ffffff:يوتيوب}",
@@ -148,7 +148,7 @@
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
       },
       "id": "live-4",
       "badge": "{txt:#ffffff:يوتيوب}",
@@ -165,7 +165,7 @@
       "options": {
         "type": "pages",
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}",
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
           "type": "control",
           "layout": "0,0,12,1",
@@ -203,7 +203,7 @@
       "options": {
         "type": "pages",
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}",
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
           "type": "control",
           "layout": "0,0,12,1",
@@ -241,7 +241,7 @@
       "options": {
         "type": "pages",
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-        "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}",
+        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
           "type": "control",
           "layout": "0,0,12,1",
@@ -285,7 +285,7 @@
     }
   ],
   "cache": false,
-  "flag": "private-tv-live",
+  "flag": "private-tv-live-v240",
   "refocus": 1,
   "transparent": 1,
   "options": {
@@ -311,7 +311,7 @@
       }
     ],
     "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
+    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
   },
   "wrap": false,
   "preload": "none",

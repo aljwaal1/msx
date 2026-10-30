@@ -1,7 +1,7 @@
 {
   "type": "pages",
   "headline": "{txt:#172b4d:المساعدة والتحديث}",
-  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
+  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
   "template": {
     "type": "control",
     "layout": "0,0,12,1",
@@ -94,7 +94,7 @@
     }
   ],
   "cache": false,
-  "flag": "private-tv-help",
+  "flag": "private-tv-help-v240",
   "refocus": 1,
   "transparent": 1,
   "options": {
@@ -120,7 +120,7 @@
       }
     ],
     "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
+    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
   },
   "wrap": false,
   "preload": "none",

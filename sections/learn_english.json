@@ -2,7 +2,7 @@
   "type": "pages",
   "headline": "{txt:#172b4d:تعلّم الإنجليزية}",
   "cache": false,
-  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
+  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
   "template": {
     "type": "separate",
     "layout": "0,0,4,3",
@@ -60,7 +60,7 @@
       }
     }
   ],
-  "flag": "private-tv-learn_english",
+  "flag": "private-tv-learn_english-v240",
   "refocus": 1,
   "transparent": 1,
   "options": {
@@ -86,7 +86,7 @@
       }
     ],
     "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
+    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
   },
   "wrap": false,
   "preload": "none",
