@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
   "logoSize": "large",
@@ -186,6 +186,46 @@
                 "imageOverlay": 0
               },
               "items": [
+                {
+                  "title": "{txt:#172b4d:الأردن الرياضية}",
+                  "playerLabel": "الأردن الرياضية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/jordan-v4.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd.m3u8",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:جودة البث}",
+                    "cache": false,
+                    "extension": "{txt:#172b4d:OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,2",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جودة خفيفة 480p}",
+                        "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd_480p.m3u8"
+                      },
+                      {
+                        "title": "{txt:#172b4d:المشغّل الأصلي}",
+                        "action": "video:https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:beIN SPORTS الإخبارية}",
+                  "playerLabel": "beIN SPORTS الإخبارية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bein-news-v4.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=O_02mf1vpQo"
+                },
+                {
+                  "title": "{txt:#172b4d:beIN SPORTS المفتوحة — حالة التوفر}",
+                  "icon": "#673ab7:info",
+                  "action": "info:لم يتوفر حتى الآن رابط بث رسمي ثابت للقناة المفتوحة داخل MSX. البث المجاني على القمر الصناعي لا يضمن توفر رابط إنترنت. الإخبارية موجودة بزر مستقل."
+                },
                 {
                   "title": "{txt:#172b4d:عُمان الرياضية}",
                   "playerLabel": "عُمان الرياضية",
@@ -519,6 +559,88 @@
                 }
               ]
             }
+          },
+          {
+            "title": "{txt:#172b4d:تعلّم الإنجليزية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:تعلّم الإنجليزية}",
+              "cache": false,
+              "extension": "{txt:#172b4d:OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,2",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:BBC — أحدث دروس الإنجليزية}",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+                  "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html"
+                },
+                {
+                  "title": "{txt:#172b4d:10 دروس مفردات وقواعد — المجموعة 26}",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+                  "playerLabel": "BBC English In A Minute",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ujfl_c12G8I"
+                },
+                {
+                  "title": "{txt:#172b4d:10 دروس مفردات وقواعد — المجموعة 11}",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+                  "playerLabel": "BBC English In A Minute",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=sszxO-jTOFY"
+                }
+              ]
+            }
+          },
+          {
+            "title": "{txt:#172b4d:جديد قنوات YouTube}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/feeds-v4.png",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:جديد قنوات YouTube}",
+              "cache": false,
+              "extension": "{txt:#172b4d:OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,2",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:BBC Learning English}",
+                  "icon": "#cc0000:rss-feed",
+                  "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html"
+                },
+                {
+                  "title": "{txt:#172b4d:Super Simple Songs}",
+                  "icon": "#cc0000:rss-feed",
+                  "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=Super%20Simple%20Songs&channels=%40SuperSimpleSongs@https://msx.benzac.de/interaction/mrss.html"
+                },
+                {
+                  "title": "{txt:#172b4d:آدم ومشمش}",
+                  "icon": "#cc0000:rss-feed",
+                  "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=%D8%A2%D8%AF%D9%85%20%D9%88%D9%85%D8%B4%D9%85%D8%B4&channels=%40AdamWaMishmish@https://msx.benzac.de/interaction/mrss.html"
+                },
+                {
+                  "title": "{txt:#172b4d:Nick Jr. Arabia}",
+                  "icon": "#cc0000:rss-feed",
+                  "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=Nick%20Jr.%20Arabia&channels=%40NickJrArabia@https://msx.benzac.de/interaction/mrss.html"
+                },
+                {
+                  "title": "{txt:#172b4d:beIN SPORTS}",
+                  "icon": "#cc0000:rss-feed",
+                  "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=beIN%20SPORTS&channels=%40beINSPORTS@https://msx.benzac.de/interaction/mrss.html"
+                }
+              ]
+            }
           }
         ]
       }
@@ -683,6 +805,46 @@
           "imageOverlay": 0
         },
         "items": [
+          {
+            "title": "{txt:#172b4d:الأردن الرياضية}",
+            "playerLabel": "الأردن الرياضية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/jordan-v4.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd.m3u8",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:جودة البث}",
+              "cache": false,
+              "extension": "{txt:#172b4d:OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,2",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جودة خفيفة 480p}",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd_480p.m3u8"
+                },
+                {
+                  "title": "{txt:#172b4d:المشغّل الأصلي}",
+                  "action": "video:https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8"
+                }
+              ]
+            }
+          },
+          {
+            "title": "{txt:#172b4d:beIN SPORTS الإخبارية}",
+            "playerLabel": "beIN SPORTS الإخبارية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bein-news-v4.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=O_02mf1vpQo"
+          },
+          {
+            "title": "{txt:#172b4d:beIN SPORTS المفتوحة — حالة التوفر}",
+            "icon": "#673ab7:info",
+            "action": "info:لم يتوفر حتى الآن رابط بث رسمي ثابت للقناة المفتوحة داخل MSX. البث المجاني على القمر الصناعي لا يضمن توفر رابط إنترنت. الإخبارية موجودة بزر مستقل."
+          },
           {
             "title": "{txt:#172b4d:عُمان الرياضية}",
             "playerLabel": "عُمان الرياضية",
@@ -978,6 +1140,90 @@
             "playerLabel": "Al Jazeera English",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/aje-v3.png",
             "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "learn_english",
+      "label": "{txt:#172b4d:تعلّم الإنجليزية}",
+      "icon": "#003399:school",
+      "transparent": 1,
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:تعلّم الإنجليزية}",
+        "cache": false,
+        "extension": "{txt:#172b4d:OK للتشغيل • رجوع للعودة}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
+          {
+            "title": "{txt:#172b4d:BBC — أحدث دروس الإنجليزية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+            "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html"
+          },
+          {
+            "title": "{txt:#172b4d:10 دروس مفردات وقواعد — المجموعة 26}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+            "playerLabel": "BBC English In A Minute",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ujfl_c12G8I"
+          },
+          {
+            "title": "{txt:#172b4d:10 دروس مفردات وقواعد — المجموعة 11}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
+            "playerLabel": "BBC English In A Minute",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=sszxO-jTOFY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "latest",
+      "label": "{txt:#172b4d:جديد قنوات YouTube}",
+      "icon": "#cc0000:rss-feed",
+      "transparent": 1,
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:جديد قنوات YouTube}",
+        "cache": false,
+        "extension": "{txt:#172b4d:OK للتشغيل • رجوع للعودة}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
+          {
+            "title": "{txt:#172b4d:BBC Learning English}",
+            "icon": "#cc0000:rss-feed",
+            "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html"
+          },
+          {
+            "title": "{txt:#172b4d:Super Simple Songs}",
+            "icon": "#cc0000:rss-feed",
+            "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=Super%20Simple%20Songs&channels=%40SuperSimpleSongs@https://msx.benzac.de/interaction/mrss.html"
+          },
+          {
+            "title": "{txt:#172b4d:آدم ومشمش}",
+            "icon": "#cc0000:rss-feed",
+            "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=%D8%A2%D8%AF%D9%85%20%D9%88%D9%85%D8%B4%D9%85%D8%B4&channels=%40AdamWaMishmish@https://msx.benzac.de/interaction/mrss.html"
+          },
+          {
+            "title": "{txt:#172b4d:Nick Jr. Arabia}",
+            "icon": "#cc0000:rss-feed",
+            "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=Nick%20Jr.%20Arabia&channels=%40NickJrArabia@https://msx.benzac.de/interaction/mrss.html"
+          },
+          {
+            "title": "{txt:#172b4d:beIN SPORTS}",
+            "icon": "#cc0000:rss-feed",
+            "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=beIN%20SPORTS&channels=%40beINSPORTS@https://msx.benzac.de/interaction/mrss.html"
           }
         ]
       }
