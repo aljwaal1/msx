@@ -12,6 +12,14 @@
   },
   "items": [
     {
+      "id": "return-home",
+      "title": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "label": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "icon": "#ffffff:home",
+      "color": "#003399",
+      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+    },
+    {
       "title": "{txt:#172b4d:BBC Learning English}",
       "icon": "#cc0000:rss-feed",
       "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html",
@@ -79,18 +87,5 @@
       }
     ]
   },
-  "wrap": false,
-  "header": {
-    "items": [
-      {
-        "id": "back-to-sidebar",
-        "type": "control",
-        "layout": "0,0,12,1",
-        "label": "{txt:#ffffff:العودة إلى القائمة الجانبية}",
-        "icon": "#ffffff:arrow-back",
-        "color": "#003399",
-        "action": "focus:control:menu"
-      }
-    ]
-  }
+  "wrap": false
 }

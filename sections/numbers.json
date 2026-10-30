@@ -11,6 +11,14 @@
   },
   "items": [
     {
+      "id": "return-home",
+      "title": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "label": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "icon": "#ffffff:home",
+      "color": "#003399",
+      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+    },
+    {
       "title": "{txt:#172b4d:الأرقام والعد بالعربية}",
       "playerLabel": "الأرقام والعد بالعربية",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-3.png",
@@ -54,18 +62,5 @@
       }
     ]
   },
-  "wrap": false,
-  "header": {
-    "items": [
-      {
-        "id": "back-to-sidebar",
-        "type": "control",
-        "layout": "0,0,12,1",
-        "label": "{txt:#ffffff:العودة إلى القائمة الجانبية}",
-        "icon": "#ffffff:arrow-back",
-        "color": "#003399",
-        "action": "focus:control:menu"
-      }
-    ]
-  }
+  "wrap": false
 }
