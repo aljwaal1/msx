@@ -1,659 +1,954 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
+  "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
+  "logoSize": "large",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png",
+  "style": "flat",
+  "transparent": 1,
+  "cache": false,
   "menu": [
     {
-      "id": "television",
-      "label": "{txt:#172b4d:التلفزيون المباشر}",
-      "icon": "#cc0000:live-tv",
+      "id": "home",
+      "label": "{txt:#172b4d:الرئيسية}",
+      "icon": "#003399:home",
       "focus": true,
       "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "{txt:#172b4d:التلفزيون المباشر}",
-        "extension": "{txt:#172b4d:27 قناة • دورا بالعربية • اضغط OK}",
+        "headline": "{txt:#172b4d:تلفزيون خصوصي}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
         "template": {
           "type": "separate",
-          "layout": "0,0,4,2",
+          "layout": "0,0,4,3",
           "color": "#ffffff",
           "imageFiller": "fit",
           "imageOverlay": 0
         },
         "items": [
           {
-            "title": "{txt:#172b4d:الجزيرة الإخبارية}",
-            "playerLabel": "الجزيرة الإخبارية",
-            "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-1.png",
-            "icon": "#003399:live-tv"
+            "title": "{txt:#172b4d:الحروف العربية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-1.png",
+            "icon": "#7b2cbf:school",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:الحروف العربية}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:الحروف العربية من ألف إلى ياء}",
+                  "playerLabel": "الحروف العربية من ألف إلى ياء",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-1.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=tWXFrqMMHn0",
+                  "icon": "#7b2cbf:play-circle-filled"
+                },
+                {
+                  "title": "{txt:#172b4d:الحروف مع الفتحة}",
+                  "playerLabel": "الحروف مع الفتحة",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-2.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=e8I2gtlNTT4",
+                  "icon": "#e83e8c:play-circle-filled"
+                }
+              ]
+            }
           },
           {
-            "title": "{txt:#172b4d:الجزيرة مباشر}",
-            "playerLabel": "الجزيرة مباشر",
-            "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
-            "icon": "#003399:live-tv"
+            "title": "{txt:#172b4d:الأرقام العربية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-2.png",
+            "icon": "#007f73:looks-3",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:الأرقام العربية}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:الأرقام والعد بالعربية}",
+                  "playerLabel": "الأرقام والعد بالعربية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-3.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=gkvoXErk8wQ",
+                  "icon": "#007f73:play-circle-filled"
+                },
+                {
+                  "title": "{txt:#172b4d:العد من 1 إلى 10}",
+                  "playerLabel": "العد من 1 إلى 10",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-4.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=b-juc2Ef3A0",
+                  "icon": "#ef6c00:play-circle-filled"
+                }
+              ]
+            }
           },
           {
-            "title": "{txt:#172b4d:الجزيرة الوثائقية}",
-            "playerLabel": "الجزيرة الوثائقية",
-            "action": "video:https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-3.png",
-            "icon": "#003399:live-tv"
+            "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-3.png",
+            "icon": "#003399:translate",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:الإنجليزية الكرتونية}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:الحروف الإنجليزية الكرتونية}",
+                  "playerLabel": "الحروف الإنجليزية الكرتونية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-5.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6__ydnpF8dE",
+                  "icon": "#003399:play-circle-filled"
+                },
+                {
+                  "title": "{txt:#172b4d:أغنية الأبجدية الإنجليزية}",
+                  "playerLabel": "أغنية الأبجدية الإنجليزية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-6.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=kDdg2M1_EuE",
+                  "icon": "#5c2d91:play-circle-filled"
+                },
+                {
+                  "title": "{txt:#172b4d:العد والحركة إلى 20}",
+                  "playerLabel": "العد والحركة إلى 20",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-7.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Aq4UAss33qA",
+                  "icon": "#007f73:play-circle-filled"
+                },
+                {
+                  "title": "{txt:#172b4d:مجموعة أغاني الأرقام الكرتونية}",
+                  "playerLabel": "مجموعة أغاني الأرقام الكرتونية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-8.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=BG8HLIvuK24",
+                  "icon": "#d32f2f:play-circle-filled"
+                }
+              ]
+            }
           },
           {
-            "title": "{txt:#172b4d:Al Jazeera English}",
-            "playerLabel": "Al Jazeera English",
-            "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-4.png",
-            "icon": "#003399:live-tv"
+            "title": "{txt:#172b4d:دورا بالعربية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-4.png",
+            "icon": "#e83e8c:child-care",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:دورا بالعربية}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:دورا بالعربية — 90 دقيقة}",
+                  "playerLabel": "دورا بالعربية — 90 دقيقة",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-9.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NrRcweyn0Gc",
+                  "icon": "#e83e8c:play-circle-filled"
+                }
+              ]
+            }
           },
           {
-            "title": "{txt:#172b4d:فرانس 24 العربية}",
-            "playerLabel": "فرانس 24 العربية",
-            "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
-            "icon": "#003399:live-tv"
+            "title": "{txt:#172b4d:البث المباشر — تجربة}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-5.png",
+            "icon": "#d32f2f:live-tv",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:البث المباشر — تجربة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:الجزيرة مباشر • مشغّل YouTube}",
+                  "playerLabel": "الجزيرة مباشر",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Lwbp9WfLslc"
+                },
+                {
+                  "title": "{txt:#172b4d:الجزيرة الإخبارية}",
+                  "playerLabel": "الجزيرة الإخبارية",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2Findex.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-1.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+                        "playerLabel": "الجزيرة الإخبارية"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:الجزيرة مباشر}",
+                  "playerLabel": "الجزيرة مباشر",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm.getaj.net%2FAJM%2Findex.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+                        "playerLabel": "الجزيرة مباشر"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:فرانس 24 العربية}",
+                  "playerLabel": "فرانس 24 العربية",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+                        "playerLabel": "فرانس 24 العربية"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:France 24 English}",
+                  "playerLabel": "France 24 English",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+                        "playerLabel": "France 24 English"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:France 24 Français}",
+                  "playerLabel": "France 24 Français",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037179%2FF24_FR_HI_HLS%2Fmaster_5000.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-7.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+                        "playerLabel": "France 24 Français"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:DW عربية}",
+                  "playerLabel": "DW عربية",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fdwamdstream103.akamaized.net%2Fhls%2Flive%2F2015526%2Fdwstream103%2Findex.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-10.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+                        "playerLabel": "DW عربية"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:CNBC عربية}",
+                  "playerLabel": "CNBC عربية",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fcnbc-live.akamaized.net%2Fcnbc%2Fmaster.m3u8",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-11.png",
+                  "icon": "#003399:live-tv",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+                        "playerLabel": "CNBC عربية"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:وناسة}",
+                  "playerLabel": "وناسة",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-5.png",
+                  "icon": "#7b2cbf:child-care",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fshd-gcp-live.edgenextcdn.net%2Flive%2Fbitmovin-wanasah%2F13e82ea6232fa647c43b26e8a41f173d%2Findex.m3u8",
+                  "options": {
+                    "type": "pages",
+                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+                    "template": {
+                      "type": "separate",
+                      "layout": "0,0,4,3",
+                      "color": "#ffffff",
+                      "imageFiller": "fit",
+                      "imageOverlay": 0
+                    },
+                    "items": [
+                      {
+                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                        "icon": "#003399:play-circle-filled",
+                        "action": "video:https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8",
+                        "playerLabel": "وناسة"
+                      },
+                      {
+                        "title": "{txt:#172b4d:حالة هذا البث}",
+                        "icon": "#003399:info",
+                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
           },
           {
-            "title": "{txt:#172b4d:France 24 English}",
-            "playerLabel": "France 24 English",
-            "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:France 24 Français}",
-            "playerLabel": "France 24 Français",
-            "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-7.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:TRT عربي}",
-            "playerLabel": "TRT عربي",
-            "action": "video:https://tv-trtarabi.live.trt.com.tr/master.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-8.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:TRT World}",
-            "playerLabel": "TRT World",
-            "action": "video:https://tv-trtworld.live.trt.com.tr/master.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-9.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:DW عربية}",
-            "playerLabel": "DW عربية",
-            "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-10.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:CNBC عربية}",
-            "playerLabel": "CNBC عربية",
-            "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-11.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:المملكة الأردنية}",
-            "playerLabel": "المملكة الأردنية",
-            "action": "video:https://almamlka-live.ercdn.net/almamlka/almamlka_1080p.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-12.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:الكأس 1}",
-            "playerLabel": "الكأس 1",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-13.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:الكأس 2}",
-            "playerLabel": "الكأس 2",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-14.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:الكأس شووف}",
-            "playerLabel": "الكأس شووف",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-15.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:دبي الرياضية 1}",
-            "playerLabel": "دبي الرياضية 1",
-            "action": "video:https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-16.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:دبي الرياضية 2}",
-            "playerLabel": "دبي الرياضية 2",
-            "action": "video:https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-17.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:أبوظبي الرياضية 1}",
-            "playerLabel": "أبوظبي الرياضية 1",
-            "action": "video:https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-18.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:أبوظبي الرياضية 2}",
-            "playerLabel": "أبوظبي الرياضية 2",
-            "action": "video:https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-19.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:دبي}",
-            "playerLabel": "دبي",
-            "action": "video:https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-20.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:أبوظبي}",
-            "playerLabel": "أبوظبي",
-            "action": "video:https://admdn2ta.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-21.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:سبيستون}",
-            "playerLabel": "سبيستون",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-1.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8"
-          },
-          {
-            "title": "{txt:#172b4d:MBC3}",
-            "playerLabel": "MBC3",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-2.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8"
-          },
-          {
-            "title": "{txt:#172b4d:قناة ماجد}",
-            "playerLabel": "قناة ماجد",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-3.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://admdn4.cdn.mangomolo.com/majid/smil:majid.stream.smil/playlist.m3u8?adtv"
-          },
-          {
-            "title": "{txt:#172b4d:روتانا كيدز}",
-            "playerLabel": "روتانا كيدز",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-4.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shls-rotanakids-prod-dub.shahid.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8"
-          },
-          {
-            "title": "{txt:#172b4d:وناسة}",
-            "playerLabel": "وناسة",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-5.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8"
-          },
-          {
-            "title": "{txt:#172b4d:كرتون نتورك بالعربية}",
-            "playerLabel": "كرتون نتورك بالعربية",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-6.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8"
-          },
-          {
-            "title": "{txt:#172b4d:دورا بالعربية • 90 دقيقة}",
-            "playerLabel": "دورا بالعربية",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-7.png",
-            "icon": "#f72585:child-care",
-            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NrRcweyn0Gc"
+            "title": "{txt:#172b4d:المساعدة والتحديث}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-6.png",
+            "icon": "#546e7a:settings",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:المساعدة والتحديث}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:طريقة التنقل}",
+                  "icon": "#003399:gamepad",
+                  "action": "info:الأسهم لاختيار البطاقة، OK لفتحها، وزر الرجوع للعودة إلى القائمة السابقة. الأقسام متاحة أيضًا في الشريط الجانبي."
+                },
+                {
+                  "title": "{txt:#172b4d:تحديث المحتوى}",
+                  "icon": "#003399:refresh",
+                  "action": "reload"
+                },
+                {
+                  "title": "{txt:#172b4d:حول القنوات}",
+                  "icon": "#003399:info",
+                  "action": "info:تم فحص 27 رابط بث. بعض المصادر محجوبة أو لا تستجيب من بيئة الفحص. القنوات هنا التي استجابت لها مشغّل HLS بديل، ولا يزال تشغيلها على تلفازك بحاجة للتجربة."
+                }
+              ]
+            }
           }
         ]
       }
     },
     {
-      "id": "kids_tv",
-      "label": "{txt:#172b4d:قنوات الأطفال ودورا}",
-      "icon": "#f72585:child-care",
+      "id": "letters",
+      "label": "{txt:#172b4d:الحروف العربية}",
+      "icon": "#7b2cbf:school",
       "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "{txt:#172b4d:قنوات الأطفال ودورا}",
-        "extension": "{txt:#172b4d:6 قنوات أطفال • دورا بالعربية}",
+        "headline": "{txt:#172b4d:الحروف العربية}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
         "template": {
           "type": "separate",
-          "layout": "0,0,4,2",
+          "layout": "0,0,4,3",
           "color": "#ffffff",
           "imageFiller": "fit",
           "imageOverlay": 0
         },
         "items": [
           {
-            "title": "{txt:#172b4d:سبيستون}",
-            "playerLabel": "سبيستون",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-1.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8"
+            "title": "{txt:#172b4d:الحروف العربية من ألف إلى ياء}",
+            "playerLabel": "الحروف العربية من ألف إلى ياء",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-1.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=tWXFrqMMHn0",
+            "icon": "#7b2cbf:play-circle-filled"
           },
           {
-            "title": "{txt:#172b4d:MBC3}",
-            "playerLabel": "MBC3",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-2.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8"
+            "title": "{txt:#172b4d:الحروف مع الفتحة}",
+            "playerLabel": "الحروف مع الفتحة",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-2.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=e8I2gtlNTT4",
+            "icon": "#e83e8c:play-circle-filled"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numbers",
+      "label": "{txt:#172b4d:الأرقام العربية}",
+      "icon": "#007f73:looks-3",
+      "transparent": 1,
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:الأرقام العربية}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,3",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
+          {
+            "title": "{txt:#172b4d:الأرقام والعد بالعربية}",
+            "playerLabel": "الأرقام والعد بالعربية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-3.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=gkvoXErk8wQ",
+            "icon": "#007f73:play-circle-filled"
           },
           {
-            "title": "{txt:#172b4d:قناة ماجد}",
-            "playerLabel": "قناة ماجد",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-3.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://admdn4.cdn.mangomolo.com/majid/smil:majid.stream.smil/playlist.m3u8?adtv"
+            "title": "{txt:#172b4d:العد من 1 إلى 10}",
+            "playerLabel": "العد من 1 إلى 10",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-4.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=b-juc2Ef3A0",
+            "icon": "#ef6c00:play-circle-filled"
+          }
+        ]
+      }
+    },
+    {
+      "id": "english",
+      "label": "{txt:#172b4d:الإنجليزية الكرتونية}",
+      "icon": "#003399:translate",
+      "transparent": 1,
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:الإنجليزية الكرتونية}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,3",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
+          {
+            "title": "{txt:#172b4d:الحروف الإنجليزية الكرتونية}",
+            "playerLabel": "الحروف الإنجليزية الكرتونية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-5.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6__ydnpF8dE",
+            "icon": "#003399:play-circle-filled"
           },
           {
-            "title": "{txt:#172b4d:روتانا كيدز}",
-            "playerLabel": "روتانا كيدز",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-4.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shls-rotanakids-prod-dub.shahid.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8"
+            "title": "{txt:#172b4d:أغنية الأبجدية الإنجليزية}",
+            "playerLabel": "أغنية الأبجدية الإنجليزية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-6.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=kDdg2M1_EuE",
+            "icon": "#5c2d91:play-circle-filled"
           },
           {
-            "title": "{txt:#172b4d:وناسة}",
-            "playerLabel": "وناسة",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-5.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8"
+            "title": "{txt:#172b4d:العد والحركة إلى 20}",
+            "playerLabel": "العد والحركة إلى 20",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-7.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Aq4UAss33qA",
+            "icon": "#007f73:play-circle-filled"
           },
           {
-            "title": "{txt:#172b4d:كرتون نتورك بالعربية}",
-            "playerLabel": "كرتون نتورك بالعربية",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-6.png",
-            "icon": "#7b2cbf:child-care",
-            "action": "video:https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8"
-          },
+            "title": "{txt:#172b4d:مجموعة أغاني الأرقام الكرتونية}",
+            "playerLabel": "مجموعة أغاني الأرقام الكرتونية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-8.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=BG8HLIvuK24",
+            "icon": "#d32f2f:play-circle-filled"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dora",
+      "label": "{txt:#172b4d:دورا بالعربية}",
+      "icon": "#e83e8c:child-care",
+      "transparent": 1,
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:دورا بالعربية}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,3",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
           {
-            "title": "{txt:#172b4d:دورا بالعربية • 90 دقيقة}",
-            "playerLabel": "دورا بالعربية",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-7.png",
-            "icon": "#f72585:child-care",
-            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NrRcweyn0Gc"
+            "title": "{txt:#172b4d:دورا بالعربية — 90 دقيقة}",
+            "playerLabel": "دورا بالعربية — 90 دقيقة",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-9.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NrRcweyn0Gc",
+            "icon": "#e83e8c:play-circle-filled"
           }
         ]
       }
     },
     {
       "id": "live",
-      "label": "{txt:#172b4d:الجزيرة — تلفزيون مباشر}",
-      "icon": "#003399:live-tv",
+      "label": "{txt:#172b4d:البث المباشر — تجربة}",
+      "icon": "#d32f2f:live-tv",
+      "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "{txt:#172b4d:الجزيرة — تلفزيون مباشر}",
+        "headline": "{txt:#172b4d:البث المباشر — تجربة}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
         "template": {
           "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:live-tv",
+          "layout": "0,0,4,3",
           "color": "#ffffff",
           "imageFiller": "fit",
           "imageOverlay": 0
         },
         "items": [
           {
+            "title": "{txt:#172b4d:الجزيرة مباشر • مشغّل YouTube}",
+            "playerLabel": "الجزيرة مباشر",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Lwbp9WfLslc"
+          },
+          {
             "title": "{txt:#172b4d:الجزيرة الإخبارية}",
             "playerLabel": "الجزيرة الإخبارية",
-            "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2Findex.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-1.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+                  "playerLabel": "الجزيرة الإخبارية"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
           {
             "title": "{txt:#172b4d:الجزيرة مباشر}",
             "playerLabel": "الجزيرة مباشر",
-            "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm.getaj.net%2FAJM%2Findex.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+                  "playerLabel": "الجزيرة مباشر"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
-          {
-            "title": "{txt:#172b4d:الجزيرة الوثائقية}",
-            "playerLabel": "الجزيرة الوثائقية",
-            "action": "video:https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-3.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:Al Jazeera English}",
-            "playerLabel": "Al Jazeera English",
-            "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-4.png",
-            "icon": "#003399:live-tv"
-          }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
-    },
-    {
-      "id": "news_tv",
-      "label": "{txt:#172b4d:قنوات الأخبار}",
-      "icon": "#003399:public",
-      "data": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:قنوات الأخبار}",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:public",
-          "color": "#ffffff",
-          "imageFiller": "fit",
-          "imageOverlay": 0
-        },
-        "items": [
           {
             "title": "{txt:#172b4d:فرانس 24 العربية}",
             "playerLabel": "فرانس 24 العربية",
-            "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+                  "playerLabel": "فرانس 24 العربية"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
           {
             "title": "{txt:#172b4d:France 24 English}",
             "playerLabel": "France 24 English",
-            "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+                  "playerLabel": "France 24 English"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
           {
             "title": "{txt:#172b4d:France 24 Français}",
             "playerLabel": "France 24 Français",
-            "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037179%2FF24_FR_HI_HLS%2Fmaster_5000.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-7.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:TRT عربي}",
-            "playerLabel": "TRT عربي",
-            "action": "video:https://tv-trtarabi.live.trt.com.tr/master.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-8.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:TRT World}",
-            "playerLabel": "TRT World",
-            "action": "video:https://tv-trtworld.live.trt.com.tr/master.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-9.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+                  "playerLabel": "France 24 Français"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
           {
             "title": "{txt:#172b4d:DW عربية}",
             "playerLabel": "DW عربية",
-            "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fdwamdstream103.akamaized.net%2Fhls%2Flive%2F2015526%2Fdwstream103%2Findex.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-10.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+                  "playerLabel": "DW عربية"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
           {
             "title": "{txt:#172b4d:CNBC عربية}",
             "playerLabel": "CNBC عربية",
-            "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fcnbc-live.akamaized.net%2Fcnbc%2Fmaster.m3u8",
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-11.png",
-            "icon": "#003399:live-tv"
+            "icon": "#003399:live-tv",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+                  "playerLabel": "CNBC عربية"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           },
           {
-            "title": "{txt:#172b4d:المملكة الأردنية}",
-            "playerLabel": "المملكة الأردنية",
-            "action": "video:https://almamlka-live.ercdn.net/almamlka/almamlka_1080p.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-12.png",
-            "icon": "#003399:live-tv"
+            "title": "{txt:#172b4d:وناسة}",
+            "playerLabel": "وناسة",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-5.png",
+            "icon": "#7b2cbf:child-care",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fshd-gcp-live.edgenextcdn.net%2Flive%2Fbitmovin-wanasah%2F13e82ea6232fa647c43b26e8a41f173d%2Findex.m3u8",
+            "options": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
+                  "icon": "#003399:play-circle-filled",
+                  "action": "video:https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8",
+                  "playerLabel": "وناسة"
+                },
+                {
+                  "title": "{txt:#172b4d:حالة هذا البث}",
+                  "icon": "#003399:info",
+                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
+                }
+              ]
+            }
           }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
-    },
-    {
-      "id": "sports_tv",
-      "label": "{txt:#172b4d:القنوات الرياضية}",
-      "icon": "#003399:sports-soccer",
-      "data": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:القنوات الرياضية}",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:sports-soccer",
-          "color": "#ffffff",
-          "imageFiller": "fit",
-          "imageOverlay": 0
-        },
-        "items": [
-          {
-            "title": "{txt:#172b4d:الكأس 1}",
-            "playerLabel": "الكأس 1",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-13.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:الكأس 2}",
-            "playerLabel": "الكأس 2",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-14.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:الكأس شووف}",
-            "playerLabel": "الكأس شووف",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-15.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:دبي الرياضية 1}",
-            "playerLabel": "دبي الرياضية 1",
-            "action": "video:https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-16.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:دبي الرياضية 2}",
-            "playerLabel": "دبي الرياضية 2",
-            "action": "video:https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-17.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:أبوظبي الرياضية 1}",
-            "playerLabel": "أبوظبي الرياضية 1",
-            "action": "video:https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-18.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:أبوظبي الرياضية 2}",
-            "playerLabel": "أبوظبي الرياضية 2",
-            "action": "video:https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-19.png",
-            "icon": "#003399:live-tv"
-          }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
-    },
-    {
-      "id": "general_tv",
-      "label": "{txt:#172b4d:القنوات العامة}",
-      "icon": "#003399:tv",
-      "data": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:القنوات العامة}",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:tv",
-          "color": "#ffffff",
-          "imageFiller": "fit",
-          "imageOverlay": 0
-        },
-        "items": [
-          {
-            "title": "{txt:#172b4d:دبي}",
-            "playerLabel": "دبي",
-            "action": "video:https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-20.png",
-            "icon": "#003399:live-tv"
-          },
-          {
-            "title": "{txt:#172b4d:أبوظبي}",
-            "playerLabel": "أبوظبي",
-            "action": "video:https://admdn2ta.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-21.png",
-            "icon": "#003399:live-tv"
-          }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
-    },
-    {
-      "id": "football",
-      "label": "{txt:#172b4d:أخبار ونتائج كرة القدم}",
-      "icon": "#003399:sports-soccer",
-      "data": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:أخبار ونتائج كرة القدم}",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:sports-soccer",
-          "color": "#ffffff",
-          "imageFiller": "fit",
-          "imageOverlay": 0
-        },
-        "items": [
-          {
-            "title": "{txt:#172b4d:كووورة: أخبار ونتائج}",
-            "action": "link:window:https://www.kooora.com/",
-            "icon": "#003399:sports-soccer"
-          }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
-    },
-    {
-      "id": "sites",
-      "label": "{txt:#172b4d:روابط إضافية}",
-      "icon": "#003399:language",
-      "data": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:روابط إضافية}",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:language",
-          "color": "#ffffff",
-          "imageFiller": "fit",
-          "imageOverlay": 0
-        },
-        "items": [
-          {
-            "title": "{txt:#172b4d:أكاديمية المحاسبين}",
-            "action": "link:window:https://acc.explapp.com/",
-            "icon": "#003399:language"
-          },
-          {
-            "title": "{txt:#172b4d:ويكيبيديا العربية}",
-            "action": "link:window:https://ar.wikipedia.org/",
-            "icon": "#003399:language"
-          }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
-    },
-    {
-      "id": "search",
-      "label": "{txt:#172b4d:البحث}",
-      "icon": "#003399:search",
-      "data": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:البحث}",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:search",
-          "color": "#ffffff",
-          "imageFiller": "fit",
-          "imageOverlay": 0
-        },
-        "items": [
-          {
-            "title": "{txt:#172b4d:DuckDuckGo Lite}",
-            "action": "link:window:https://lite.duckduckgo.com/lite/",
-            "icon": "#003399:search"
-          },
-          {
-            "title": "{txt:#172b4d:Bing}",
-            "action": "link:window:https://www.bing.com/",
-            "icon": "#003399:search"
-          }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
+        ]
+      }
     },
     {
       "id": "help",
-      "label": "{txt:#172b4d:المساعدة}",
-      "icon": "#003399:help-outline",
+      "label": "{txt:#172b4d:المساعدة والتحديث}",
+      "icon": "#546e7a:settings",
+      "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "{txt:#172b4d:المساعدة}",
+        "headline": "{txt:#172b4d:المساعدة والتحديث}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
         "template": {
           "type": "separate",
-          "layout": "0,0,4,2",
-          "icon": "#003399:help-outline",
+          "layout": "0,0,4,3",
           "color": "#ffffff",
           "imageFiller": "fit",
           "imageOverlay": 0
         },
         "items": [
           {
-            "title": "{txt:#172b4d:اختبار الواجهة}",
-            "action": "info:الواجهة تعمل بنجاح. اختر القنوات المباشرة لتجربة الفيديو.",
-            "icon": "#003399:help-outline"
+            "title": "{txt:#172b4d:طريقة التنقل}",
+            "icon": "#003399:gamepad",
+            "action": "info:الأسهم لاختيار البطاقة، OK لفتحها، وزر الرجوع للعودة إلى القائمة السابقة. الأقسام متاحة أيضًا في الشريط الجانبي."
           },
           {
-            "title": "{txt:#172b4d:عن روابط المواقع}",
-            "action": "info:روابط المواقع تفتح متصفح الشاشة. المواقع الحديثة قد لا تعمل على جهازك.",
-            "icon": "#003399:help-outline"
+            "title": "{txt:#172b4d:تحديث المحتوى}",
+            "icon": "#003399:refresh",
+            "action": "reload"
           },
           {
-            "title": "{txt:#172b4d:عن القنوات}",
-            "action": "info:القنوات تستخدم روابط بث مباشرة. توفرها وتشغيلها يعتمدان على المصدر والمنطقة ومشغل التلفاز.",
-            "icon": "#003399:help-outline"
-          },
-          {
-            "title": "{txt:#172b4d:توفر القنوات الجديدة}",
-            "action": "info:روابط البث الجديدة تحتاج تجربة على التلفاز. قد يتوقف بعضها بحسب المنطقة أو حقوق بث المباريات. إذا لم تعمل قناة جرّب قناة أخرى.",
-            "icon": "#003399:help-outline"
+            "title": "{txt:#172b4d:حول القنوات}",
+            "icon": "#003399:info",
+            "action": "info:تم فحص 27 رابط بث. بعض المصادر محجوبة أو لا تستجيب من بيئة الفحص. القنوات هنا التي استجابت لها مشغّل HLS بديل، ولا يزال تشغيلها على تلفازك بحاجة للتجربة."
           }
-        ],
-        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
-      },
-      "transparent": 1
+        ]
+      }
     }
-  ],
-  "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
-  "logoSize": "large",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png",
-  "style": "flat",
-  "transparent": 1,
-  "cache": false
+  ]
 }
