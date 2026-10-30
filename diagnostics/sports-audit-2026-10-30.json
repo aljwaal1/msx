@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-30",
+  "limitation": "HTTP manifest checks do not establish playback on the user's TV.",
+  "results": [
+    {
+      "url": "https://alkasmsl4.akamaized.net/hls/live/2003123/alkass1laoGlw/master.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://alkasmsl4.akamaized.net/hls/live/2003123/alkass2baIzzy/master.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://dmitnthfr.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://tv-trtspor1.live.trt.com.tr/master.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://tv-trtarabi.live.trt.com.tr/master.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8",
+      "status": "200",
+      "manifest": true
+    },
+    {
+      "url": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8",
+      "status": "403",
+      "manifest": false
+    },
+    {
+      "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8",
+      "status": "403",
+      "manifest": false
+    },
+    {
+      "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+      "status": "200",
+      "manifest": true
+    },
+    {
+      "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/playlist.m3u8",
+      "status": "403",
+      "manifest": false
+    },
+    {
+      "url": "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8",
+      "status": "503",
+      "manifest": false
+    },
+    {
+      "url": "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8",
+      "status": "503",
+      "manifest": false
+    }
+  ]
+}

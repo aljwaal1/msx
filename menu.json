@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
   "logoSize": "large",
@@ -21,7 +21,7 @@
         "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
         "template": {
           "type": "separate",
-          "layout": "0,0,4,3",
+          "layout": "0,0,4,2",
           "color": "#ffffff",
           "imageFiller": "fit",
           "imageOverlay": 0
@@ -171,13 +171,60 @@
             }
           },
           {
-            "title": "{txt:#172b4d:البث المباشر — تجربة}",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/nav-v2-5.png",
+            "title": "{txt:#172b4d:القنوات الرياضية}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/sport-v3.png",
+            "action": "content:data",
+            "data": {
+              "type": "pages",
+              "headline": "{txt:#172b4d:القنوات الرياضية}",
+              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+              "template": {
+                "type": "separate",
+                "layout": "0,0,4,3",
+                "color": "#ffffff",
+                "imageFiller": "fit",
+                "imageOverlay": 0
+              },
+              "items": [
+                {
+                  "title": "{txt:#172b4d:عُمان الرياضية}",
+                  "playerLabel": "عُمان الرياضية",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/oman-sport-v3.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fpartneta.cdn.mgmlcdn.com%2Fomsport%2Fsmil%3Aomsport.stream.smil%2Fchunklist.m3u8",
+                  "options": {
+                    "type": "pages",
+                    "template": {
+                      "type": "control",
+                      "layout": "0,0,12,1"
+                    },
+                    "items": [
+                      {
+                        "label": "{txt:#172b4d:جودة خفيفة 480p}",
+                        "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fpartneta.cdn.mgmlcdn.com%2Fomsport%2Fsmil%3Aomsport.stream.smil%2Fchunklist_b900000.m3u8"
+                      },
+                      {
+                        "label": "{txt:#172b4d:المشغّل الأصلي}",
+                        "action": "video:https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "{txt:#172b4d:دبي وأبوظبي والكأس — حالة البث}",
+                  "icon": "#007f73:info",
+                  "action": "info:لم تستجب مصادر هذه القنوات للفحص حتى الآن. لم يتم تأكيد إصلاحها. لن يُستبدل البث الحي بمباراة قديمة مسجلة."
+                }
+              ]
+            }
+          },
+          {
+            "title": "{txt:#172b4d:الأخبار والقنوات}",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/news-v3.png",
             "icon": "#d32f2f:live-tv",
             "action": "content:data",
             "data": {
               "type": "pages",
-              "headline": "{txt:#172b4d:البث المباشر — تجربة}",
+              "headline": "{txt:#172b4d:الأخبار والقنوات}",
               "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
               "template": {
                 "type": "separate",
@@ -260,63 +307,43 @@
                 {
                   "title": "{txt:#172b4d:فرانس 24 العربية}",
                   "playerLabel": "فرانس 24 العربية",
-                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
-                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=3ursYA8HMeo",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/fr24-ar-v3.png",
                   "icon": "#003399:live-tv",
                   "options": {
                     "type": "pages",
-                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
                     "template": {
-                      "type": "separate",
-                      "layout": "0,0,4,3",
-                      "color": "#ffffff",
-                      "imageFiller": "fit",
-                      "imageOverlay": 0
+                      "type": "control",
+                      "layout": "0,0,12,1"
                     },
                     "items": [
                       {
-                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
-                        "icon": "#003399:play-circle-filled",
-                        "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+                        "title": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                        "label": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                        "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
                         "playerLabel": "فرانس 24 العربية"
-                      },
-                      {
-                        "title": "{txt:#172b4d:حالة هذا البث}",
-                        "icon": "#003399:info",
-                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
                       }
                     ]
                   }
                 },
                 {
-                  "title": "{txt:#172b4d:France 24 English}",
-                  "playerLabel": "France 24 English",
-                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
-                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
+                  "title": "{txt:#172b4d:فرانس 24 الإنجليزية}",
+                  "playerLabel": "فرانس 24 الإنجليزية",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ap-UM1O9RBU",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/fr24-en-v3.png",
                   "icon": "#003399:live-tv",
                   "options": {
                     "type": "pages",
-                    "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-                    "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
                     "template": {
-                      "type": "separate",
-                      "layout": "0,0,4,3",
-                      "color": "#ffffff",
-                      "imageFiller": "fit",
-                      "imageOverlay": 0
+                      "type": "control",
+                      "layout": "0,0,12,1"
                     },
                     "items": [
                       {
-                        "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
-                        "icon": "#003399:play-circle-filled",
-                        "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+                        "title": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                        "label": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                        "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
                         "playerLabel": "France 24 English"
-                      },
-                      {
-                        "title": "{txt:#172b4d:حالة هذا البث}",
-                        "icon": "#003399:info",
-                        "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
                       }
                     ]
                   }
@@ -448,6 +475,12 @@
                       }
                     ]
                   }
+                },
+                {
+                  "title": "{txt:#172b4d:الجزيرة الإنجليزية}",
+                  "playerLabel": "Al Jazeera English",
+                  "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/aje-v3.png",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8"
                 }
               ]
             }
@@ -634,13 +667,61 @@
       }
     },
     {
+      "id": "sports",
+      "label": "{txt:#172b4d:القنوات الرياضية}",
+      "icon": "#007f73:sports-soccer",
+      "transparent": 1,
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:القنوات الرياضية}",
+        "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,3",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
+          {
+            "title": "{txt:#172b4d:عُمان الرياضية}",
+            "playerLabel": "عُمان الرياضية",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/oman-sport-v3.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fpartneta.cdn.mgmlcdn.com%2Fomsport%2Fsmil%3Aomsport.stream.smil%2Fchunklist.m3u8",
+            "options": {
+              "type": "pages",
+              "template": {
+                "type": "control",
+                "layout": "0,0,12,1"
+              },
+              "items": [
+                {
+                  "label": "{txt:#172b4d:جودة خفيفة 480p}",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fpartneta.cdn.mgmlcdn.com%2Fomsport%2Fsmil%3Aomsport.stream.smil%2Fchunklist_b900000.m3u8"
+                },
+                {
+                  "label": "{txt:#172b4d:المشغّل الأصلي}",
+                  "action": "video:https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8"
+                }
+              ]
+            }
+          },
+          {
+            "title": "{txt:#172b4d:دبي وأبوظبي والكأس — حالة البث}",
+            "icon": "#007f73:info",
+            "action": "info:لم تستجب مصادر هذه القنوات للفحص حتى الآن. لم يتم تأكيد إصلاحها. لن يُستبدل البث الحي بمباراة قديمة مسجلة."
+          }
+        ]
+      }
+    },
+    {
       "id": "live",
-      "label": "{txt:#172b4d:البث المباشر — تجربة}",
+      "label": "{txt:#172b4d:الأخبار والقنوات}",
       "icon": "#d32f2f:live-tv",
       "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "{txt:#172b4d:البث المباشر — تجربة}",
+        "headline": "{txt:#172b4d:الأخبار والقنوات}",
         "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
         "template": {
           "type": "separate",
@@ -723,63 +804,43 @@
           {
             "title": "{txt:#172b4d:فرانس 24 العربية}",
             "playerLabel": "فرانس 24 العربية",
-            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=3ursYA8HMeo",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/fr24-ar-v3.png",
             "icon": "#003399:live-tv",
             "options": {
               "type": "pages",
-              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
               "template": {
-                "type": "separate",
-                "layout": "0,0,4,3",
-                "color": "#ffffff",
-                "imageFiller": "fit",
-                "imageOverlay": 0
+                "type": "control",
+                "layout": "0,0,12,1"
               },
               "items": [
                 {
-                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
-                  "icon": "#003399:play-circle-filled",
-                  "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+                  "title": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                  "label": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
                   "playerLabel": "فرانس 24 العربية"
-                },
-                {
-                  "title": "{txt:#172b4d:حالة هذا البث}",
-                  "icon": "#003399:info",
-                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
                 }
               ]
             }
           },
           {
-            "title": "{txt:#172b4d:France 24 English}",
-            "playerLabel": "France 24 English",
-            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
-            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
+            "title": "{txt:#172b4d:فرانس 24 الإنجليزية}",
+            "playerLabel": "فرانس 24 الإنجليزية",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ap-UM1O9RBU",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/fr24-en-v3.png",
             "icon": "#003399:live-tv",
             "options": {
               "type": "pages",
-              "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-              "extension": "{txt:#172b4d:الأسهم للتنقل • OK للتشغيل • رجوع للعودة}",
               "template": {
-                "type": "separate",
-                "layout": "0,0,4,3",
-                "color": "#ffffff",
-                "imageFiller": "fit",
-                "imageOverlay": 0
+                "type": "control",
+                "layout": "0,0,12,1"
               },
               "items": [
                 {
-                  "title": "{txt:#172b4d:جرّب المشغّل الأصلي}",
-                  "icon": "#003399:play-circle-filled",
-                  "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+                  "title": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                  "label": "{txt:#172b4d:تشغيل المصدر الاحتياطي}",
+                  "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
                   "playerLabel": "France 24 English"
-                },
-                {
-                  "title": "{txt:#172b4d:حالة هذا البث}",
-                  "icon": "#003399:info",
-                  "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة."
                 }
               ]
             }
@@ -911,6 +972,12 @@
                 }
               ]
             }
+          },
+          {
+            "title": "{txt:#172b4d:الجزيرة الإنجليزية}",
+            "playerLabel": "Al Jazeera English",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/aje-v3.png",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8"
           }
         ]
       }
