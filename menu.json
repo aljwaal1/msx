@@ -1,17 +1,17 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
   "logoSize": "large",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png",
-  "style": "flat",
+  "style": "overlay-separator",
   "transparent": 1,
   "cache": false,
   "menu": [
     {
       "id": "home",
-      "label": "{txt:#172b4d:الرئيسية}",
+      "label": "{txt:#ffffff:الرئيسية}",
       "icon": "#003399:home",
       "focus": true,
       "transparent": 1,
@@ -30,7 +30,7 @@
           {
             "title": "{txt:#ffffff:الحروف العربية}",
             "icon": "#ffffff:school",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/letters.json",
+            "action": "[focus:control:menu|focus:letters|focus:control:content]",
             "id": "open-letters",
             "color": "#163460",
             "selection": {
@@ -42,7 +42,7 @@
           {
             "title": "{txt:#ffffff:الأرقام العربية}",
             "icon": "#ffffff:looks-3",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/numbers.json",
+            "action": "[focus:control:menu|focus:numbers|focus:control:content]",
             "id": "open-numbers",
             "color": "#163460",
             "selection": {
@@ -54,7 +54,7 @@
           {
             "title": "{txt:#ffffff:الإنجليزية الكرتونية}",
             "icon": "#ffffff:translate",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/english.json",
+            "action": "[focus:control:menu|focus:english|focus:control:content]",
             "id": "open-english",
             "color": "#163460",
             "selection": {
@@ -65,7 +65,7 @@
           },
           {
             "title": "{txt:#ffffff:تعلّم الإنجليزية}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json",
+            "action": "[focus:control:menu|focus:learn_english|focus:control:content]",
             "id": "open-learn_english",
             "color": "#163460",
             "icon": "#ffffff:school",
@@ -78,7 +78,7 @@
           {
             "title": "{txt:#ffffff:دورا والأطفال}",
             "icon": "#ffffff:child-care",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/dora.json",
+            "action": "[focus:control:menu|focus:dora|focus:control:content]",
             "id": "open-dora",
             "color": "#163460",
             "selection": {
@@ -89,7 +89,7 @@
           },
           {
             "title": "{txt:#ffffff:جديد قنوات YouTube}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/latest.json",
+            "action": "[focus:control:menu|focus:latest|focus:control:content]",
             "id": "open-latest",
             "color": "#163460",
             "icon": "#ffffff:rss-feed",
@@ -101,7 +101,7 @@
           },
           {
             "title": "{txt:#ffffff:القنوات الرياضية}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json",
+            "action": "[focus:control:menu|focus:sports|focus:control:content]",
             "id": "open-sports",
             "color": "#163460",
             "icon": "#ffffff:sports-soccer",
@@ -114,7 +114,7 @@
           {
             "title": "{txt:#ffffff:الأخبار والقنوات}",
             "icon": "#ffffff:live-tv",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json",
+            "action": "[focus:control:menu|focus:live|focus:control:content]",
             "id": "open-live",
             "color": "#163460",
             "selection": {
@@ -126,7 +126,7 @@
           {
             "title": "{txt:#ffffff:المساعدة والتحديث}",
             "icon": "#ffffff:settings",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json",
+            "action": "[focus:control:menu|focus:help|focus:control:content]",
             "id": "open-help",
             "color": "#163460",
             "selection": {
@@ -166,7 +166,7 @@
     },
     {
       "id": "letters",
-      "label": "{txt:#172b4d:الحروف العربية}",
+      "label": "{txt:#ffffff:الحروف العربية}",
       "icon": "#7b2cbf:school",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/letters.json",
@@ -192,7 +192,7 @@
     },
     {
       "id": "numbers",
-      "label": "{txt:#172b4d:الأرقام العربية}",
+      "label": "{txt:#ffffff:الأرقام العربية}",
       "icon": "#007f73:looks-3",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/numbers.json",
@@ -218,7 +218,7 @@
     },
     {
       "id": "english",
-      "label": "{txt:#172b4d:الإنجليزية الكرتونية}",
+      "label": "{txt:#ffffff:الإنجليزية الكرتونية}",
       "icon": "#003399:translate",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/english.json",
@@ -244,7 +244,7 @@
     },
     {
       "id": "dora",
-      "label": "{txt:#172b4d:دورا والأطفال}",
+      "label": "{txt:#ffffff:دورا والأطفال}",
       "icon": "#e83e8c:child-care",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/dora.json",
@@ -270,7 +270,7 @@
     },
     {
       "id": "sports",
-      "label": "{txt:#172b4d:القنوات الرياضية}",
+      "label": "{txt:#ffffff:القنوات الرياضية}",
       "icon": "#007f73:sports-soccer",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json",
@@ -296,7 +296,7 @@
     },
     {
       "id": "live",
-      "label": "{txt:#172b4d:الأخبار والقنوات}",
+      "label": "{txt:#ffffff:الأخبار والقنوات}",
       "icon": "#d32f2f:live-tv",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json",
@@ -322,7 +322,7 @@
     },
     {
       "id": "learn_english",
-      "label": "{txt:#172b4d:تعلّم الإنجليزية}",
+      "label": "{txt:#ffffff:تعلّم الإنجليزية}",
       "icon": "#003399:school",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json",
@@ -348,7 +348,7 @@
     },
     {
       "id": "latest",
-      "label": "{txt:#172b4d:جديد قنوات YouTube}",
+      "label": "{txt:#ffffff:جديد قنوات YouTube}",
       "icon": "#cc0000:rss-feed",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/latest.json",
@@ -374,7 +374,7 @@
     },
     {
       "id": "help",
-      "label": "{txt:#172b4d:المساعدة والتحديث}",
+      "label": "{txt:#ffffff:المساعدة والتحديث}",
       "icon": "#546e7a:settings",
       "transparent": 1,
       "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json",

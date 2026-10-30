@@ -53,5 +53,19 @@
         "action": "reload"
       }
     ]
+  },
+  "wrap": false,
+  "header": {
+    "items": [
+      {
+        "id": "back-to-sidebar",
+        "type": "control",
+        "layout": "0,0,12,1",
+        "label": "{txt:#ffffff:العودة إلى القائمة الجانبية}",
+        "icon": "#ffffff:arrow-back",
+        "color": "#003399",
+        "action": "focus:control:menu"
+      }
+    ]
   }
 }
