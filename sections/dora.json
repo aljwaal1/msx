@@ -20,7 +20,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:دورا والأطفال • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -32,7 +32,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:دورا والأطفال • دورا بالعربية — 90 دقيقة}"
+        "headline": "{txt:#172b4d:دورا بالعربية — 90 دقيقة}"
       }
     },
     {
@@ -70,7 +70,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:دورا والأطفال • وناسة للأطفال}"
+        "headline": "{txt:#172b4d:وناسة للأطفال}"
       }
     }
   ],
@@ -104,5 +104,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

@@ -20,7 +20,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:الأرقام العربية • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -32,7 +32,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأرقام العربية • الأرقام والعدّ بالعربية}"
+        "headline": "{txt:#172b4d:الأرقام والعدّ بالعربية}"
       }
     },
     {
@@ -44,7 +44,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأرقام العربية • نعدّ من 1 إلى 10}"
+        "headline": "{txt:#172b4d:نعدّ من 1 إلى 10}"
       }
     }
   ],
@@ -78,5 +78,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

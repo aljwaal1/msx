@@ -21,7 +21,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:جديد يوتيوب • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -32,7 +32,7 @@
       "badgeColor": "#163460",
       "id": "latest-1",
       "selection": {
-        "headline": "{txt:#172b4d:جديد يوتيوب • BBC — تعلّم الإنجليزية}"
+        "headline": "{txt:#172b4d:BBC — تعلّم الإنجليزية}"
       }
     },
     {
@@ -43,7 +43,7 @@
       "badgeColor": "#163460",
       "id": "latest-2",
       "selection": {
-        "headline": "{txt:#172b4d:جديد يوتيوب • أغاني Super Simple}"
+        "headline": "{txt:#172b4d:أغاني Super Simple}"
       }
     },
     {
@@ -54,7 +54,7 @@
       "badgeColor": "#163460",
       "id": "latest-3",
       "selection": {
-        "headline": "{txt:#172b4d:جديد يوتيوب • آدم ومشمش}"
+        "headline": "{txt:#172b4d:آدم ومشمش}"
       }
     },
     {
@@ -65,7 +65,7 @@
       "badgeColor": "#163460",
       "id": "latest-4",
       "selection": {
-        "headline": "{txt:#172b4d:جديد يوتيوب • نيك جونيور العربية}"
+        "headline": "{txt:#172b4d:نيك جونيور العربية}"
       }
     },
     {
@@ -76,7 +76,7 @@
       "badgeColor": "#163460",
       "id": "latest-5",
       "selection": {
-        "headline": "{txt:#172b4d:جديد يوتيوب • بي إن سبورت}"
+        "headline": "{txt:#172b4d:بي إن سبورت}"
       }
     }
   ],
@@ -109,5 +109,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

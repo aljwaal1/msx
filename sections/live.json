@@ -20,7 +20,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -52,7 +52,7 @@
       "badge": "{txt:#ffffff:يوتيوب}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • الجزيرة مباشر}"
+        "headline": "{txt:#172b4d:الجزيرة مباشر}"
       }
     },
     {
@@ -90,7 +90,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • الجزيرة الإخبارية}"
+        "headline": "{txt:#172b4d:الجزيرة الإخبارية}"
       }
     },
     {
@@ -122,7 +122,7 @@
       "badge": "{txt:#ffffff:يوتيوب}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • فرانس 24 — العربية}"
+        "headline": "{txt:#172b4d:فرانس 24 — العربية}"
       }
     },
     {
@@ -154,7 +154,7 @@
       "badge": "{txt:#ffffff:يوتيوب}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • فرانس 24 — الإنجليزية}"
+        "headline": "{txt:#172b4d:فرانس 24 — الإنجليزية}"
       }
     },
     {
@@ -192,7 +192,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • فرانس 24 — الفرنسية}"
+        "headline": "{txt:#172b4d:فرانس 24 — الفرنسية}"
       }
     },
     {
@@ -230,7 +230,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • DW عربية}"
+        "headline": "{txt:#172b4d:DW عربية}"
       }
     },
     {
@@ -268,7 +268,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • CNBC عربية}"
+        "headline": "{txt:#172b4d:CNBC عربية}"
       }
     },
     {
@@ -280,7 +280,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:الأخبار والقنوات • الجزيرة الإنجليزية}"
+        "headline": "{txt:#172b4d:الجزيرة الإنجليزية}"
       }
     }
   ],
@@ -314,5 +314,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

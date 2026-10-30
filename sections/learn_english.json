@@ -21,7 +21,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:تعلّم الإنجليزية • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -32,7 +32,7 @@
       "badge": "{txt:#ffffff:أحدث الفيديوهات}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:تعلّم الإنجليزية • أحدث دروس BBC}"
+        "headline": "{txt:#172b4d:أحدث دروس BBC}"
       }
     },
     {
@@ -44,7 +44,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:تعلّم الإنجليزية • مفردات وقواعد — مجموعة 26}"
+        "headline": "{txt:#172b4d:مفردات وقواعد — مجموعة 26}"
       }
     },
     {
@@ -56,7 +56,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:تعلّم الإنجليزية • مفردات وقواعد — مجموعة 11}"
+        "headline": "{txt:#172b4d:مفردات وقواعد — مجموعة 11}"
       }
     }
   ],
@@ -89,5 +89,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

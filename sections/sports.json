@@ -20,7 +20,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:القنوات الرياضية • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -81,7 +81,7 @@
       "badge": "{txt:#ffffff:Full HD 1080p}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:القنوات الرياضية • الأردن الرياضية}"
+        "headline": "{txt:#172b4d:الأردن الرياضية}"
       }
     },
     {
@@ -93,7 +93,7 @@
       "badge": "{txt:#ffffff:يوتيوب}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:القنوات الرياضية • بي إن سبورت الإخبارية}"
+        "headline": "{txt:#172b4d:بي إن سبورت الإخبارية}"
       }
     },
     {
@@ -130,7 +130,7 @@
       "badge": "{txt:#ffffff:بث مباشر}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:القنوات الرياضية • عُمان الرياضية}"
+        "headline": "{txt:#172b4d:عُمان الرياضية}"
       }
     }
   ],
@@ -164,5 +164,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

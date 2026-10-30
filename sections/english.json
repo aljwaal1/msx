@@ -20,7 +20,7 @@
       "iconSize": "large",
       "alignment": "center",
       "selection": {
-        "headline": "{txt:#172b4d:إنجليزية للأطفال • الرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -32,7 +32,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:إنجليزية للأطفال • الحروف الإنجليزية}"
+        "headline": "{txt:#172b4d:الحروف الإنجليزية}"
       }
     },
     {
@@ -44,7 +44,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:إنجليزية للأطفال • أغنية الأبجدية}"
+        "headline": "{txt:#172b4d:أغنية الأبجدية}"
       }
     },
     {
@@ -56,7 +56,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:إنجليزية للأطفال • العدّ والحركة إلى 20}"
+        "headline": "{txt:#172b4d:العدّ والحركة إلى 20}"
       }
     },
     {
@@ -68,7 +68,7 @@
       "badge": "{txt:#ffffff:فيديو}",
       "badgeColor": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:إنجليزية للأطفال • أغاني الأرقام}"
+        "headline": "{txt:#172b4d:أغاني الأرقام}"
       }
     }
   ],
@@ -102,5 +102,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }

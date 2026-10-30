@@ -19,7 +19,7 @@
       "alignment": "center",
       "label": "{txt:#ffffff:العودة للرئيسية}",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • العودة للرئيسية}"
+        "headline": "{txt:#172b4d:العودة للرئيسية}"
       }
     },
     {
@@ -29,7 +29,7 @@
       "label": "{txt:#ffffff:طريقة التنقل}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • طريقة التنقل}"
+        "headline": "{txt:#172b4d:طريقة التنقل}"
       }
     },
     {
@@ -39,7 +39,7 @@
       "label": "{txt:#ffffff:تحديث المحتوى}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • تحديث المحتوى}"
+        "headline": "{txt:#172b4d:تحديث المحتوى}"
       }
     },
     {
@@ -49,7 +49,7 @@
       "label": "{txt:#ffffff:حول القنوات}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • حول القنوات}"
+        "headline": "{txt:#172b4d:حول القنوات}"
       }
     },
     {
@@ -59,7 +59,7 @@
       "label": "{txt:#ffffff:beIN SPORTS المفتوحة — حالة التوفر}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • beIN SPORTS المفتوحة — حالة التوفر}"
+        "headline": "{txt:#172b4d:beIN SPORTS المفتوحة — حالة التوفر}"
       }
     },
     {
@@ -69,7 +69,7 @@
       "label": "{txt:#ffffff:دبي وأبوظبي والكأس — حالة البث}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • دبي وأبوظبي والكأس — حالة البث}"
+        "headline": "{txt:#172b4d:دبي وأبوظبي والكأس — حالة البث}"
       }
     },
     {
@@ -79,7 +79,7 @@
       "label": "{txt:#ffffff:تحديث فيديوهات YouTube}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة والتحديث • تحديث فيديوهات YouTube}"
+        "headline": "{txt:#172b4d:تحديث فيديوهات YouTube}"
       }
     },
     {
@@ -89,7 +89,7 @@
       "label": "{txt:#ffffff:الإصدار 2.4.0}",
       "color": "#163460",
       "selection": {
-        "headline": "{txt:#172b4d:المساعدة • الإصدار 2.4.0}"
+        "headline": "{txt:#172b4d:الإصدار 2.4.0}"
       }
     }
   ],
@@ -123,5 +123,6 @@
     "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
   "wrap": false,
-  "preload": "none"
+  "preload": "none",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
 }
