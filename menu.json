@@ -55,7 +55,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -65,7 +65,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -75,7 +75,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -85,7 +85,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -95,7 +95,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -105,7 +105,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -115,7 +115,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -125,13 +125,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": "{txt:#ffffff:اضغط OK}",
+            "badgeColor": "#00266e"
           },
           {
             "title": "{txt:#172b4d:الأرقام العربية}",
@@ -150,7 +152,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -170,7 +172,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -180,7 +182,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -190,7 +192,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -200,7 +202,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -210,7 +212,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -220,7 +222,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -230,13 +232,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
@@ -255,7 +259,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -265,7 +269,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -285,7 +289,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -295,7 +299,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -305,7 +309,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -315,7 +319,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -325,7 +329,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -335,13 +339,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:تعلّم الإنجليزية}",
@@ -360,7 +366,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -370,7 +376,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -380,7 +386,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -400,7 +406,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -410,7 +416,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -420,7 +426,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -430,7 +436,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -440,13 +446,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:دورا والأطفال}",
@@ -465,7 +473,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -475,7 +483,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -485,7 +493,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -495,7 +503,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -515,7 +523,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -525,7 +533,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -535,7 +543,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -545,13 +553,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:جديد قنوات YouTube}",
@@ -570,7 +580,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -580,7 +590,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -590,7 +600,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -600,7 +610,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -610,7 +620,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -630,7 +640,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -640,7 +650,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -650,13 +660,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:القنوات الرياضية}",
@@ -675,7 +687,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -685,7 +697,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -695,7 +707,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -705,7 +717,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -715,7 +727,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -725,7 +737,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -745,7 +757,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -755,13 +767,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:الأخبار والقنوات}",
@@ -780,7 +794,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -790,7 +804,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -800,7 +814,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -810,7 +824,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -820,7 +834,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -830,7 +844,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -840,7 +854,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -860,13 +874,15 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:المساعدة والتحديث}",
                       "icon": "#546e7a:settings",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           },
           {
             "title": "{txt:#172b4d:المساعدة والتحديث}",
@@ -885,7 +901,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الحروف العربية}",
                       "icon": "#7b2cbf:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -895,7 +911,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأرقام العربية}",
                       "icon": "#007f73:looks-3",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -905,7 +921,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
                       "icon": "#003399:translate",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -915,7 +931,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:تعلّم الإنجليزية}",
                       "icon": "#003399:school",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -925,7 +941,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:دورا والأطفال}",
                       "icon": "#e83e8c:child-care",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -935,7 +951,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:جديد قنوات YouTube}",
                       "icon": "#cc0000:rss-feed",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -945,7 +961,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:القنوات الرياضية}",
                       "icon": "#007f73:sports-soccer",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -955,7 +971,7 @@
                       "color": "#e7edf7",
                       "title": "{txt:#172b4d:الأخبار والقنوات}",
                       "icon": "#d32f2f:live-tv",
-                      "badge": null,
+                      "badge": " ",
                       "badgeColor": "#e7edf7"
                     }
                   },
@@ -971,7 +987,9 @@
                   }
                 ]
               }
-            }
+            },
+            "badge": " ",
+            "badgeColor": "#e7edf7"
           }
         ],
         "flag": "private-tv-home",
