@@ -1,11 +1,11 @@
 {
   "name": "Osama TV",
-  "version": "1.0.0",
-  "headline": "تلفزيون أسامة",
+  "version": "1.1.0",
+  "headline": "تلفزيون أسامة — 21 قناة",
   "menu": [
     {
       "id": "live",
-      "label": "القنوات المباشرة",
+      "label": "قنوات الجزيرة",
       "icon": "menu",
       "data": {
         "type": "pages",
@@ -36,6 +36,142 @@
             "title": "Al Jazeera English",
             "playerLabel": "Al Jazeera English",
             "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "news_tv",
+      "label": "قنوات الأخبار",
+      "icon": "movie",
+      "data": {
+        "type": "pages",
+        "headline": "قنوات الأخبار",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:movie",
+          "color": "#003399"
+        },
+        "items": [
+          {
+            "title": "فرانس 24 العربية",
+            "playerLabel": "فرانس 24 العربية",
+            "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8"
+          },
+          {
+            "title": "France 24 English",
+            "playerLabel": "France 24 English",
+            "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8"
+          },
+          {
+            "title": "France 24 Français",
+            "playerLabel": "France 24 Français",
+            "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8"
+          },
+          {
+            "title": "TRT عربي",
+            "playerLabel": "TRT عربي",
+            "action": "video:https://tv-trtarabi.live.trt.com.tr/master.m3u8"
+          },
+          {
+            "title": "TRT World",
+            "playerLabel": "TRT World",
+            "action": "video:https://tv-trtworld.live.trt.com.tr/master.m3u8"
+          },
+          {
+            "title": "DW عربية",
+            "playerLabel": "DW عربية",
+            "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8"
+          },
+          {
+            "title": "CNBC عربية",
+            "playerLabel": "CNBC عربية",
+            "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8"
+          },
+          {
+            "title": "المملكة الأردنية",
+            "playerLabel": "المملكة الأردنية",
+            "action": "video:https://almamlka-live.ercdn.net/almamlka/almamlka_1080p.m3u8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sports_tv",
+      "label": "القنوات الرياضية",
+      "icon": "movie",
+      "data": {
+        "type": "pages",
+        "headline": "القنوات الرياضية",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:movie",
+          "color": "#cc0000"
+        },
+        "items": [
+          {
+            "title": "الكأس 1",
+            "playerLabel": "الكأس 1",
+            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8"
+          },
+          {
+            "title": "الكأس 2",
+            "playerLabel": "الكأس 2",
+            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8"
+          },
+          {
+            "title": "الكأس شووف",
+            "playerLabel": "الكأس شووف",
+            "action": "video:https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8"
+          },
+          {
+            "title": "دبي الرياضية 1",
+            "playerLabel": "دبي الرياضية 1",
+            "action": "video:https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8"
+          },
+          {
+            "title": "دبي الرياضية 2",
+            "playerLabel": "دبي الرياضية 2",
+            "action": "video:https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8"
+          },
+          {
+            "title": "أبوظبي الرياضية 1",
+            "playerLabel": "أبوظبي الرياضية 1",
+            "action": "video:https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8"
+          },
+          {
+            "title": "أبوظبي الرياضية 2",
+            "playerLabel": "أبوظبي الرياضية 2",
+            "action": "video:https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general_tv",
+      "label": "قنوات عامة",
+      "icon": "movie",
+      "data": {
+        "type": "pages",
+        "headline": "قنوات عامة",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:movie",
+          "color": "#666666"
+        },
+        "items": [
+          {
+            "title": "دبي",
+            "playerLabel": "دبي",
+            "action": "video:https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8"
+          },
+          {
+            "title": "أبوظبي",
+            "playerLabel": "أبوظبي",
+            "action": "video:https://admdn2ta.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8"
           }
         ]
       }
@@ -148,6 +284,10 @@
           {
             "title": "عن القنوات",
             "action": "info:القنوات تستخدم روابط بث مباشرة. توفرها وتشغيلها يعتمدان على المصدر والمنطقة ومشغل التلفاز."
+          },
+          {
+            "title": "توفر القنوات الجديدة",
+            "action": "info:روابط البث الجديدة تحتاج تجربة على التلفاز. قد يتوقف بعضها بحسب المنطقة أو حقوق بث المباريات. إذا لم تعمل قناة جرّب قناة أخرى."
           }
         ]
       }
