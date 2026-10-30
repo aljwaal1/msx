@@ -1,70 +1,96 @@
 {
   "type": "pages",
   "headline": "{txt:#172b4d:المساعدة والتحديث}",
-  "extension": "{txt:#172b4d:OK تشغيل • رجوع عودة • MENU خيارات}",
+  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
   "template": {
     "type": "control",
     "layout": "0,0,12,1",
-    "color": "#ffffff",
-    "icon": "#003399:help-outline"
+    "color": "#163460",
+    "icon": "#ffffff:help-outline"
   },
   "items": [
     {
       "id": "return-home",
-      "title": "{txt:#172b4d:العودة للقائمة الرئيسية}",
-      "label": "{txt:#172b4d:العودة للقائمة الرئيسية}",
       "icon": "#ffffff:home",
-      "color": "#003399",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+      "color": "#a52b3d",
+      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+      "type": "control",
+      "iconSize": "large",
+      "alignment": "center",
+      "label": "{txt:#ffffff:العودة للرئيسية}",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • العودة للرئيسية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:طريقة التنقل}",
-      "icon": "#003399:gamepad",
-      "action": "info:الأسهم لاختيار البطاقة، OK لفتحها، وزر الرجوع للعودة إلى القائمة السابقة. الأقسام متاحة أيضًا في الشريط الجانبي.",
+      "icon": "#ffffff:gamepad",
+      "action": "info:حرّك الأسهم لاختيار البطاقة ثم اضغط موافق. للعودة إلى الصفحة الرئيسية اختر بطاقة الرئيسية الحمراء في أول كل قسم. زر الرجوع يعيدك من الفيديو إلى القنوات. زر القائمة يعرض الخيارات.",
       "id": "help-1",
-      "label": "{txt:#172b4d:طريقة التنقل}"
+      "label": "{txt:#ffffff:طريقة التنقل}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • طريقة التنقل}"
+      }
     },
     {
-      "title": "{txt:#172b4d:تحديث المحتوى}",
-      "icon": "#003399:refresh",
+      "icon": "#ffffff:refresh",
       "action": "reload",
       "id": "help-2",
-      "label": "{txt:#172b4d:تحديث المحتوى}"
+      "label": "{txt:#ffffff:تحديث المحتوى}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • تحديث المحتوى}"
+      }
     },
     {
-      "title": "{txt:#172b4d:حول القنوات}",
-      "icon": "#003399:info",
+      "icon": "#ffffff:info",
       "action": "info:تم فحص 27 رابط بث. بعض المصادر محجوبة أو لا تستجيب من بيئة الفحص. القنوات هنا التي استجابت لها مشغّل HLS بديل، ولا يزال تشغيلها على تلفازك بحاجة للتجربة.",
       "id": "help-3",
-      "label": "{txt:#172b4d:حول القنوات}"
+      "label": "{txt:#ffffff:حول القنوات}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • حول القنوات}"
+      }
     },
     {
-      "title": "{txt:#172b4d:beIN SPORTS المفتوحة — حالة التوفر}",
-      "icon": "#673ab7:info",
+      "icon": "#ffffff:info",
       "action": "info:لم يتوفر حتى الآن رابط بث رسمي ثابت للقناة المفتوحة داخل MSX. البث المجاني على القمر الصناعي لا يضمن توفر رابط إنترنت. الإخبارية موجودة بزر مستقل.",
       "id": "help-4",
-      "label": "{txt:#172b4d:beIN SPORTS المفتوحة — حالة التوفر}"
+      "label": "{txt:#ffffff:beIN SPORTS المفتوحة — حالة التوفر}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • beIN SPORTS المفتوحة — حالة التوفر}"
+      }
     },
     {
-      "title": "{txt:#172b4d:دبي وأبوظبي والكأس — حالة البث}",
-      "icon": "#007f73:info",
+      "icon": "#ffffff:info",
       "action": "info:لم تستجب مصادر هذه القنوات للفحص حتى الآن. لم يتم تأكيد إصلاحها. لن يُستبدل البث الحي بمباراة قديمة مسجلة.",
       "id": "help-5",
-      "label": "{txt:#172b4d:دبي وأبوظبي والكأس — حالة البث}"
+      "label": "{txt:#ffffff:دبي وأبوظبي والكأس — حالة البث}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • دبي وأبوظبي والكأس — حالة البث}"
+      }
     },
     {
-      "title": "{txt:#172b4d:تحديث فيديوهات YouTube}",
-      "icon": "#cc0000:rss-feed",
+      "icon": "#ffffff:rss-feed",
       "action": "info:افتح القناة في قسم جديد قنوات YouTube لعرض أحدث فيديوهاتها. قد تتأخر خدمة المصدر قليلًا. لا توجد إشعارات في الخلفية.",
       "id": "help-6",
-      "label": "{txt:#172b4d:تحديث فيديوهات YouTube}"
+      "label": "{txt:#ffffff:تحديث فيديوهات YouTube}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة والتحديث • تحديث فيديوهات YouTube}"
+      }
     },
     {
-      "title": "{txt:#172b4d:الإصدار 2.3.0}",
-      "icon": "#003399:verified",
-      "action": "info:تلفزيون خصوصي 2.3.0 — قوائم موحّدة، صور للقنوات، وخيارات تشغيل. تشغيل البث على التلفاز يظل معتمدًا على دعم الجهاز والمصدر.",
+      "icon": "#ffffff:verified",
+      "action": "info:تلفزيون خصوصي 2.4.0 — بطاقات وصور أكبر، عناوين أوضح، زر رئيسية ثابت، وخيارات جودة الأردن الرياضية حتى Full HD 1080p.",
       "id": "help-7",
-      "label": "{txt:#172b4d:الإصدار 2.3.0}"
+      "label": "{txt:#ffffff:الإصدار 2.4.0}",
+      "color": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:المساعدة • الإصدار 2.4.0}"
+      }
     }
   ],
   "cache": false,
@@ -75,20 +101,27 @@
     "type": "pages",
     "template": {
       "type": "control",
-      "layout": "0,0,12,1"
+      "layout": "0,0,12,1",
+      "color": "#163460",
+      "icon": "#ffffff:settings"
     },
     "items": [
       {
-        "label": "{txt:#172b4d:الرئيسية}",
-        "icon": "#003399:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+        "label": "{txt:#ffffff:الرئيسية}",
+        "icon": "#ffffff:home",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+        "color": "#163460"
       },
       {
-        "label": "{txt:#172b4d:تحديث التطبيق}",
-        "icon": "#003399:refresh",
-        "action": "reload"
+        "label": "{txt:#ffffff:تحديث التطبيق}",
+        "icon": "#ffffff:refresh",
+        "action": "reload",
+        "color": "#163460"
       }
-    ]
+    ],
+    "headline": "{txt:#172b4d:خيارات التشغيل}",
+    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
-  "wrap": false
+  "wrap": false,
+  "preload": "none"
 }

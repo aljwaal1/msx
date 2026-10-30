@@ -1,62 +1,75 @@
 {
   "type": "pages",
-  "headline": "{txt:#172b4d:الإنجليزية الكرتونية}",
-  "extension": "{txt:#172b4d:OK تشغيل • رجوع عودة • MENU خيارات}",
+  "headline": "{txt:#172b4d:إنجليزية للأطفال}",
+  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
   "template": {
     "type": "separate",
-    "layout": "0,0,4,2",
-    "color": "#ffffff",
+    "layout": "0,0,4,3",
+    "color": "#163460",
     "imageFiller": "fit",
     "imageOverlay": 0
   },
   "items": [
     {
       "id": "return-home",
-      "title": "{txt:#172b4d:العودة للقائمة الرئيسية}",
-      "label": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "title": "{txt:#ffffff:الرئيسية}",
       "icon": "#ffffff:home",
-      "color": "#003399",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+      "color": "#a52b3d",
+      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+      "type": "default",
+      "iconSize": "large",
+      "alignment": "center",
+      "selection": {
+        "headline": "{txt:#172b4d:إنجليزية للأطفال • الرئيسية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:الحروف الإنجليزية الكرتونية}",
+      "title": "{txt:#172b4d:الحروف الإنجليزية}",
       "playerLabel": "الحروف الإنجليزية الكرتونية",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-5.png",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6__ydnpF8dE",
-      "icon": "#003399:play-circle-filled",
       "id": "english-1",
-      "badge": "{txt:#172b4d:فيديو}",
-      "badgeColor": "#f1f4fa"
+      "badge": "{txt:#ffffff:فيديو}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:إنجليزية للأطفال • الحروف الإنجليزية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:أغنية الأبجدية الإنجليزية}",
+      "title": "{txt:#172b4d:أغنية الأبجدية}",
       "playerLabel": "أغنية الأبجدية الإنجليزية",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-6.png",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=kDdg2M1_EuE",
-      "icon": "#5c2d91:play-circle-filled",
       "id": "english-2",
-      "badge": "{txt:#172b4d:فيديو}",
-      "badgeColor": "#f1f4fa"
+      "badge": "{txt:#ffffff:فيديو}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:إنجليزية للأطفال • أغنية الأبجدية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:العد والحركة إلى 20}",
+      "title": "{txt:#172b4d:العدّ والحركة إلى 20}",
       "playerLabel": "العد والحركة إلى 20",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-7.png",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Aq4UAss33qA",
-      "icon": "#007f73:play-circle-filled",
       "id": "english-3",
-      "badge": "{txt:#172b4d:فيديو}",
-      "badgeColor": "#f1f4fa"
+      "badge": "{txt:#ffffff:فيديو}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:إنجليزية للأطفال • العدّ والحركة إلى 20}"
+      }
     },
     {
-      "title": "{txt:#172b4d:مجموعة أغاني الأرقام الكرتونية}",
+      "title": "{txt:#172b4d:أغاني الأرقام}",
       "playerLabel": "مجموعة أغاني الأرقام الكرتونية",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-8.png",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=BG8HLIvuK24",
-      "icon": "#d32f2f:play-circle-filled",
       "id": "english-4",
-      "badge": "{txt:#172b4d:فيديو}",
-      "badgeColor": "#f1f4fa"
+      "badge": "{txt:#ffffff:فيديو}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:إنجليزية للأطفال • أغاني الأرقام}"
+      }
     }
   ],
   "cache": false,
@@ -67,20 +80,27 @@
     "type": "pages",
     "template": {
       "type": "control",
-      "layout": "0,0,12,1"
+      "layout": "0,0,12,1",
+      "color": "#163460",
+      "icon": "#ffffff:settings"
     },
     "items": [
       {
-        "label": "{txt:#172b4d:الرئيسية}",
-        "icon": "#003399:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+        "label": "{txt:#ffffff:الرئيسية}",
+        "icon": "#ffffff:home",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+        "color": "#163460"
       },
       {
-        "label": "{txt:#172b4d:تحديث التطبيق}",
-        "icon": "#003399:refresh",
-        "action": "reload"
+        "label": "{txt:#ffffff:تحديث التطبيق}",
+        "icon": "#ffffff:refresh",
+        "action": "reload",
+        "color": "#163460"
       }
-    ]
+    ],
+    "headline": "{txt:#172b4d:خيارات التشغيل}",
+    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
-  "wrap": false
+  "wrap": false,
+  "preload": "none"
 }

@@ -1,68 +1,83 @@
 {
   "type": "pages",
-  "headline": "{txt:#172b4d:جديد قنوات YouTube}",
+  "headline": "{txt:#172b4d:جديد يوتيوب}",
   "cache": false,
-  "extension": "{txt:#172b4d:OK تشغيل • رجوع عودة • MENU خيارات}",
+  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
   "template": {
     "type": "separate",
-    "layout": "0,0,4,2",
-    "color": "#ffffff",
+    "layout": "0,0,4,3",
+    "color": "#163460",
     "imageFiller": "fit",
     "imageOverlay": 0
   },
   "items": [
     {
       "id": "return-home",
-      "title": "{txt:#172b4d:العودة للقائمة الرئيسية}",
-      "label": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "title": "{txt:#ffffff:الرئيسية}",
       "icon": "#ffffff:home",
-      "color": "#003399",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+      "color": "#a52b3d",
+      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+      "type": "default",
+      "iconSize": "large",
+      "alignment": "center",
+      "selection": {
+        "headline": "{txt:#172b4d:جديد يوتيوب • الرئيسية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:BBC Learning English}",
-      "icon": "#cc0000:rss-feed",
+      "title": "{txt:#172b4d:BBC — تعلّم الإنجليزية}",
       "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
-      "badge": "{txt:#172b4d:أحدث الفيديوهات}",
-      "badgeColor": "#f1f4fa",
-      "id": "latest-1"
+      "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+      "badgeColor": "#163460",
+      "id": "latest-1",
+      "selection": {
+        "headline": "{txt:#172b4d:جديد يوتيوب • BBC — تعلّم الإنجليزية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:Super Simple Songs}",
-      "icon": "#cc0000:rss-feed",
+      "title": "{txt:#172b4d:أغاني Super Simple}",
       "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=Super%20Simple%20Songs&channels=%40SuperSimpleSongs@https://msx.benzac.de/interaction/mrss.html",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-5.png",
-      "badge": "{txt:#172b4d:أحدث الفيديوهات}",
-      "badgeColor": "#f1f4fa",
-      "id": "latest-2"
+      "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+      "badgeColor": "#163460",
+      "id": "latest-2",
+      "selection": {
+        "headline": "{txt:#172b4d:جديد يوتيوب • أغاني Super Simple}"
+      }
     },
     {
       "title": "{txt:#172b4d:آدم ومشمش}",
-      "icon": "#cc0000:rss-feed",
       "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=%D8%A2%D8%AF%D9%85%20%D9%88%D9%85%D8%B4%D9%85%D8%B4&channels=%40AdamWaMishmish@https://msx.benzac.de/interaction/mrss.html",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-3.png",
-      "badge": "{txt:#172b4d:أحدث الفيديوهات}",
-      "badgeColor": "#f1f4fa",
-      "id": "latest-3"
+      "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+      "badgeColor": "#163460",
+      "id": "latest-3",
+      "selection": {
+        "headline": "{txt:#172b4d:جديد يوتيوب • آدم ومشمش}"
+      }
     },
     {
-      "title": "{txt:#172b4d:Nick Jr. Arabia}",
-      "icon": "#cc0000:rss-feed",
+      "title": "{txt:#172b4d:نيك جونيور العربية}",
       "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=Nick%20Jr.%20Arabia&channels=%40NickJrArabia@https://msx.benzac.de/interaction/mrss.html",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-9.png",
-      "badge": "{txt:#172b4d:أحدث الفيديوهات}",
-      "badgeColor": "#f1f4fa",
-      "id": "latest-4"
+      "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+      "badgeColor": "#163460",
+      "id": "latest-4",
+      "selection": {
+        "headline": "{txt:#172b4d:جديد يوتيوب • نيك جونيور العربية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:beIN SPORTS}",
-      "icon": "#cc0000:rss-feed",
+      "title": "{txt:#172b4d:بي إن سبورت}",
       "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=beIN%20SPORTS&channels=%40beINSPORTS@https://msx.benzac.de/interaction/mrss.html",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bein-news-v4.png",
-      "badge": "{txt:#172b4d:أحدث الفيديوهات}",
-      "badgeColor": "#f1f4fa",
-      "id": "latest-5"
+      "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+      "badgeColor": "#163460",
+      "id": "latest-5",
+      "selection": {
+        "headline": "{txt:#172b4d:جديد يوتيوب • بي إن سبورت}"
+      }
     }
   ],
   "flag": "private-tv-latest",
@@ -72,20 +87,27 @@
     "type": "pages",
     "template": {
       "type": "control",
-      "layout": "0,0,12,1"
+      "layout": "0,0,12,1",
+      "color": "#163460",
+      "icon": "#ffffff:settings"
     },
     "items": [
       {
-        "label": "{txt:#172b4d:الرئيسية}",
-        "icon": "#003399:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+        "label": "{txt:#ffffff:الرئيسية}",
+        "icon": "#ffffff:home",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+        "color": "#163460"
       },
       {
-        "label": "{txt:#172b4d:تحديث التطبيق}",
-        "icon": "#003399:refresh",
-        "action": "reload"
+        "label": "{txt:#ffffff:تحديث التطبيق}",
+        "icon": "#ffffff:refresh",
+        "action": "reload",
+        "color": "#163460"
       }
-    ]
+    ],
+    "headline": "{txt:#172b4d:خيارات التشغيل}",
+    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
-  "wrap": false
+  "wrap": false,
+  "preload": "none"
 }

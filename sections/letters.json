@@ -1,42 +1,51 @@
 {
   "type": "pages",
   "headline": "{txt:#172b4d:الحروف العربية}",
-  "extension": "{txt:#172b4d:OK تشغيل • رجوع عودة • MENU خيارات}",
+  "extension": "{txt:#172b4d:الأسهم للتنقل • موافق للفتح • القائمة للخيارات}",
   "template": {
     "type": "separate",
-    "layout": "0,0,4,2",
-    "color": "#ffffff",
+    "layout": "0,0,4,3",
+    "color": "#163460",
     "imageFiller": "fit",
     "imageOverlay": 0
   },
   "items": [
     {
       "id": "return-home",
-      "title": "{txt:#172b4d:العودة للقائمة الرئيسية}",
-      "label": "{txt:#172b4d:العودة للقائمة الرئيسية}",
+      "title": "{txt:#ffffff:الرئيسية}",
       "icon": "#ffffff:home",
-      "color": "#003399",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+      "color": "#a52b3d",
+      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+      "type": "default",
+      "iconSize": "large",
+      "alignment": "center",
+      "selection": {
+        "headline": "{txt:#172b4d:الحروف العربية • الرئيسية}"
+      }
     },
     {
-      "title": "{txt:#172b4d:الحروف العربية من ألف إلى ياء}",
+      "title": "{txt:#172b4d:الحروف من أ إلى ي}",
       "playerLabel": "الحروف العربية من ألف إلى ياء",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-1.png",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=tWXFrqMMHn0",
-      "icon": "#7b2cbf:play-circle-filled",
       "id": "letters-1",
-      "badge": "{txt:#172b4d:فيديو}",
-      "badgeColor": "#f1f4fa"
+      "badge": "{txt:#ffffff:فيديو}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:الحروف العربية • الحروف من أ إلى ي}"
+      }
     },
     {
       "title": "{txt:#172b4d:الحروف مع الفتحة}",
       "playerLabel": "الحروف مع الفتحة",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-2.png",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=e8I2gtlNTT4",
-      "icon": "#e83e8c:play-circle-filled",
       "id": "letters-2",
-      "badge": "{txt:#172b4d:فيديو}",
-      "badgeColor": "#f1f4fa"
+      "badge": "{txt:#ffffff:فيديو}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:الحروف العربية • الحروف مع الفتحة}"
+      }
     }
   ],
   "cache": false,
@@ -47,20 +56,27 @@
     "type": "pages",
     "template": {
       "type": "control",
-      "layout": "0,0,12,1"
+      "layout": "0,0,12,1",
+      "color": "#163460",
+      "icon": "#ffffff:settings"
     },
     "items": [
       {
-        "label": "{txt:#172b4d:الرئيسية}",
-        "icon": "#003399:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+        "label": "{txt:#ffffff:الرئيسية}",
+        "icon": "#ffffff:home",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+        "color": "#163460"
       },
       {
-        "label": "{txt:#172b4d:تحديث التطبيق}",
-        "icon": "#003399:refresh",
-        "action": "reload"
+        "label": "{txt:#ffffff:تحديث التطبيق}",
+        "icon": "#ffffff:refresh",
+        "action": "reload",
+        "color": "#163460"
       }
-    ]
+    ],
+    "headline": "{txt:#172b4d:خيارات التشغيل}",
+    "extension": "{txt:#172b4d:الأسهم للاختيار • موافق للتنفيذ}"
   },
-  "wrap": false
+  "wrap": false,
+  "preload": "none"
 }
