@@ -1,296 +1,541 @@
 {
-  "name": "Osama TV",
-  "version": "1.1.0",
-  "headline": "تلفزيون أسامة — 21 قناة",
+  "name": "تلفزيون خصوصي",
+  "version": "1.2.0",
+  "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "menu": [
     {
-      "id": "live",
-      "label": "قنوات الجزيرة",
-      "icon": "menu",
+      "id": "television",
+      "label": "{txt:#172b4d:التلفزيون المباشر}",
+      "icon": "#cc0000:live-tv",
+      "focus": true,
+      "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "القنوات المباشرة",
+        "headline": "{txt:#172b4d:التلفزيون المباشر}",
+        "extension": "{txt:#172b4d:21 قناة • اضغط OK للمشاهدة}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:language",
-          "color": "#003399"
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "الجزيرة الإخبارية",
+            "title": "{txt:#172b4d:الجزيرة الإخبارية}",
             "playerLabel": "الجزيرة الإخبارية",
-            "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+            "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-1.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "الجزيرة مباشر",
+            "title": "{txt:#172b4d:الجزيرة مباشر}",
             "playerLabel": "الجزيرة مباشر",
-            "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8"
+            "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "الجزيرة الوثائقية",
+            "title": "{txt:#172b4d:الجزيرة الوثائقية}",
             "playerLabel": "الجزيرة الوثائقية",
-            "action": "video:https://live-hls-web-ajd.getaj.net/AJD/index.m3u8"
+            "action": "video:https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-3.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "Al Jazeera English",
+            "title": "{txt:#172b4d:Al Jazeera English}",
             "playerLabel": "Al Jazeera English",
-            "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8"
+            "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-4.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:فرانس 24 العربية}",
+            "playerLabel": "فرانس 24 العربية",
+            "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:France 24 English}",
+            "playerLabel": "France 24 English",
+            "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:France 24 Français}",
+            "playerLabel": "France 24 Français",
+            "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-7.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:TRT عربي}",
+            "playerLabel": "TRT عربي",
+            "action": "video:https://tv-trtarabi.live.trt.com.tr/master.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-8.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:TRT World}",
+            "playerLabel": "TRT World",
+            "action": "video:https://tv-trtworld.live.trt.com.tr/master.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-9.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:DW عربية}",
+            "playerLabel": "DW عربية",
+            "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-10.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:CNBC عربية}",
+            "playerLabel": "CNBC عربية",
+            "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-11.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:المملكة الأردنية}",
+            "playerLabel": "المملكة الأردنية",
+            "action": "video:https://almamlka-live.ercdn.net/almamlka/almamlka_1080p.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-12.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:الكأس 1}",
+            "playerLabel": "الكأس 1",
+            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-13.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:الكأس 2}",
+            "playerLabel": "الكأس 2",
+            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-14.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:الكأس شووف}",
+            "playerLabel": "الكأس شووف",
+            "action": "video:https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-15.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:دبي الرياضية 1}",
+            "playerLabel": "دبي الرياضية 1",
+            "action": "video:https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-16.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:دبي الرياضية 2}",
+            "playerLabel": "دبي الرياضية 2",
+            "action": "video:https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-17.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:أبوظبي الرياضية 1}",
+            "playerLabel": "أبوظبي الرياضية 1",
+            "action": "video:https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-18.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:أبوظبي الرياضية 2}",
+            "playerLabel": "أبوظبي الرياضية 2",
+            "action": "video:https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-19.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:دبي}",
+            "playerLabel": "دبي",
+            "action": "video:https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-20.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:أبوظبي}",
+            "playerLabel": "أبوظبي",
+            "action": "video:https://admdn2ta.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-21.png",
+            "icon": "#003399:live-tv"
           }
         ]
       }
+    },
+    {
+      "id": "live",
+      "label": "{txt:#172b4d:الجزيرة — تلفزيون مباشر}",
+      "icon": "#003399:live-tv",
+      "data": {
+        "type": "pages",
+        "headline": "{txt:#172b4d:الجزيرة — تلفزيون مباشر}",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "#003399:live-tv",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
+        },
+        "items": [
+          {
+            "title": "{txt:#172b4d:الجزيرة الإخبارية}",
+            "playerLabel": "الجزيرة الإخبارية",
+            "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-1.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:الجزيرة مباشر}",
+            "playerLabel": "الجزيرة مباشر",
+            "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-2.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:الجزيرة الوثائقية}",
+            "playerLabel": "الجزيرة الوثائقية",
+            "action": "video:https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-3.png",
+            "icon": "#003399:live-tv"
+          },
+          {
+            "title": "{txt:#172b4d:Al Jazeera English}",
+            "playerLabel": "Al Jazeera English",
+            "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-4.png",
+            "icon": "#003399:live-tv"
+          }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "news_tv",
-      "label": "قنوات الأخبار",
-      "icon": "movie",
+      "label": "{txt:#172b4d:قنوات الأخبار}",
+      "icon": "#003399:public",
       "data": {
         "type": "pages",
-        "headline": "قنوات الأخبار",
+        "headline": "{txt:#172b4d:قنوات الأخبار}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:movie",
-          "color": "#003399"
+          "icon": "#003399:public",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "فرانس 24 العربية",
+            "title": "{txt:#172b4d:فرانس 24 العربية}",
             "playerLabel": "فرانس 24 العربية",
-            "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8"
+            "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-5.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "France 24 English",
+            "title": "{txt:#172b4d:France 24 English}",
             "playerLabel": "France 24 English",
-            "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8"
+            "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-6.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "France 24 Français",
+            "title": "{txt:#172b4d:France 24 Français}",
             "playerLabel": "France 24 Français",
-            "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8"
+            "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-7.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "TRT عربي",
+            "title": "{txt:#172b4d:TRT عربي}",
             "playerLabel": "TRT عربي",
-            "action": "video:https://tv-trtarabi.live.trt.com.tr/master.m3u8"
+            "action": "video:https://tv-trtarabi.live.trt.com.tr/master.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-8.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "TRT World",
+            "title": "{txt:#172b4d:TRT World}",
             "playerLabel": "TRT World",
-            "action": "video:https://tv-trtworld.live.trt.com.tr/master.m3u8"
+            "action": "video:https://tv-trtworld.live.trt.com.tr/master.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-9.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "DW عربية",
+            "title": "{txt:#172b4d:DW عربية}",
             "playerLabel": "DW عربية",
-            "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8"
+            "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-10.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "CNBC عربية",
+            "title": "{txt:#172b4d:CNBC عربية}",
             "playerLabel": "CNBC عربية",
-            "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8"
+            "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-11.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "المملكة الأردنية",
+            "title": "{txt:#172b4d:المملكة الأردنية}",
             "playerLabel": "المملكة الأردنية",
-            "action": "video:https://almamlka-live.ercdn.net/almamlka/almamlka_1080p.m3u8"
+            "action": "video:https://almamlka-live.ercdn.net/almamlka/almamlka_1080p.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-12.png",
+            "icon": "#003399:live-tv"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "sports_tv",
-      "label": "القنوات الرياضية",
-      "icon": "movie",
+      "label": "{txt:#172b4d:القنوات الرياضية}",
+      "icon": "#003399:sports-soccer",
       "data": {
         "type": "pages",
-        "headline": "القنوات الرياضية",
+        "headline": "{txt:#172b4d:القنوات الرياضية}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:movie",
-          "color": "#cc0000"
+          "icon": "#003399:sports-soccer",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "الكأس 1",
+            "title": "{txt:#172b4d:الكأس 1}",
             "playerLabel": "الكأس 1",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8"
+            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-13.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "الكأس 2",
+            "title": "{txt:#172b4d:الكأس 2}",
             "playerLabel": "الكأس 2",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8"
+            "action": "video:https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-14.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "الكأس شووف",
+            "title": "{txt:#172b4d:الكأس شووف}",
             "playerLabel": "الكأس شووف",
-            "action": "video:https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8"
+            "action": "video:https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-15.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "دبي الرياضية 1",
+            "title": "{txt:#172b4d:دبي الرياضية 1}",
             "playerLabel": "دبي الرياضية 1",
-            "action": "video:https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8"
+            "action": "video:https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-16.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "دبي الرياضية 2",
+            "title": "{txt:#172b4d:دبي الرياضية 2}",
             "playerLabel": "دبي الرياضية 2",
-            "action": "video:https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8"
+            "action": "video:https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-17.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "أبوظبي الرياضية 1",
+            "title": "{txt:#172b4d:أبوظبي الرياضية 1}",
             "playerLabel": "أبوظبي الرياضية 1",
-            "action": "video:https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8"
+            "action": "video:https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-18.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "أبوظبي الرياضية 2",
+            "title": "{txt:#172b4d:أبوظبي الرياضية 2}",
             "playerLabel": "أبوظبي الرياضية 2",
-            "action": "video:https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8"
+            "action": "video:https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-19.png",
+            "icon": "#003399:live-tv"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "general_tv",
-      "label": "قنوات عامة",
-      "icon": "movie",
+      "label": "{txt:#172b4d:القنوات العامة}",
+      "icon": "#003399:tv",
       "data": {
         "type": "pages",
-        "headline": "قنوات عامة",
+        "headline": "{txt:#172b4d:القنوات العامة}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:movie",
-          "color": "#666666"
+          "icon": "#003399:tv",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "دبي",
+            "title": "{txt:#172b4d:دبي}",
             "playerLabel": "دبي",
-            "action": "video:https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8"
+            "action": "video:https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-20.png",
+            "icon": "#003399:live-tv"
           },
           {
-            "title": "أبوظبي",
+            "title": "{txt:#172b4d:أبوظبي}",
             "playerLabel": "أبوظبي",
-            "action": "video:https://admdn2ta.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8"
+            "action": "video:https://admdn2ta.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8",
+            "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/channel-21.png",
+            "icon": "#003399:live-tv"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "football",
-      "label": "كرة القدم",
-      "icon": "menu",
+      "label": "{txt:#172b4d:أخبار ونتائج كرة القدم}",
+      "icon": "#003399:sports-soccer",
       "data": {
         "type": "pages",
-        "headline": "كرة القدم",
+        "headline": "{txt:#172b4d:أخبار ونتائج كرة القدم}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:language",
-          "color": "#003399"
+          "icon": "#003399:sports-soccer",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "الجزيرة رياضة",
-            "action": "link:window:https://www.aljazeera.net/sport/"
-          },
-          {
-            "title": "كووورة: أخبار ونتائج",
-            "action": "link:window:https://www.kooora.com/"
+            "title": "{txt:#172b4d:كووورة: أخبار ونتائج}",
+            "action": "link:window:https://www.kooora.com/",
+            "icon": "#003399:sports-soccer"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "sites",
-      "label": "الأخبار والمواقع",
-      "icon": "menu",
+      "label": "{txt:#172b4d:روابط إضافية}",
+      "icon": "#003399:language",
       "data": {
         "type": "pages",
-        "headline": "الأخبار والمواقع",
+        "headline": "{txt:#172b4d:روابط إضافية}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:language",
-          "color": "#003399"
+          "icon": "#003399:language",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "الجزيرة: الموقع الرسمي",
-            "action": "link:window:https://www.aljazeera.net/"
+            "title": "{txt:#172b4d:أكاديمية المحاسبين}",
+            "action": "link:window:https://acc.explapp.com/",
+            "icon": "#003399:language"
           },
           {
-            "title": "الجزيرة 360: يحتاج متصفحًا متوافقًا",
-            "action": "link:window:https://www.aljazeera360.com/home"
-          },
-          {
-            "title": "أكاديمية المحاسبين",
-            "action": "link:window:https://acc.explapp.com/"
-          },
-          {
-            "title": "ويكيبيديا العربية",
-            "action": "link:window:https://ar.wikipedia.org/"
+            "title": "{txt:#172b4d:ويكيبيديا العربية}",
+            "action": "link:window:https://ar.wikipedia.org/",
+            "icon": "#003399:language"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "search",
-      "label": "البحث",
-      "icon": "menu",
+      "label": "{txt:#172b4d:البحث}",
+      "icon": "#003399:search",
       "data": {
         "type": "pages",
-        "headline": "البحث",
+        "headline": "{txt:#172b4d:البحث}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:language",
-          "color": "#003399"
+          "icon": "#003399:search",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "DuckDuckGo Lite",
-            "action": "link:window:https://lite.duckduckgo.com/lite/"
+            "title": "{txt:#172b4d:DuckDuckGo Lite}",
+            "action": "link:window:https://lite.duckduckgo.com/lite/",
+            "icon": "#003399:search"
           },
           {
-            "title": "Bing",
-            "action": "link:window:https://www.bing.com/"
+            "title": "{txt:#172b4d:Bing}",
+            "action": "link:window:https://www.bing.com/",
+            "icon": "#003399:search"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     },
     {
       "id": "help",
-      "label": "المساعدة",
-      "icon": "menu",
+      "label": "{txt:#172b4d:المساعدة}",
+      "icon": "#003399:help-outline",
       "data": {
         "type": "pages",
-        "headline": "المساعدة",
+        "headline": "{txt:#172b4d:المساعدة}",
         "template": {
           "type": "separate",
           "layout": "0,0,4,2",
-          "icon": "msx-white-soft:language",
-          "color": "#003399"
+          "icon": "#003399:help-outline",
+          "color": "#ffffff",
+          "imageFiller": "fit",
+          "imageOverlay": 0
         },
         "items": [
           {
-            "title": "اختبار الواجهة",
-            "action": "info:الواجهة تعمل بنجاح. اختر القنوات المباشرة لتجربة الفيديو."
+            "title": "{txt:#172b4d:اختبار الواجهة}",
+            "action": "info:الواجهة تعمل بنجاح. اختر القنوات المباشرة لتجربة الفيديو.",
+            "icon": "#003399:help-outline"
           },
           {
-            "title": "عن روابط المواقع",
-            "action": "info:روابط المواقع تفتح متصفح الشاشة. المواقع الحديثة قد لا تعمل على جهازك."
+            "title": "{txt:#172b4d:عن روابط المواقع}",
+            "action": "info:روابط المواقع تفتح متصفح الشاشة. المواقع الحديثة قد لا تعمل على جهازك.",
+            "icon": "#003399:help-outline"
           },
           {
-            "title": "عن القنوات",
-            "action": "info:القنوات تستخدم روابط بث مباشرة. توفرها وتشغيلها يعتمدان على المصدر والمنطقة ومشغل التلفاز."
+            "title": "{txt:#172b4d:عن القنوات}",
+            "action": "info:القنوات تستخدم روابط بث مباشرة. توفرها وتشغيلها يعتمدان على المصدر والمنطقة ومشغل التلفاز.",
+            "icon": "#003399:help-outline"
           },
           {
-            "title": "توفر القنوات الجديدة",
-            "action": "info:روابط البث الجديدة تحتاج تجربة على التلفاز. قد يتوقف بعضها بحسب المنطقة أو حقوق بث المباريات. إذا لم تعمل قناة جرّب قناة أخرى."
+            "title": "{txt:#172b4d:توفر القنوات الجديدة}",
+            "action": "info:روابط البث الجديدة تحتاج تجربة على التلفاز. قد يتوقف بعضها بحسب المنطقة أو حقوق بث المباريات. إذا لم تعمل قناة جرّب قناة أخرى.",
+            "icon": "#003399:help-outline"
           }
-        ]
-      }
+        ],
+        "extension": "{txt:#172b4d:تلفزيون خصوصي • 1.2}"
+      },
+      "transparent": 1
     }
-  ]
+  ],
+  "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
+  "logoSize": "large",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png",
+  "style": "flat",
+  "transparent": 1,
+  "cache": false
 }

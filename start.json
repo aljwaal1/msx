@@ -1,5 +1,5 @@
 {
-  "name": "Osama TV",
-  "version": "1.0.0",
+  "name": "تلفزيون خصوصي",
+  "version": "1.2.0",
   "parameter": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
 }
