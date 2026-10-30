@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "logo": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/logo.png",
   "logoSize": "large",
@@ -18,14 +18,13 @@
       "data": {
         "type": "pages",
         "headline": "{txt:#172b4d:تلفزيون خصوصي}",
-        "extension": "{txt:#172b4d:الأسهم للتنقل • البطاقة الزرقاء هي المحددة • OK للدخول}",
+        "extension": "{txt:#172b4d:تحرّك بالأسهم • الإطار الأبيض يحدد اختيارك • OK للدخول}",
         "template": {
           "type": "default",
           "layout": "0,0,4,2",
           "iconSize": "large",
           "alignment": "center",
-          "color": "#e7edf7",
-          "imageOverlay": 0
+          "color": "#163460"
         },
         "items": [
           {
@@ -33,963 +32,108 @@
             "icon": "#ffffff:school",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/letters.json",
             "id": "open-letters",
-            "color": "#003399",
+            "color": "#163460",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: الحروف العربية — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:الحروف العربية}",
-                      "icon": "#ffffff:school",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: الحروف العربية • OK للدخول}"
             },
-            "badge": "{txt:#ffffff:اضغط OK}",
-            "badgeColor": "#00266e"
+            "badge": "{txt:#ffffff:1}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:الأرقام العربية}",
-            "icon": "#007f73:looks-3",
+            "title": "{txt:#ffffff:الأرقام العربية}",
+            "icon": "#ffffff:looks-3",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/numbers.json",
             "id": "open-numbers",
-            "color": "#e7edf7",
+            "color": "#163460",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: الأرقام العربية — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:الأرقام العربية}",
-                      "icon": "#ffffff:looks-3",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: الأرقام العربية • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:2}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-            "icon": "#003399:translate",
+            "title": "{txt:#ffffff:الإنجليزية الكرتونية}",
+            "icon": "#ffffff:translate",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/english.json",
             "id": "open-english",
-            "color": "#e7edf7",
+            "color": "#163460",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: الإنجليزية الكرتونية — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:الإنجليزية الكرتونية}",
-                      "icon": "#ffffff:translate",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: الإنجليزية الكرتونية • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:3}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:تعلّم الإنجليزية}",
+            "title": "{txt:#ffffff:تعلّم الإنجليزية}",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json",
             "id": "open-learn_english",
-            "color": "#e7edf7",
-            "icon": "#003399:school",
+            "color": "#163460",
+            "icon": "#ffffff:school",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: تعلّم الإنجليزية — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:تعلّم الإنجليزية}",
-                      "icon": "#ffffff:school",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: تعلّم الإنجليزية • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:4}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:دورا والأطفال}",
-            "icon": "#e83e8c:child-care",
+            "title": "{txt:#ffffff:دورا والأطفال}",
+            "icon": "#ffffff:child-care",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/dora.json",
             "id": "open-dora",
-            "color": "#e7edf7",
+            "color": "#163460",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: دورا والأطفال — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:دورا والأطفال}",
-                      "icon": "#ffffff:child-care",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: دورا والأطفال • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:5}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:جديد قنوات YouTube}",
+            "title": "{txt:#ffffff:جديد قنوات YouTube}",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/latest.json",
             "id": "open-latest",
-            "color": "#e7edf7",
-            "icon": "#cc0000:rss-feed",
+            "color": "#163460",
+            "icon": "#ffffff:rss-feed",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: جديد قنوات YouTube — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:جديد قنوات YouTube}",
-                      "icon": "#ffffff:rss-feed",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: جديد قنوات YouTube • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:6}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:القنوات الرياضية}",
+            "title": "{txt:#ffffff:القنوات الرياضية}",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json",
             "id": "open-sports",
-            "color": "#e7edf7",
-            "icon": "#007f73:sports-soccer",
+            "color": "#163460",
+            "icon": "#ffffff:sports-soccer",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: القنوات الرياضية — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:القنوات الرياضية}",
-                      "icon": "#ffffff:sports-soccer",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: القنوات الرياضية • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:7}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:الأخبار والقنوات}",
-            "icon": "#d32f2f:live-tv",
+            "title": "{txt:#ffffff:الأخبار والقنوات}",
+            "icon": "#ffffff:live-tv",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json",
             "id": "open-live",
-            "color": "#e7edf7",
+            "color": "#163460",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: الأخبار والقنوات — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:الأخبار والقنوات}",
-                      "icon": "#ffffff:live-tv",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:المساعدة والتحديث}",
-                      "icon": "#546e7a:settings",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: الأخبار والقنوات • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:8}",
+            "badgeColor": "#0c2345"
           },
           {
-            "title": "{txt:#172b4d:المساعدة والتحديث}",
-            "icon": "#546e7a:settings",
+            "title": "{txt:#ffffff:المساعدة والتحديث}",
+            "icon": "#ffffff:settings",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json",
             "id": "open-help",
-            "color": "#e7edf7",
+            "color": "#163460",
             "selection": {
-              "headline": "{txt:#172b4d:المحدد: المساعدة والتحديث — اضغط OK}",
-              "action": "data",
-              "data": {
-                "actions": [
-                  {
-                    "action": "update:content:open-letters",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الحروف العربية}",
-                      "icon": "#7b2cbf:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-numbers",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأرقام العربية}",
-                      "icon": "#007f73:looks-3",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الإنجليزية الكرتونية}",
-                      "icon": "#003399:translate",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-learn_english",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:تعلّم الإنجليزية}",
-                      "icon": "#003399:school",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-dora",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:دورا والأطفال}",
-                      "icon": "#e83e8c:child-care",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-latest",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:جديد قنوات YouTube}",
-                      "icon": "#cc0000:rss-feed",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-sports",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:القنوات الرياضية}",
-                      "icon": "#007f73:sports-soccer",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-live",
-                    "data": {
-                      "color": "#e7edf7",
-                      "title": "{txt:#172b4d:الأخبار والقنوات}",
-                      "icon": "#d32f2f:live-tv",
-                      "badge": " ",
-                      "badgeColor": "#e7edf7"
-                    }
-                  },
-                  {
-                    "action": "update:content:open-help",
-                    "data": {
-                      "color": "#003399",
-                      "title": "{txt:#ffffff:المساعدة والتحديث}",
-                      "icon": "#ffffff:settings",
-                      "badge": "{txt:#ffffff:اضغط OK}",
-                      "badgeColor": "#00266e"
-                    }
-                  }
-                ]
-              }
+              "headline": "{txt:#172b4d:المحدد: المساعدة والتحديث • OK للدخول}"
             },
-            "badge": " ",
-            "badgeColor": "#e7edf7"
+            "badge": "{txt:#ffffff:9}",
+            "badgeColor": "#0c2345"
           }
         ],
         "flag": "private-tv-home",
@@ -1016,7 +160,8 @@
           ]
         },
         "reuse": true,
-        "preload": "none"
+        "preload": "none",
+        "preselect": false
       }
     },
     {
