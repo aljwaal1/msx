@@ -1,0 +1,5 @@
+{
+  "name": "Osama TV",
+  "version": "1.0.0",
+  "parameter": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+}
