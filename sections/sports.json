@@ -25,9 +25,9 @@
     },
     {
       "title": "{txt:#172b4d:الأردن الرياضية}",
-      "playerLabel": "الأردن الرياضية • Full HD 1080p",
+      "playerLabel": "الأردن الرياضية • جودة تلقائية",
       "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/jordan-v4.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd_1080p.m3u8",
+      "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd.m3u8",
       "options": {
         "type": "pages",
         "headline": "{txt:#172b4d:جودة البث}",
@@ -40,6 +40,13 @@
           "icon": "#ffffff:settings"
         },
         "items": [
+          {
+            "label": "{txt:#ffffff:جودة تلقائية — لتقليل التقطيع}",
+            "icon": "#ffffff:settings",
+            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd.m3u8",
+            "playerLabel": "الأردن الرياضية • تلقائي",
+            "color": "#163460"
+          },
           {
             "label": "{txt:#ffffff:Full HD 1080p — أعلى وضوح}",
             "icon": "#ffffff:hd",
@@ -67,18 +74,11 @@
             "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd_480p.m3u8",
             "playerLabel": "الأردن الرياضية • 480p",
             "color": "#163460"
-          },
-          {
-            "label": "{txt:#ffffff:الجودة التلقائية}",
-            "icon": "#ffffff:settings",
-            "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd.m3u8",
-            "playerLabel": "الأردن الرياضية • تلقائي",
-            "color": "#163460"
           }
         ]
       },
       "id": "sports-1",
-      "badge": "{txt:#ffffff:Full HD 1080p}",
+      "badge": "{txt:#ffffff:جودة تلقائية}",
       "badgeColor": "#163460",
       "selection": {
         "headline": "{txt:#172b4d:الأردن الرياضية}"
