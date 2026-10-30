@@ -94,6 +94,22 @@
       }
     },
     {
+      "id": "live-360",
+      "type": "default",
+      "title": "{txt:#ffffff:الجزيرة 360}",
+      "label": "{txt:#ffffff:برامج وأفلام وثائقية}",
+      "icon": "#ffffff:ondemand-video",
+      "iconSize": "large",
+      "alignment": "center",
+      "color": "#a52b3d",
+      "action": "link:https://aljazeera360.com/home",
+      "badge": "{txt:#ffffff:عند الطلب}",
+      "badgeColor": "#163460",
+      "selection": {
+        "headline": "{txt:#172b4d:الجزيرة 360 • برامج عند الطلب}"
+      }
+    },
+    {
       "title": "{txt:#172b4d:فرانس 24 — العربية}",
       "playerLabel": "فرانس 24 العربية",
       "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=3ursYA8HMeo",
@@ -285,7 +301,7 @@
     }
   ],
   "cache": false,
-  "flag": "private-tv-live-v240",
+  "flag": "private-tv-live-v241",
   "refocus": 1,
   "transparent": 1,
   "options": {
