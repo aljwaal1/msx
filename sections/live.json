@@ -31,18 +31,18 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:مصدر بث احتياطي}",
             "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm.getaj.net%2FAJM%2Findex.m3u8",
             "playerLabel": "الجزيرة مباشر",
             "color": "#163460",
-            "icon": "#ffffff:play-circle-filled"
+            "icon": "#ffffff:play-circle-filled",
+            "title": "{txt:#ffffff:مصدر بث احتياطي}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -65,24 +65,24 @@
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
         "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
             "icon": "#ffffff:play-circle-filled",
             "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
             "playerLabel": "الجزيرة الإخبارية",
-            "label": "{txt:#ffffff:جرّب المشغّل الأصلي}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:جرّب المشغّل الأصلي}"
           },
           {
             "icon": "#ffffff:info",
             "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة.",
-            "label": "{txt:#ffffff:حالة هذا البث}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:حالة هذا البث}"
           }
         ]
       },
@@ -101,18 +101,18 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:تشغيل المصدر الاحتياطي}",
             "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
             "playerLabel": "فرانس 24 العربية",
             "color": "#163460",
-            "icon": "#ffffff:play-circle-filled"
+            "icon": "#ffffff:play-circle-filled",
+            "title": "{txt:#ffffff:تشغيل المصدر الاحتياطي}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -133,18 +133,18 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:تشغيل المصدر الاحتياطي}",
             "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
             "playerLabel": "France 24 English",
             "color": "#163460",
-            "icon": "#ffffff:play-circle-filled"
+            "icon": "#ffffff:play-circle-filled",
+            "title": "{txt:#ffffff:تشغيل المصدر الاحتياطي}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -167,24 +167,24 @@
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
         "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
             "icon": "#ffffff:play-circle-filled",
             "action": "video:https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
             "playerLabel": "France 24 Français",
-            "label": "{txt:#ffffff:جرّب المشغّل الأصلي}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:جرّب المشغّل الأصلي}"
           },
           {
             "icon": "#ffffff:info",
             "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة.",
-            "label": "{txt:#ffffff:حالة هذا البث}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:حالة هذا البث}"
           }
         ]
       },
@@ -205,24 +205,24 @@
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
         "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
             "icon": "#ffffff:play-circle-filled",
             "action": "video:https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
             "playerLabel": "DW عربية",
-            "label": "{txt:#ffffff:جرّب المشغّل الأصلي}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:جرّب المشغّل الأصلي}"
           },
           {
             "icon": "#ffffff:info",
             "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة.",
-            "label": "{txt:#ffffff:حالة هذا البث}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:حالة هذا البث}"
           }
         ]
       },
@@ -243,24 +243,24 @@
         "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
         "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
             "icon": "#ffffff:play-circle-filled",
             "action": "video:https://cnbc-live.akamaized.net/cnbc/master.m3u8",
             "playerLabel": "CNBC عربية",
-            "label": "{txt:#ffffff:جرّب المشغّل الأصلي}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:جرّب المشغّل الأصلي}"
           },
           {
             "icon": "#ffffff:info",
             "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة.",
-            "label": "{txt:#ffffff:حالة هذا البث}",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:حالة هذا البث}"
           }
         ]
       },
@@ -291,23 +291,23 @@
   "options": {
     "type": "pages",
     "template": {
-      "type": "control",
-      "layout": "0,0,12,1",
+      "type": "default",
+      "layout": "0,0,6,2",
       "color": "#163460",
-      "icon": "#ffffff:settings"
+      "alignment": "center"
     },
     "items": [
       {
-        "label": "{txt:#ffffff:الرئيسية}",
         "icon": "#ffffff:home",
         "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-        "color": "#163460"
+        "color": "#163460",
+        "title": "{txt:#ffffff:الرئيسية}"
       },
       {
-        "label": "{txt:#ffffff:تحديث التطبيق}",
         "icon": "#ffffff:refresh",
         "action": "reload",
-        "color": "#163460"
+        "color": "#163460",
+        "title": "{txt:#ffffff:تحديث التطبيق}"
       }
     ],
     "headline": "{txt:#172b4d:خيارات التشغيل}",

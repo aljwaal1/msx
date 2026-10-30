@@ -143,23 +143,23 @@
         "options": {
           "type": "pages",
           "template": {
-            "type": "control",
-            "layout": "0,0,12,1",
+            "type": "default",
+            "layout": "0,0,6,2",
             "color": "#163460",
-            "icon": "#ffffff:settings"
+            "alignment": "center"
           },
           "items": [
             {
-              "label": "{txt:#ffffff:الرئيسية}",
               "icon": "#ffffff:home",
               "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-              "color": "#163460"
+              "color": "#163460",
+              "title": "{txt:#ffffff:الرئيسية}"
             },
             {
-              "label": "{txt:#ffffff:تحديث التطبيق}",
               "icon": "#ffffff:refresh",
               "action": "reload",
-              "color": "#163460"
+              "color": "#163460",
+              "title": "{txt:#ffffff:تحديث التطبيق}"
             }
           ],
           "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -179,23 +179,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -211,23 +211,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -243,23 +243,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -275,23 +275,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -307,23 +307,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -339,23 +339,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -371,23 +371,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -403,23 +403,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -435,23 +435,23 @@
       "options": {
         "type": "pages",
         "template": {
-          "type": "control",
-          "layout": "0,0,12,1",
+          "type": "default",
+          "layout": "0,0,6,2",
           "color": "#163460",
-          "icon": "#ffffff:settings"
+          "alignment": "center"
         },
         "items": [
           {
-            "label": "{txt:#ffffff:الرئيسية}",
             "icon": "#ffffff:home",
             "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
           },
           {
-            "label": "{txt:#ffffff:تحديث التطبيق}",
             "icon": "#ffffff:refresh",
             "action": "reload",
-            "color": "#163460"
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
           }
         ],
         "headline": "{txt:#172b4d:خيارات التشغيل}",
@@ -464,23 +464,23 @@
   "options": {
     "type": "pages",
     "template": {
-      "type": "control",
-      "layout": "0,0,12,1",
+      "type": "default",
+      "layout": "0,0,6,2",
       "color": "#163460",
-      "icon": "#ffffff:settings"
+      "alignment": "center"
     },
     "items": [
       {
-        "label": "{txt:#ffffff:الرئيسية}",
         "icon": "#ffffff:home",
         "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-        "color": "#163460"
+        "color": "#163460",
+        "title": "{txt:#ffffff:الرئيسية}"
       },
       {
-        "label": "{txt:#ffffff:تحديث التطبيق}",
         "icon": "#ffffff:refresh",
         "action": "reload",
-        "color": "#163460"
+        "color": "#163460",
+        "title": "{txt:#ffffff:تحديث التطبيق}"
       }
     ],
     "headline": "{txt:#172b4d:خيارات التشغيل}",
