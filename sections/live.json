@@ -97,7 +97,6 @@
       "id": "live-360",
       "type": "default",
       "title": "{txt:#ffffff:الجزيرة 360}",
-      "label": "{txt:#ffffff:برامج وأفلام وثائقية}",
       "icon": "#ffffff:ondemand-video",
       "iconSize": "large",
       "alignment": "center",
