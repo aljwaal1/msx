@@ -1,0 +1,156 @@
+{
+  "name": "Osama TV",
+  "version": "1.0.0",
+  "headline": "تلفزيون أسامة",
+  "menu": [
+    {
+      "id": "live",
+      "label": "القنوات المباشرة",
+      "icon": "menu",
+      "data": {
+        "type": "pages",
+        "headline": "القنوات المباشرة",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:language",
+          "color": "#003399"
+        },
+        "items": [
+          {
+            "title": "الجزيرة الإخبارية",
+            "playerLabel": "الجزيرة الإخبارية",
+            "action": "video:https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+          },
+          {
+            "title": "الجزيرة مباشر",
+            "playerLabel": "الجزيرة مباشر",
+            "action": "video:https://live-hls-web-ajm.getaj.net/AJM/index.m3u8"
+          },
+          {
+            "title": "الجزيرة الوثائقية",
+            "playerLabel": "الجزيرة الوثائقية",
+            "action": "video:https://live-hls-web-ajd.getaj.net/AJD/index.m3u8"
+          },
+          {
+            "title": "Al Jazeera English",
+            "playerLabel": "Al Jazeera English",
+            "action": "video:https://live-hls-web-aje.getaj.net/AJE/index.m3u8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "football",
+      "label": "كرة القدم",
+      "icon": "menu",
+      "data": {
+        "type": "pages",
+        "headline": "كرة القدم",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:language",
+          "color": "#003399"
+        },
+        "items": [
+          {
+            "title": "الجزيرة رياضة",
+            "action": "link:window:https://www.aljazeera.net/sport/"
+          },
+          {
+            "title": "كووورة: أخبار ونتائج",
+            "action": "link:window:https://www.kooora.com/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sites",
+      "label": "الأخبار والمواقع",
+      "icon": "menu",
+      "data": {
+        "type": "pages",
+        "headline": "الأخبار والمواقع",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:language",
+          "color": "#003399"
+        },
+        "items": [
+          {
+            "title": "الجزيرة: الموقع الرسمي",
+            "action": "link:window:https://www.aljazeera.net/"
+          },
+          {
+            "title": "الجزيرة 360: يحتاج متصفحًا متوافقًا",
+            "action": "link:window:https://www.aljazeera360.com/home"
+          },
+          {
+            "title": "أكاديمية المحاسبين",
+            "action": "link:window:https://acc.explapp.com/"
+          },
+          {
+            "title": "ويكيبيديا العربية",
+            "action": "link:window:https://ar.wikipedia.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "search",
+      "label": "البحث",
+      "icon": "menu",
+      "data": {
+        "type": "pages",
+        "headline": "البحث",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:language",
+          "color": "#003399"
+        },
+        "items": [
+          {
+            "title": "DuckDuckGo Lite",
+            "action": "link:window:https://lite.duckduckgo.com/lite/"
+          },
+          {
+            "title": "Bing",
+            "action": "link:window:https://www.bing.com/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "help",
+      "label": "المساعدة",
+      "icon": "menu",
+      "data": {
+        "type": "pages",
+        "headline": "المساعدة",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,2",
+          "icon": "msx-white-soft:language",
+          "color": "#003399"
+        },
+        "items": [
+          {
+            "title": "اختبار الواجهة",
+            "action": "info:الواجهة تعمل بنجاح. اختر القنوات المباشرة لتجربة الفيديو."
+          },
+          {
+            "title": "عن روابط المواقع",
+            "action": "info:روابط المواقع تفتح متصفح الشاشة. المواقع الحديثة قد لا تعمل على جهازك."
+          },
+          {
+            "title": "عن القنوات",
+            "action": "info:القنوات تستخدم روابط بث مباشرة. توفرها وتشغيلها يعتمدان على المصدر والمنطقة ومشغل التلفاز."
+          }
+        ]
+      }
+    }
+  ]
+}
