@@ -1,0 +1,77 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:الإنجليزية الكرتونية}",
+  "extension": "{txt:#172b4d:OK تشغيل • رجوع عودة • MENU خيارات}",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,4,2",
+    "color": "#ffffff",
+    "imageFiller": "fit",
+    "imageOverlay": 0
+  },
+  "items": [
+    {
+      "title": "{txt:#172b4d:الحروف الإنجليزية الكرتونية}",
+      "playerLabel": "الحروف الإنجليزية الكرتونية",
+      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-5.png",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6__ydnpF8dE",
+      "icon": "#003399:play-circle-filled",
+      "id": "english-1",
+      "badge": "{txt:#172b4d:فيديو}",
+      "badgeColor": "#f1f4fa"
+    },
+    {
+      "title": "{txt:#172b4d:أغنية الأبجدية الإنجليزية}",
+      "playerLabel": "أغنية الأبجدية الإنجليزية",
+      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-6.png",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=kDdg2M1_EuE",
+      "icon": "#5c2d91:play-circle-filled",
+      "id": "english-2",
+      "badge": "{txt:#172b4d:فيديو}",
+      "badgeColor": "#f1f4fa"
+    },
+    {
+      "title": "{txt:#172b4d:العد والحركة إلى 20}",
+      "playerLabel": "العد والحركة إلى 20",
+      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-7.png",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Aq4UAss33qA",
+      "icon": "#007f73:play-circle-filled",
+      "id": "english-3",
+      "badge": "{txt:#172b4d:فيديو}",
+      "badgeColor": "#f1f4fa"
+    },
+    {
+      "title": "{txt:#172b4d:مجموعة أغاني الأرقام الكرتونية}",
+      "playerLabel": "مجموعة أغاني الأرقام الكرتونية",
+      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-8.png",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=BG8HLIvuK24",
+      "icon": "#d32f2f:play-circle-filled",
+      "id": "english-4",
+      "badge": "{txt:#172b4d:فيديو}",
+      "badgeColor": "#f1f4fa"
+    }
+  ],
+  "cache": false,
+  "flag": "private-tv-english",
+  "refocus": 1,
+  "transparent": 1,
+  "options": {
+    "type": "pages",
+    "template": {
+      "type": "control",
+      "layout": "0,0,12,1"
+    },
+    "items": [
+      {
+        "label": "{txt:#172b4d:الرئيسية}",
+        "icon": "#003399:home",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+      },
+      {
+        "label": "{txt:#172b4d:تحديث التطبيق}",
+        "icon": "#003399:refresh",
+        "action": "reload"
+      }
+    ]
+  }
+}

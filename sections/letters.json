@@ -1,0 +1,57 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:الحروف العربية}",
+  "extension": "{txt:#172b4d:OK تشغيل • رجوع عودة • MENU خيارات}",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,4,2",
+    "color": "#ffffff",
+    "imageFiller": "fit",
+    "imageOverlay": 0
+  },
+  "items": [
+    {
+      "title": "{txt:#172b4d:الحروف العربية من ألف إلى ياء}",
+      "playerLabel": "الحروف العربية من ألف إلى ياء",
+      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-1.png",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=tWXFrqMMHn0",
+      "icon": "#7b2cbf:play-circle-filled",
+      "id": "letters-1",
+      "badge": "{txt:#172b4d:فيديو}",
+      "badgeColor": "#f1f4fa"
+    },
+    {
+      "title": "{txt:#172b4d:الحروف مع الفتحة}",
+      "playerLabel": "الحروف مع الفتحة",
+      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-2.png",
+      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=e8I2gtlNTT4",
+      "icon": "#e83e8c:play-circle-filled",
+      "id": "letters-2",
+      "badge": "{txt:#172b4d:فيديو}",
+      "badgeColor": "#f1f4fa"
+    }
+  ],
+  "cache": false,
+  "flag": "private-tv-letters",
+  "refocus": 1,
+  "transparent": 1,
+  "options": {
+    "type": "pages",
+    "template": {
+      "type": "control",
+      "layout": "0,0,12,1"
+    },
+    "items": [
+      {
+        "label": "{txt:#172b4d:الرئيسية}",
+        "icon": "#003399:home",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json"
+      },
+      {
+        "label": "{txt:#172b4d:تحديث التطبيق}",
+        "icon": "#003399:refresh",
+        "action": "reload"
+      }
+    ]
+  }
+}
