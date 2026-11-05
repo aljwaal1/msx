@@ -39,7 +39,7 @@
         "items": [
           {
             "title": "{txt:#ffffff:الأخبار والقنوات}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/live.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json",
             "id": "open-live",
             "color": "#112c50",
             "selection": {
@@ -51,12 +51,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-news.png"
           },
           {
             "title": "{txt:#ffffff:القنوات الرياضية}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/sports.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json",
             "id": "open-sports",
             "color": "#112c50",
             "selection": {
@@ -68,12 +68,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-sports.png"
           },
           {
             "title": "{txt:#ffffff:دورا والأطفال}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/dora.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/dora.json",
             "id": "open-dora",
             "color": "#112c50",
             "selection": {
@@ -85,12 +85,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-kids.png"
           },
           {
             "title": "{txt:#ffffff:الحروف العربية}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/letters.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/letters.json",
             "id": "open-letters",
             "color": "#112c50",
             "selection": {
@@ -102,12 +102,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-letters.png"
           },
           {
             "title": "{txt:#ffffff:الأرقام العربية}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/numbers.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/numbers.json",
             "id": "open-numbers",
             "color": "#112c50",
             "selection": {
@@ -119,12 +119,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-numbers.png"
           },
           {
             "title": "{txt:#ffffff:إنجليزية للأطفال}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/english.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/english.json",
             "id": "open-english",
             "color": "#112c50",
             "selection": {
@@ -136,12 +136,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-english.png"
           },
           {
             "title": "{txt:#ffffff:تعلّم الإنجليزية}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/learn_english.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json",
             "id": "open-learn_english",
             "color": "#112c50",
             "selection": {
@@ -153,12 +153,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-voice.png"
           },
           {
             "title": "{txt:#ffffff:جديد يوتيوب}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/latest.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/latest.json",
             "id": "open-latest",
             "color": "#112c50",
             "selection": {
@@ -170,12 +170,12 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-youtube.png"
           },
           {
             "title": "{txt:#ffffff:المساعدة والتحديث}",
-            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/help.json",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json",
             "id": "open-help",
             "color": "#112c50",
             "selection": {
@@ -187,12 +187,38 @@
             "imageFiller": "cover",
             "alignment": "title-center",
             "truncation": "title",
-            "enumerate": true,
+            "enumerate": false,
             "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-help.png"
           }
         ],
         "ready": {
           "action": "focus:control:content"
+        },
+        "options": {
+          "type": "pages",
+          "template": {
+            "type": "default",
+            "layout": "0,0,6,2",
+            "color": "#163460",
+            "alignment": "center"
+          },
+          "items": [
+            {
+              "icon": "#ffffff:home",
+              "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+              "color": "#163460",
+              "title": "{txt:#ffffff:الرئيسية}"
+            },
+            {
+              "icon": "#ffffff:refresh",
+              "action": "reload",
+              "color": "#163460",
+              "title": "{txt:#ffffff:تحديث التطبيق}"
+            }
+          ],
+          "headline": "{txt:#ffffff:خيارات التشغيل}",
+          "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
+          "caption": "{txt:#ffffff:خيارات التشغيل}"
         }
       }
     },
@@ -201,7 +227,7 @@
       "label": "{txt:#172b4d:الأخبار والقنوات}",
       "icon": "#003399:live-tv",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/live.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json",
       "options": {
         "type": "pages",
         "template": {
@@ -213,7 +239,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -234,7 +260,7 @@
       "label": "{txt:#172b4d:القنوات الرياضية}",
       "icon": "#003399:sports-soccer",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/sports.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json",
       "options": {
         "type": "pages",
         "template": {
@@ -246,7 +272,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -267,7 +293,7 @@
       "label": "{txt:#172b4d:دورا والأطفال}",
       "icon": "#a52b3d:child-care",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/dora.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/dora.json",
       "options": {
         "type": "pages",
         "template": {
@@ -279,7 +305,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -300,7 +326,7 @@
       "label": "{txt:#172b4d:الحروف العربية}",
       "icon": "#003399:school",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/letters.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/letters.json",
       "options": {
         "type": "pages",
         "template": {
@@ -312,7 +338,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -333,7 +359,7 @@
       "label": "{txt:#172b4d:الأرقام العربية}",
       "icon": "#003399:looks-3",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/numbers.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/numbers.json",
       "options": {
         "type": "pages",
         "template": {
@@ -345,7 +371,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -366,7 +392,7 @@
       "label": "{txt:#172b4d:إنجليزية للأطفال}",
       "icon": "#003399:translate",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/english.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/english.json",
       "options": {
         "type": "pages",
         "template": {
@@ -378,7 +404,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -399,7 +425,7 @@
       "label": "{txt:#172b4d:تعلّم الإنجليزية}",
       "icon": "#003399:record-voice-over",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/learn_english.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json",
       "options": {
         "type": "pages",
         "template": {
@@ -411,7 +437,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -432,7 +458,7 @@
       "label": "{txt:#172b4d:جديد يوتيوب}",
       "icon": "#a52b3d:subscriptions",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/latest.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/latest.json",
       "options": {
         "type": "pages",
         "template": {
@@ -444,7 +470,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -465,7 +491,7 @@
       "label": "{txt:#172b4d:المساعدة والتحديث}",
       "icon": "#003399:help-outline",
       "transparent": 1,
-      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/help.json",
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json",
       "options": {
         "type": "pages",
         "template": {
@@ -477,7 +503,7 @@
         "items": [
           {
             "icon": "#ffffff:home",
-            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
             "color": "#163460",
             "title": "{txt:#ffffff:الرئيسية}"
           },
@@ -507,7 +533,7 @@
     "items": [
       {
         "icon": "#ffffff:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json",
+        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
         "color": "#163460",
         "title": "{txt:#ffffff:الرئيسية}"
       },

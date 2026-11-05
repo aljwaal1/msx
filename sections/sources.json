@@ -82,7 +82,7 @@
           "alignment": "center",
           "color": "#a52b3d",
           "enumerate": false,
-          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/help.json>help-channel-status",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json>help-channel-status",
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:المساعدة}"

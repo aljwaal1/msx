@@ -329,7 +329,7 @@
           "alignment": "center",
           "color": "#a52b3d",
           "enumerate": false,
-          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-live",
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-live",
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:الرئيسية}"
@@ -543,7 +543,7 @@
           "alignment": "center",
           "color": "#a52b3d",
           "enumerate": false,
-          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-live",
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-live",
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:الرئيسية}"

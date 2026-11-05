@@ -69,7 +69,7 @@
           "alignment": "center",
           "color": "#a52b3d",
           "enumerate": false,
-          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-letters",
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-letters",
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:الرئيسية}"

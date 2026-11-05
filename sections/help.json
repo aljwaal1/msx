@@ -58,7 +58,7 @@
           "id": "help-channel-status",
           "title": "{txt:#ffffff:معلومات القنوات}",
           "icon": "#ffffff:live-tv",
-          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/sources.json",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sources.json",
           "type": "default",
           "color": "#112c50",
           "round": true,
@@ -120,7 +120,7 @@
           "alignment": "center",
           "color": "#a52b3d",
           "enumerate": false,
-          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-help",
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-help",
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:الرئيسية}"
