@@ -3,7 +3,7 @@
   "headline": "{txt:#ffffff:الأخبار والقنوات}",
   "important": true,
   "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
   "flag": "private-tv-v3-live",
   "reuse": true,
   "cache": false,
