@@ -1,8 +1,8 @@
 {
   "name": "تلفزيون خصوصي",
   "version": "3.0.0",
-  "headline": "{txt:#ffffff:تلفزيون خصوصي}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "headline": "{txt:#172b4d:تلفزيون خصوصي}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "style": "flat",
   "transparent": 1,
   "cache": false,
@@ -14,10 +14,10 @@
       "transparent": 1,
       "data": {
         "type": "pages",
-        "headline": "{txt:#ffffff:تلفزيون خصوصي}",
+        "headline": "{txt:#172b4d:تلفزيون خصوصي}",
         "important": true,
-        "extension": "{txt:#ffffff:موافق: فتح • يسار: القائمة}",
-        "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+        "extension": "{txt:#172b4d:موافق: فتح • يسار: القائمة}",
+        "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
         "flag": "private-tv-home-v3",
         "refocus": 1,
         "cache": true,
@@ -43,7 +43,7 @@
             "id": "open-live",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:الأخبار والقنوات}"
+              "headline": "{txt:#172b4d:الأخبار والقنوات}"
             },
             "type": "default",
             "round": true,
@@ -60,7 +60,7 @@
             "id": "open-sports",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:القنوات الرياضية}"
+              "headline": "{txt:#172b4d:القنوات الرياضية}"
             },
             "type": "default",
             "round": true,
@@ -77,7 +77,7 @@
             "id": "open-dora",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:دورا والأطفال}"
+              "headline": "{txt:#172b4d:دورا والأطفال}"
             },
             "type": "default",
             "round": true,
@@ -94,7 +94,7 @@
             "id": "open-letters",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:الحروف العربية}"
+              "headline": "{txt:#172b4d:الحروف العربية}"
             },
             "type": "default",
             "round": true,
@@ -111,7 +111,7 @@
             "id": "open-numbers",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:الأرقام العربية}"
+              "headline": "{txt:#172b4d:الأرقام العربية}"
             },
             "type": "default",
             "round": true,
@@ -128,7 +128,7 @@
             "id": "open-english",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:إنجليزية للأطفال}"
+              "headline": "{txt:#172b4d:إنجليزية للأطفال}"
             },
             "type": "default",
             "round": true,
@@ -145,7 +145,7 @@
             "id": "open-learn_english",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:تعلّم الإنجليزية}"
+              "headline": "{txt:#172b4d:تعلّم الإنجليزية}"
             },
             "type": "default",
             "round": true,
@@ -162,7 +162,7 @@
             "id": "open-latest",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:جديد يوتيوب}"
+              "headline": "{txt:#172b4d:جديد يوتيوب}"
             },
             "type": "default",
             "round": true,
@@ -179,7 +179,7 @@
             "id": "open-help",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#ffffff:المساعدة والتحديث}"
+              "headline": "{txt:#172b4d:المساعدة والتحديث}"
             },
             "type": "default",
             "round": true,
@@ -526,5 +526,6 @@
   "reuse": true,
   "ready": {
     "action": "focus:control:content"
-  }
+  },
+  "captionUnderlay": 1
 }

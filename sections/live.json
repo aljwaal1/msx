@@ -1,9 +1,9 @@
 {
   "type": "pages",
-  "headline": "{txt:#ffffff:الأخبار والقنوات}",
+  "headline": "{txt:#172b4d:الأخبار والقنوات}",
   "important": true,
-  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "flag": "private-tv-v3-live",
   "reuse": true,
   "cache": false,
@@ -46,7 +46,7 @@
           "badge": "{txt:#ffffff:يوتيوب}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الجزيرة مباشر}"
+            "headline": "{txt:#172b4d:الجزيرة مباشر}"
           },
           "type": "default",
           "color": "#112c50",
@@ -122,7 +122,7 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الجزيرة الإخبارية}"
+            "headline": "{txt:#172b4d:الجزيرة الإخبارية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -147,7 +147,7 @@
           "badge": "{txt:#ffffff:540p}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الجزيرة — بث خفيف}"
+            "headline": "{txt:#172b4d:الجزيرة — بث خفيف}"
           },
           "options": {
             "type": "pages",
@@ -223,7 +223,7 @@
           "badge": "{txt:#ffffff:عند الطلب}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الجزيرة 360}"
+            "headline": "{txt:#172b4d:الجزيرة 360}"
           },
           "round": true,
           "imageOverlay": 0,
@@ -264,7 +264,7 @@
           "badge": "{txt:#ffffff:يوتيوب}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:فرانس 24 — العربية}"
+            "headline": "{txt:#172b4d:فرانس 24 — العربية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -307,7 +307,7 @@
           "badge": "{txt:#ffffff:يوتيوب}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:فرانس 24 — الإنجليزية}"
+            "headline": "{txt:#172b4d:فرانس 24 — الإنجليزية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -332,7 +332,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-live",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },
@@ -357,7 +357,7 @@
           "action": "focus:live-5",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:التالي}"
+            "headline": "{txt:#172b4d:التالي}"
           }
         }
       ],
@@ -401,7 +401,7 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:فرانس 24 — الفرنسية}"
+            "headline": "{txt:#172b4d:فرانس 24 — الفرنسية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -450,7 +450,7 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:DW عربية}"
+            "headline": "{txt:#172b4d:DW عربية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -499,7 +499,7 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:CNBC عربية}"
+            "headline": "{txt:#172b4d:CNBC عربية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -521,7 +521,7 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الجزيرة الإنجليزية}"
+            "headline": "{txt:#172b4d:الجزيرة الإنجليزية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -546,7 +546,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-live",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },
@@ -571,7 +571,7 @@
           "action": "focus:live-1",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:السابق}"
+            "headline": "{txt:#172b4d:السابق}"
           }
         }
       ],

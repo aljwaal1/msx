@@ -1,9 +1,9 @@
 {
   "type": "pages",
-  "headline": "{txt:#ffffff:المساعدة والتحديث}",
+  "headline": "{txt:#172b4d:المساعدة والتحديث}",
   "important": true,
-  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "flag": "private-tv-v3-help",
   "reuse": true,
   "cache": false,
@@ -22,7 +22,7 @@
           "id": "help-1",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#ffffff:طريقة التنقل}"
+            "headline": "{txt:#172b4d:طريقة التنقل}"
           },
           "type": "default",
           "title": "{txt:#ffffff:طريقة التنقل}",
@@ -41,7 +41,7 @@
           "id": "help-2",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#ffffff:تحديث التطبيق}"
+            "headline": "{txt:#172b4d:تحديث التطبيق}"
           },
           "type": "default",
           "title": "{txt:#ffffff:تحديث التطبيق}",
@@ -68,7 +68,7 @@
           "truncation": "title",
           "enumerate": true,
           "selection": {
-            "headline": "{txt:#ffffff:معلومات القنوات}"
+            "headline": "{txt:#172b4d:معلومات القنوات}"
           },
           "layout": "8,1,4,2",
           "offset": "0,0,0,0.25"
@@ -79,7 +79,7 @@
           "id": "help-6",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#ffffff:تحديث فيديوهات يوتيوب}"
+            "headline": "{txt:#172b4d:تحديث فيديوهات يوتيوب}"
           },
           "type": "default",
           "title": "{txt:#ffffff:تحديث فيديوهات يوتيوب}",
@@ -98,7 +98,7 @@
           "id": "help-7",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#ffffff:حول تلفزيون خصوصي}"
+            "headline": "{txt:#172b4d:حول تلفزيون خصوصي}"
           },
           "type": "default",
           "title": "{txt:#ffffff:حول تلفزيون خصوصي}",
@@ -123,7 +123,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-help",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },

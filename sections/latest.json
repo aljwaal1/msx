@@ -1,9 +1,9 @@
 {
   "type": "pages",
-  "headline": "{txt:#ffffff:جديد يوتيوب}",
+  "headline": "{txt:#172b4d:جديد يوتيوب}",
   "important": true,
-  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "flag": "private-tv-v3-latest",
   "reuse": true,
   "cache": false,
@@ -24,7 +24,7 @@
           "badgeColor": "#0c2345",
           "id": "latest-1",
           "selection": {
-            "headline": "{txt:#ffffff:BBC — تعلّم الإنجليزية}"
+            "headline": "{txt:#172b4d:BBC — تعلّم الإنجليزية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -45,7 +45,7 @@
           "badgeColor": "#0c2345",
           "id": "latest-2",
           "selection": {
-            "headline": "{txt:#ffffff:أغاني Super Simple}"
+            "headline": "{txt:#172b4d:أغاني Super Simple}"
           },
           "type": "default",
           "color": "#112c50",
@@ -66,7 +66,7 @@
           "badgeColor": "#0c2345",
           "id": "latest-3",
           "selection": {
-            "headline": "{txt:#ffffff:آدم ومشمش}"
+            "headline": "{txt:#172b4d:آدم ومشمش}"
           },
           "type": "default",
           "color": "#112c50",
@@ -87,7 +87,7 @@
           "badgeColor": "#0c2345",
           "id": "latest-4",
           "selection": {
-            "headline": "{txt:#ffffff:نيك جونيور العربية}"
+            "headline": "{txt:#172b4d:نيك جونيور العربية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -108,7 +108,7 @@
           "badgeColor": "#0c2345",
           "id": "latest-5",
           "selection": {
-            "headline": "{txt:#ffffff:بي إن سبورت}"
+            "headline": "{txt:#172b4d:بي إن سبورت}"
           },
           "type": "default",
           "color": "#112c50",
@@ -133,7 +133,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-latest",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },

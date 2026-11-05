@@ -1,9 +1,9 @@
 {
   "type": "pages",
-  "headline": "{txt:#ffffff:تعلّم الإنجليزية}",
+  "headline": "{txt:#172b4d:تعلّم الإنجليزية}",
   "important": true,
-  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "flag": "private-tv-v3-learn_english",
   "reuse": true,
   "cache": false,
@@ -24,7 +24,7 @@
           "badge": "{txt:#ffffff:أحدث الفيديوهات}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:أحدث دروس BBC}"
+            "headline": "{txt:#172b4d:أحدث دروس BBC}"
           },
           "type": "default",
           "color": "#112c50",
@@ -46,7 +46,7 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:مفردات وقواعد — مجموعة 26}"
+            "headline": "{txt:#172b4d:مفردات وقواعد — مجموعة 26}"
           },
           "type": "default",
           "color": "#112c50",
@@ -68,7 +68,7 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:مفردات وقواعد — مجموعة 11}"
+            "headline": "{txt:#172b4d:مفردات وقواعد — مجموعة 11}"
           },
           "type": "default",
           "color": "#112c50",
@@ -93,7 +93,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-learn_english",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },

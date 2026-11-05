@@ -1,9 +1,9 @@
 {
   "type": "pages",
-  "headline": "{txt:#ffffff:القنوات الرياضية}",
+  "headline": "{txt:#172b4d:القنوات الرياضية}",
   "important": true,
-  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "flag": "private-tv-v3-sports",
   "reuse": true,
   "cache": false,
@@ -75,7 +75,7 @@
           "badge": "{txt:#ffffff:جودة تلقائية}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الأردن الرياضية}"
+            "headline": "{txt:#172b4d:الأردن الرياضية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -97,7 +97,7 @@
           "badge": "{txt:#ffffff:يوتيوب}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:بي إن سبورت الإخبارية}"
+            "headline": "{txt:#172b4d:بي إن سبورت الإخبارية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -145,7 +145,7 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:عُمان الرياضية}"
+            "headline": "{txt:#172b4d:عُمان الرياضية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -170,7 +170,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-sports",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },

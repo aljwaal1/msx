@@ -1,9 +1,9 @@
 {
   "type": "pages",
-  "headline": "{txt:#ffffff:إنجليزية للأطفال}",
+  "headline": "{txt:#172b4d:إنجليزية للأطفال}",
   "important": true,
-  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e8089b3f8248b1a458447dd75f06e13796de3713/assets/ui3/background-chrome.png",
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "flag": "private-tv-v3-english",
   "reuse": true,
   "cache": false,
@@ -25,7 +25,7 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:الحروف الإنجليزية}"
+            "headline": "{txt:#172b4d:الحروف الإنجليزية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -47,7 +47,7 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:أغنية الأبجدية}"
+            "headline": "{txt:#172b4d:أغنية الأبجدية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -69,7 +69,7 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:العدّ والحركة إلى 20}"
+            "headline": "{txt:#172b4d:العدّ والحركة إلى 20}"
           },
           "type": "default",
           "color": "#112c50",
@@ -91,7 +91,7 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#ffffff:أغاني الأرقام}"
+            "headline": "{txt:#172b4d:أغاني الأرقام}"
           },
           "type": "default",
           "color": "#112c50",
@@ -116,7 +116,7 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-english",
           "round": true,
           "selection": {
-            "headline": "{txt:#ffffff:الرئيسية}"
+            "headline": "{txt:#172b4d:الرئيسية}"
           },
           "key": "red"
         },
