@@ -1,109 +1,119 @@
 {
   "type": "pages",
-  "headline": "{txt:#172b4d:دورا والأطفال}",
-  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,4,3",
-    "color": "#163460",
-    "imageFiller": "fit",
-    "imageOverlay": 0
-  },
-  "items": [
-    {
-      "id": "return-home",
-      "title": "{txt:#ffffff:الرئيسية}",
-      "icon": "#ffffff:home",
-      "color": "#a52b3d",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-      "type": "default",
-      "iconSize": "large",
-      "alignment": "center",
-      "selection": {
-        "headline": "{txt:#172b4d:العودة للرئيسية}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:دورا بالعربية — 90 دقيقة}",
-      "playerLabel": "دورا بالعربية — 90 دقيقة",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-9.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NrRcweyn0Gc",
-      "id": "dora-1",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:دورا بالعربية — 90 دقيقة}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:وناسة للأطفال}",
-      "playerLabel": "وناسة",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/kids-5.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fshd-gcp-live.edgenextcdn.net%2Flive%2Fbitmovin-wanasah%2F13e82ea6232fa647c43b26e8a41f173d%2Findex.m3u8",
-      "options": {
-        "type": "pages",
-        "headline": "{txt:#172b4d:طريقة تشغيل بديلة}",
-        "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
-        "template": {
-          "type": "default",
-          "layout": "0,0,6,2",
-          "color": "#163460",
-          "alignment": "center"
-        },
-        "items": [
-          {
-            "icon": "#ffffff:play-circle-filled",
-            "action": "video:https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8",
-            "playerLabel": "وناسة",
-            "color": "#163460",
-            "title": "{txt:#ffffff:جرّب المشغّل الأصلي}"
-          },
-          {
-            "icon": "#ffffff:info",
-            "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة.",
-            "color": "#163460",
-            "title": "{txt:#ffffff:حالة هذا البث}"
-          }
-        ]
-      },
-      "id": "dora-2",
-      "badge": "{txt:#ffffff:بث مباشر}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:وناسة للأطفال}"
-      }
-    }
-  ],
+  "headline": "{txt:#ffffff:دورا والأطفال}",
+  "important": true,
+  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "private-tv-v3-dora",
+  "reuse": true,
   "cache": false,
-  "flag": "private-tv-dora-v240",
+  "restore": true,
   "refocus": 1,
   "transparent": 1,
-  "options": {
-    "type": "pages",
-    "template": {
-      "type": "default",
-      "layout": "0,0,6,2",
-      "color": "#163460",
-      "alignment": "center"
-    },
-    "items": [
-      {
-        "icon": "#ffffff:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-        "color": "#163460",
-        "title": "{txt:#ffffff:الرئيسية}"
-      },
-      {
-        "icon": "#ffffff:refresh",
-        "action": "reload",
-        "color": "#163460",
-        "title": "{txt:#ffffff:تحديث التطبيق}"
-      }
-    ],
-    "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
-  },
   "wrap": false,
   "preload": "none",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "title": "{txt:#ffffff:دورا بالعربية — 90 دقيقة}",
+          "playerLabel": "دورا بالعربية — 90 دقيقة",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/dora.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NrRcweyn0Gc",
+          "id": "dora-1",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:دورا بالعربية — 90 دقيقة}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,1,6,4",
+          "offset": "0,0,0,-0.6"
+        },
+        {
+          "title": "{txt:#ffffff:وناسة للأطفال}",
+          "playerLabel": "وناسة",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/wanasah.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fshd-gcp-live.edgenextcdn.net%2Flive%2Fbitmovin-wanasah%2F13e82ea6232fa647c43b26e8a41f173d%2Findex.m3u8",
+          "options": {
+            "type": "pages",
+            "headline": "{txt:#ffffff:طريقة تشغيل بديلة}",
+            "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
+            "template": {
+              "type": "default",
+              "layout": "0,0,6,2",
+              "color": "#163460",
+              "alignment": "center"
+            },
+            "items": [
+              {
+                "icon": "#ffffff:play-circle-filled",
+                "action": "video:https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8",
+                "playerLabel": "وناسة",
+                "color": "#163460",
+                "title": "{txt:#ffffff:جرّب المشغّل الأصلي}"
+              },
+              {
+                "icon": "#ffffff:info",
+                "action": "info:الرابط استجاب للفحص، لكن التشغيل على التلفاز لم يتأكد بعد. جرّب المشغل الأصلي إذا لم تعمل الصورة.",
+                "color": "#163460",
+                "title": "{txt:#ffffff:حالة هذا البث}"
+              }
+            ],
+            "caption": "{txt:#ffffff:خيارات التشغيل}"
+          },
+          "id": "dora-2",
+          "badge": "{txt:#ffffff:بث مباشر}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:وناسة للأطفال}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "6,1,6,4",
+          "offset": "0,0,0,-0.6"
+        },
+        {
+          "id": "dora-home-0",
+          "type": "default",
+          "layout": "0,0,2,1",
+          "title": "{txt:#ffffff:الرئيسية}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#a52b3d",
+          "enumerate": false,
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-dora",
+          "round": true,
+          "selection": {
+            "headline": "{txt:#ffffff:الرئيسية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "dora-page-count-0",
+          "type": "space",
+          "layout": "2,0,6,1",
+          "title": "{txt:#172b4d:2 خيارات}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
 }

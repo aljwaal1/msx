@@ -1,136 +1,143 @@
 {
   "type": "pages",
-  "headline": "{txt:#172b4d:المساعدة والتحديث}",
-  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
-  "template": {
-    "type": "default",
-    "layout": "0,0,4,2",
-    "iconSize": "large",
-    "alignment": "center",
-    "color": "#163460"
-  },
-  "items": [
-    {
-      "id": "return-home",
-      "icon": "#ffffff:home",
-      "color": "#a52b3d",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-      "type": "default",
-      "iconSize": "large",
-      "alignment": "center",
-      "selection": {
-        "headline": "{txt:#172b4d:الرئيسية}"
-      },
-      "title": "{txt:#ffffff:الرئيسية}"
-    },
-    {
-      "icon": "#ffffff:gamepad",
-      "action": "info:حرّك الأسهم لاختيار البطاقة ثم اضغط موافق. للعودة إلى الصفحة الرئيسية اختر بطاقة الرئيسية الحمراء في أول كل قسم. زر الرجوع يعيدك من الفيديو إلى القنوات. زر القائمة يعرض الخيارات.",
-      "id": "help-1",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:طريقة التنقل}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:طريقة التنقل}"
-    },
-    {
-      "icon": "#ffffff:refresh",
-      "action": "reload",
-      "id": "help-2",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:تحديث التطبيق}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:تحديث التطبيق}"
-    },
-    {
-      "icon": "#ffffff:info",
-      "action": "info:تم فحص 27 رابط بث. بعض المصادر محجوبة أو لا تستجيب من بيئة الفحص. القنوات هنا التي استجابت لها مشغّل HLS بديل، ولا يزال تشغيلها على تلفازك بحاجة للتجربة.",
-      "id": "help-3",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:حول البث المباشر}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:حول البث المباشر}"
-    },
-    {
-      "icon": "#ffffff:info",
-      "action": "info:لم يتوفر حتى الآن رابط بث رسمي ثابت للقناة المفتوحة داخل MSX. البث المجاني على القمر الصناعي لا يضمن توفر رابط إنترنت. الإخبارية موجودة بزر مستقل.",
-      "id": "help-4",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:بي إن سبورت المفتوحة}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:بي إن سبورت المفتوحة}"
-    },
-    {
-      "icon": "#ffffff:info",
-      "action": "info:لم تستجب مصادر هذه القنوات للفحص حتى الآن. لم يتم تأكيد إصلاحها. لن يُستبدل البث الحي بمباراة قديمة مسجلة.",
-      "id": "help-5",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:دبي وأبوظبي والكأس}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:دبي وأبوظبي والكأس}"
-    },
-    {
-      "icon": "#ffffff:rss-feed",
-      "action": "info:افتح القناة في قسم جديد قنوات YouTube لعرض أحدث فيديوهاتها. قد تتأخر خدمة المصدر قليلًا. لا توجد إشعارات في الخلفية.",
-      "id": "help-6",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:تحديث فيديوهات يوتيوب}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:تحديث فيديوهات يوتيوب}"
-    },
-    {
-      "icon": "#ffffff:verified",
-      "action": "info:تلفزيون خصوصي 2.4.0 — بطاقات وصور أكبر، عناوين أوضح، زر رئيسية ثابت. الأردن الرياضية بجودة تلقائية، مع خيار Full HD 1080p يدوي.",
-      "id": "help-7",
-      "color": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:الإصدار 2.4.0}"
-      },
-      "type": "default",
-      "title": "{txt:#ffffff:الإصدار 2.4.0}"
-    }
-  ],
+  "headline": "{txt:#ffffff:المساعدة والتحديث}",
+  "important": true,
+  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "private-tv-v3-help",
+  "reuse": true,
   "cache": false,
-  "flag": "private-tv-help-v240",
+  "restore": true,
   "refocus": 1,
   "transparent": 1,
-  "options": {
-    "type": "pages",
-    "template": {
-      "type": "default",
-      "layout": "0,0,6,2",
-      "color": "#163460",
-      "alignment": "center"
-    },
-    "items": [
-      {
-        "icon": "#ffffff:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-        "color": "#163460",
-        "title": "{txt:#ffffff:الرئيسية}"
-      },
-      {
-        "icon": "#ffffff:refresh",
-        "action": "reload",
-        "color": "#163460",
-        "title": "{txt:#ffffff:تحديث التطبيق}"
-      }
-    ],
-    "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
-  },
   "wrap": false,
   "preload": "none",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "icon": "#ffffff:gamepad",
+          "action": "info:حرّك الأسهم لاختيار البطاقة واضغط موافق. للعودة استخدم زر الرئيسية الصغير أعلى القسم أو الزر الأحمر في الريموت. في القوائم الطويلة استخدم التالي والسابق. عند العودة للرئيسية سيُحدّد القسم الذي فتحته.",
+          "id": "help-1",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:طريقة التنقل}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:طريقة التنقل}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "icon": "#ffffff:refresh",
+          "action": "reload",
+          "id": "help-2",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:تحديث التطبيق}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:تحديث التطبيق}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "help-channel-status",
+          "title": "{txt:#ffffff:معلومات القنوات}",
+          "icon": "#ffffff:live-tv",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/sources.json",
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "selection": {
+            "headline": "{txt:#ffffff:معلومات القنوات}"
+          },
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "icon": "#ffffff:rss-feed",
+          "action": "info:افتح القناة في قسم جديد قنوات YouTube لعرض أحدث فيديوهاتها. قد تتأخر خدمة المصدر قليلًا. لا توجد إشعارات في الخلفية.",
+          "id": "help-6",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:تحديث فيديوهات يوتيوب}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:تحديث فيديوهات يوتيوب}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "icon": "#ffffff:verified",
+          "action": "info:تلفزيون خصوصي 3.0.0 — واجهة موحّدة وصور خفيفة، شريط عودة صغير، أزرار واضحة للصفحات والعودة إلى القسم المحدد.",
+          "id": "help-7",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:حول تلفزيون خصوصي}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:حول تلفزيون خصوصي}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "help-home-0",
+          "type": "default",
+          "layout": "0,0,2,1",
+          "title": "{txt:#ffffff:الرئيسية}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#a52b3d",
+          "enumerate": false,
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-help",
+          "round": true,
+          "selection": {
+            "headline": "{txt:#ffffff:الرئيسية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "help-page-count-0",
+          "type": "space",
+          "layout": "2,0,6,1",
+          "title": "{txt:#172b4d:5 خيارات}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
 }

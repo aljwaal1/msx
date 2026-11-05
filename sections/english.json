@@ -1,107 +1,136 @@
 {
   "type": "pages",
-  "headline": "{txt:#172b4d:إنجليزية للأطفال}",
-  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,4,3",
-    "color": "#163460",
-    "imageFiller": "fit",
-    "imageOverlay": 0
-  },
-  "items": [
-    {
-      "id": "return-home",
-      "title": "{txt:#ffffff:الرئيسية}",
-      "icon": "#ffffff:home",
-      "color": "#a52b3d",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-      "type": "default",
-      "iconSize": "large",
-      "alignment": "center",
-      "selection": {
-        "headline": "{txt:#172b4d:العودة للرئيسية}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:الحروف الإنجليزية}",
-      "playerLabel": "الحروف الإنجليزية الكرتونية",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-5.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6__ydnpF8dE",
-      "id": "english-1",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:الحروف الإنجليزية}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:أغنية الأبجدية}",
-      "playerLabel": "أغنية الأبجدية الإنجليزية",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-6.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=kDdg2M1_EuE",
-      "id": "english-2",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:أغنية الأبجدية}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:العدّ والحركة إلى 20}",
-      "playerLabel": "العد والحركة إلى 20",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-7.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Aq4UAss33qA",
-      "id": "english-3",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:العدّ والحركة إلى 20}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:أغاني الأرقام}",
-      "playerLabel": "مجموعة أغاني الأرقام الكرتونية",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/learn-v2-8.png",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=BG8HLIvuK24",
-      "id": "english-4",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:أغاني الأرقام}"
-      }
-    }
-  ],
+  "headline": "{txt:#ffffff:إنجليزية للأطفال}",
+  "important": true,
+  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "private-tv-v3-english",
+  "reuse": true,
   "cache": false,
-  "flag": "private-tv-english-v240",
+  "restore": true,
   "refocus": 1,
   "transparent": 1,
-  "options": {
-    "type": "pages",
-    "template": {
-      "type": "default",
-      "layout": "0,0,6,2",
-      "color": "#163460",
-      "alignment": "center"
-    },
-    "items": [
-      {
-        "icon": "#ffffff:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-        "color": "#163460",
-        "title": "{txt:#ffffff:الرئيسية}"
-      },
-      {
-        "icon": "#ffffff:refresh",
-        "action": "reload",
-        "color": "#163460",
-        "title": "{txt:#ffffff:تحديث التطبيق}"
-      }
-    ],
-    "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
-  },
   "wrap": false,
   "preload": "none",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "title": "{txt:#ffffff:الحروف الإنجليزية}",
+          "playerLabel": "الحروف الإنجليزية الكرتونية",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/abc.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6__ydnpF8dE",
+          "id": "english-1",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:الحروف الإنجليزية}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "title": "{txt:#ffffff:أغنية الأبجدية}",
+          "playerLabel": "أغنية الأبجدية الإنجليزية",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/abc-song.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=kDdg2M1_EuE",
+          "id": "english-2",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:أغنية الأبجدية}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "title": "{txt:#ffffff:العدّ والحركة إلى 20}",
+          "playerLabel": "العد والحركة إلى 20",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/count-twenty.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Aq4UAss33qA",
+          "id": "english-3",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:العدّ والحركة إلى 20}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "title": "{txt:#ffffff:أغاني الأرقام}",
+          "playerLabel": "مجموعة أغاني الأرقام الكرتونية",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/number-song.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=BG8HLIvuK24",
+          "id": "english-4",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:أغاني الأرقام}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "english-home-0",
+          "type": "default",
+          "layout": "0,0,2,1",
+          "title": "{txt:#ffffff:الرئيسية}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#a52b3d",
+          "enumerate": false,
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-english",
+          "round": true,
+          "selection": {
+            "headline": "{txt:#ffffff:الرئيسية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "english-page-count-0",
+          "type": "space",
+          "layout": "2,0,6,1",
+          "title": "{txt:#172b4d:4 خيارات}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
 }

@@ -1,0 +1,105 @@
+{
+  "type": "pages",
+  "headline": "{txt:#ffffff:معلومات القنوات}",
+  "important": true,
+  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: المساعدة}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "private-tv-v3-sources",
+  "reuse": true,
+  "cache": false,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "icon": "#ffffff:info",
+          "action": "info:تم فحص 27 رابط بث. بعض المصادر محجوبة أو لا تستجيب من بيئة الفحص. القنوات هنا التي استجابت لها مشغّل HLS بديل، ولا يزال تشغيلها على تلفازك بحاجة للتجربة.",
+          "id": "help-3",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:حول البث المباشر}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:حول البث المباشر}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "icon": "#ffffff:info",
+          "action": "info:لم يتوفر حتى الآن رابط بث رسمي ثابت للقناة المفتوحة داخل MSX. البث المجاني على القمر الصناعي لا يضمن توفر رابط إنترنت. الإخبارية موجودة بزر مستقل.",
+          "id": "help-4",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:بي إن سبورت المفتوحة}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:بي إن سبورت المفتوحة}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "icon": "#ffffff:info",
+          "action": "info:لم تستجب مصادر هذه القنوات للفحص حتى الآن. لم يتم تأكيد إصلاحها. لن يُستبدل البث الحي بمباراة قديمة مسجلة.",
+          "id": "help-5",
+          "color": "#112c50",
+          "selection": {
+            "headline": "{txt:#ffffff:دبي وأبوظبي والكأس}"
+          },
+          "type": "default",
+          "title": "{txt:#ffffff:دبي وأبوظبي والكأس}",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "sources-home-0",
+          "type": "default",
+          "layout": "0,0,2,1",
+          "title": "{txt:#ffffff:المساعدة}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#a52b3d",
+          "enumerate": false,
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/sections/help.json>help-channel-status",
+          "round": true,
+          "selection": {
+            "headline": "{txt:#ffffff:المساعدة}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "sources-page-count-0",
+          "type": "space",
+          "layout": "2,0,6,1",
+          "title": "{txt:#172b4d:3 خيارات}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

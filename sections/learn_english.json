@@ -1,94 +1,113 @@
 {
   "type": "pages",
-  "headline": "{txt:#172b4d:تعلّم الإنجليزية}",
+  "headline": "{txt:#ffffff:تعلّم الإنجليزية}",
+  "important": true,
+  "extension": "{txt:#ffffff:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "private-tv-v3-learn_english",
+  "reuse": true,
   "cache": false,
-  "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,4,3",
-    "color": "#163460",
-    "imageFiller": "fit",
-    "imageOverlay": 0
-  },
-  "items": [
-    {
-      "id": "return-home",
-      "title": "{txt:#ffffff:الرئيسية}",
-      "icon": "#ffffff:home",
-      "color": "#a52b3d",
-      "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-      "type": "default",
-      "iconSize": "large",
-      "alignment": "center",
-      "selection": {
-        "headline": "{txt:#172b4d:العودة للرئيسية}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:أحدث دروس BBC}",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
-      "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html",
-      "id": "learn_english-1",
-      "badge": "{txt:#ffffff:أحدث الفيديوهات}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:أحدث دروس BBC}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:مفردات وقواعد — مجموعة 26}",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
-      "playerLabel": "BBC English In A Minute",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ujfl_c12G8I",
-      "id": "learn_english-2",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:مفردات وقواعد — مجموعة 26}"
-      }
-    },
-    {
-      "title": "{txt:#172b4d:مفردات وقواعد — مجموعة 11}",
-      "image": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/bbc-v4.png",
-      "playerLabel": "BBC English In A Minute",
-      "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=sszxO-jTOFY",
-      "id": "learn_english-3",
-      "badge": "{txt:#ffffff:فيديو}",
-      "badgeColor": "#163460",
-      "selection": {
-        "headline": "{txt:#172b4d:مفردات وقواعد — مجموعة 11}"
-      }
-    }
-  ],
-  "flag": "private-tv-learn_english-v240",
+  "restore": true,
   "refocus": 1,
   "transparent": 1,
-  "options": {
-    "type": "pages",
-    "template": {
-      "type": "default",
-      "layout": "0,0,6,2",
-      "color": "#163460",
-      "alignment": "center"
-    },
-    "items": [
-      {
-        "icon": "#ffffff:home",
-        "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
-        "color": "#163460",
-        "title": "{txt:#ffffff:الرئيسية}"
-      },
-      {
-        "icon": "#ffffff:refresh",
-        "action": "reload",
-        "color": "#163460",
-        "title": "{txt:#ffffff:تحديث التطبيق}"
-      }
-    ],
-    "headline": "{txt:#172b4d:خيارات التشغيل}",
-    "extension": "{txt:#172b4d:أسهم: تنقّل • موافق: فتح}"
-  },
   "wrap": false,
   "preload": "none",
-  "background": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/assets/background.png"
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "title": "{txt:#ffffff:أحدث دروس BBC}",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/bbc.png",
+          "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html",
+          "id": "learn_english-1",
+          "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:أحدث دروس BBC}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "title": "{txt:#ffffff:مفردات وقواعد — مجموعة 26}",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/lesson-26.png",
+          "playerLabel": "BBC English In A Minute",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ujfl_c12G8I",
+          "id": "learn_english-2",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:مفردات وقواعد — مجموعة 26}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "title": "{txt:#ffffff:مفردات وقواعد — مجموعة 11}",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/lesson-11.png",
+          "playerLabel": "BBC English In A Minute",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=sszxO-jTOFY",
+          "id": "learn_english-3",
+          "badge": "{txt:#ffffff:فيديو}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#ffffff:مفردات وقواعد — مجموعة 11}"
+          },
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "learn_english-home-0",
+          "type": "default",
+          "layout": "0,0,2,1",
+          "title": "{txt:#ffffff:الرئيسية}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#a52b3d",
+          "enumerate": false,
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/preview/tv-ui-3/menu.json>home>open-learn_english",
+          "round": true,
+          "selection": {
+            "headline": "{txt:#ffffff:الرئيسية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "learn_english-page-count-0",
+          "type": "space",
+          "layout": "2,0,6,1",
+          "title": "{txt:#172b4d:3 خيارات}",
+          "centration": "title",
+          "alignment": "center",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
 }
