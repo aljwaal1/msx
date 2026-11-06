@@ -1,0 +1,372 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:BBC Earth • الطبيعة}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-bbc-earth",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-f828q6MHOkY",
+          "type": "default",
+          "title": "{txt:#ffffff:Sir David Attenborough Narrates Unforgettable Moments From Planet Earth II | BBC Earth}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=f828q6MHOkY",
+          "image": "https://i.ytimg.com/vi/f828q6MHOkY/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:47:27}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Sir David Attenborough Narrates Unforgettable Moments From Planet Earth II | BBC Earth}"
+          },
+          "playerLabel": "Sir David Attenborough Narrates Unforgettable Moments From Planet Earth II | BBC Earth",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-xRQrTUGiLI4",
+          "type": "default",
+          "title": "{txt:#ffffff:السبب المقزز وراء ملاحقة هذه الأسماك لحيوان الأطوم | كوكب الأرض الثالث | 4K | BBC Earth}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=xRQrTUGiLI4",
+          "image": "https://i.ytimg.com/vi/xRQrTUGiLI4/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:19}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:السبب المقزز وراء ملاحقة هذه الأسماك لحيوان الأطوم | كوكب الأرض الثالث | 4K | BBC Earth}"
+          },
+          "playerLabel": "السبب المقزز وراء ملاحقة هذه الأسماك لحيوان الأطوم | كوكب الأرض الثالث | 4K | BBC Earth",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-q0QFv4iMz3I",
+          "type": "default",
+          "title": "{txt:#ffffff:دولفين مذهل ينصب فخاً | كوكب الأرض الأزرق 3 | 4K | بي بي سي الأرض}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=q0QFv4iMz3I",
+          "image": "https://i.ytimg.com/vi/q0QFv4iMz3I/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:29}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:دولفين مذهل ينصب فخاً | كوكب الأرض الأزرق 3 | 4K | بي بي سي الأرض}"
+          },
+          "playerLabel": "دولفين مذهل ينصب فخاً | كوكب الأرض الأزرق 3 | 4K | بي بي سي الأرض",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-6w8n0Af1xWw",
+          "type": "default",
+          "title": "{txt:#ffffff:في عالم الزواحف والحشرات | بي بي سي إيرث}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6w8n0Af1xWw",
+          "image": "https://i.ytimg.com/vi/6w8n0Af1xWw/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:47:15}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:في عالم الزواحف والحشرات | بي بي سي إيرث}"
+          },
+          "playerLabel": "في عالم الزواحف والحشرات | بي بي سي إيرث",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-OTjbryVGAcA",
+          "type": "default",
+          "title": "{txt:#ffffff:سلاح الطبيعة السري في معركة مكافحة التغير المناخي | السرعة والنطاق | بي بي سي إيرث}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=OTjbryVGAcA",
+          "image": "https://i.ytimg.com/vi/OTjbryVGAcA/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:6:00}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:سلاح الطبيعة السري في معركة مكافحة التغير المناخي | السرعة والنطاق | بي بي سي إيرث}"
+          },
+          "playerLabel": "سلاح الطبيعة السري في معركة مكافحة التغير المناخي | السرعة والنطاق | بي بي سي إيرث",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-SvLNzdrn3-o",
+          "type": "default",
+          "title": "{txt:#ffffff:عجائب آسيا الطبيعية | 4K UHD | بي بي سي إيرث}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=SvLNzdrn3-o",
+          "image": "https://i.ytimg.com/vi/SvLNzdrn3-o/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:41:31}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:عجائب آسيا الطبيعية | 4K UHD | بي بي سي إيرث}"
+          },
+          "playerLabel": "عجائب آسيا الطبيعية | 4K UHD | بي بي سي إيرث",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-bbc-earth-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-bbc-earth",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-bbc-earth-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-bbc-earth-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-ESfx8R5eOWs",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-ESfx8R5eOWs",
+          "type": "default",
+          "title": "{txt:#ffffff:سنغافورة تهندس مستقبلاً للطبيعة | 20 عاماً على كوكب الأرض 2 | BBC Earth}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=ESfx8R5eOWs",
+          "image": "https://i.ytimg.com/vi/ESfx8R5eOWs/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:4:17}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:سنغافورة تهندس مستقبلاً للطبيعة | 20 عاماً على كوكب الأرض 2 | BBC Earth}"
+          },
+          "playerLabel": "سنغافورة تهندس مستقبلاً للطبيعة | 20 عاماً على كوكب الأرض 2 | BBC Earth",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-J7y7uhvha10",
+          "type": "default",
+          "title": "{txt:#ffffff:رحلة مذهلة عبر براري أفريقيا | 4K UHD | بي بي سي إيرث}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=J7y7uhvha10",
+          "image": "https://i.ytimg.com/vi/J7y7uhvha10/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:1:05:07}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:رحلة مذهلة عبر براري أفريقيا | 4K UHD | بي بي سي إيرث}"
+          },
+          "playerLabel": "رحلة مذهلة عبر براري أفريقيا | 4K UHD | بي بي سي إيرث",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-jk4S1R8zp1M",
+          "type": "default",
+          "title": "{txt:#ffffff:الأخطبوط الذي يمشي على اليابسة | كوكبنا الأزرق 3 | 4K | بي بي سي إيرث}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=jk4S1R8zp1M",
+          "image": "https://i.ytimg.com/vi/jk4S1R8zp1M/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:30}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الأخطبوط الذي يمشي على اليابسة | كوكبنا الأزرق 3 | 4K | بي بي سي إيرث}"
+          },
+          "playerLabel": "الأخطبوط الذي يمشي على اليابسة | كوكبنا الأزرق 3 | 4K | بي بي سي إيرث",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-Vn5xZSZc_Uw",
+          "type": "default",
+          "title": "{txt:#ffffff:| بي بي سي كوكب الأرض}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Vn5xZSZc_Uw",
+          "image": "https://i.ytimg.com/vi/Vn5xZSZc_Uw/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:1:48:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:| بي بي سي كوكب الأرض}"
+          },
+          "playerLabel": "| بي بي سي كوكب الأرض",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-j1YmhOEyb4Y",
+          "type": "default",
+          "title": "{txt:#ffffff:هل يستطيع صغير حيوان الرنة هذا الهروب من ذئب القطب الشمالي؟ | 20 عاماً على Planet Earth II | BBC ...}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=j1YmhOEyb4Y",
+          "image": "https://i.ytimg.com/vi/j1YmhOEyb4Y/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:4:22}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:هل يستطيع صغير حيوان الرنة هذا الهروب من ذئب القطب الشمالي؟ | 20 عاماً على Planet Earth II | BBC ...}"
+          },
+          "playerLabel": "هل يستطيع صغير حيوان الرنة هذا الهروب من ذئب القطب الشمالي؟ | 20 عاماً على Planet Earth II | BBC ...",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-QYThPEf6V08",
+          "type": "default",
+          "title": "{txt:#ffffff:أهوال الطبيعة الصغيرة | BBC Earth}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=QYThPEf6V08",
+          "image": "https://i.ytimg.com/vi/QYThPEf6V08/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:43:13}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:أهوال الطبيعة الصغيرة | BBC Earth}"
+          },
+          "playerLabel": "أهوال الطبيعة الصغيرة | BBC Earth",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-bbc-earth-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-bbc-earth",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-bbc-earth-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-bbc-earth-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-f828q6MHOkY",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

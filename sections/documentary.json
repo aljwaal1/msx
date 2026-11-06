@@ -1,0 +1,382 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:القنوات الوثائقية}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-documentary",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "doc-ajdoc-live",
+          "type": "default",
+          "title": "{txt:#ffffff:الجزيرة الوثائقية • مباشر}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=TiPYdMXt_XI",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-play.png",
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:بث مباشر • يوتيوب}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الجزيرة الوثائقية • مباشر}"
+          },
+          "playerLabel": "الجزيرة الوثائقية",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "doc-asharq-doc",
+          "type": "default",
+          "title": "{txt:#ffffff:الشرق الوثائقية}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-documentary.asharq.com%2Fasharq_720p.m3u8",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-news.png",
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:بث مباشر • عربي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الشرق الوثائقية}"
+          },
+          "playerLabel": "الشرق الوثائقية",
+          "options": {
+            "type": "pages",
+            "headline": "{txt:#ffffff:الشرق الوثائقية • خيارات}",
+            "template": {
+              "type": "default",
+              "layout": "0,0,6,2",
+              "color": "#163460"
+            },
+            "items": [
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:مشغّل التلفاز}",
+                "icon": "#ffffff:play-circle-filled",
+                "color": "#163460",
+                "action": "video:https://live-documentary.asharq.com/asharq_720p.m3u8",
+                "playerLabel": "الشرق الوثائقية"
+              }
+            ],
+            "caption": "{txt:#ffffff:خيارات التشغيل}"
+          },
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "doc-asharq-discovery",
+          "type": "default",
+          "title": "{txt:#ffffff:الشرق Discovery}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-discovery.asharq.com%2Fasharq_720p.m3u8",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-news.png",
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:بث مباشر • عربي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الشرق Discovery}"
+          },
+          "playerLabel": "الشرق Discovery",
+          "options": {
+            "type": "pages",
+            "headline": "{txt:#ffffff:الشرق Discovery • خيارات}",
+            "template": {
+              "type": "default",
+              "layout": "0,0,6,2",
+              "color": "#163460"
+            },
+            "items": [
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:مشغّل التلفاز}",
+                "icon": "#ffffff:play-circle-filled",
+                "color": "#163460",
+                "action": "video:https://live-discovery.asharq.com/asharq_720p.m3u8",
+                "playerLabel": "الشرق Discovery"
+              }
+            ],
+            "caption": "{txt:#ffffff:خيارات التشغيل}"
+          },
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "doc-natgeo",
+          "type": "default",
+          "title": "{txt:#ffffff:ناشونال جيوغرافيك أبوظبي}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/natgeo.json",
+          "image": "https://i.ytimg.com/vi/vMK_H0ZF5fQ/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • عربي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:ناشونال جيوغرافيك أبوظبي}"
+          },
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "doc-ajdoc",
+          "type": "default",
+          "title": "{txt:#ffffff:مكتبة الجزيرة الوثائقية}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/ajdoc.json",
+          "image": "https://i.ytimg.com/vi/srCJOjtKJ3s/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • عربي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:مكتبة الجزيرة الوثائقية}"
+          },
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "doc-dw-ar",
+          "type": "default",
+          "title": "{txt:#ffffff:DW الوثائقية • عربي}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/dw-ar.json",
+          "image": "https://i.ytimg.com/vi/OFqHEPhhITg/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • عربي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:DW الوثائقية • عربي}"
+          },
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "documentary-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الرئيسية}",
+          "layout": "0,0,2,1",
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-documentary",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الرئيسية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "documentary-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "documentary-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:doc-dw-en",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "doc-dw-en",
+          "type": "default",
+          "title": "{txt:#ffffff:DW Documentary • English}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/dw-en.json",
+          "image": "https://i.ytimg.com/vi/QP4Yh1i3wpk/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:DW Documentary • English}"
+          },
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "doc-bbc-earth",
+          "type": "default",
+          "title": "{txt:#ffffff:BBC Earth • الطبيعة}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/bbc-earth.json",
+          "image": "https://i.ytimg.com/vi/f828q6MHOkY/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:BBC Earth • الطبيعة}"
+          },
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "doc-arte",
+          "type": "default",
+          "title": "{txt:#ffffff:ARTE • وثائقيات}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/arte.json",
+          "image": "https://i.ytimg.com/vi/eWsbd_jtt1k/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:ARTE • وثائقيات}"
+          },
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "doc-free-doc",
+          "type": "default",
+          "title": "{txt:#ffffff:Free Documentary}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/free-doc.json",
+          "image": "https://i.ytimg.com/vi/H4jRIXwVDKs/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Free Documentary}"
+          },
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "doc-timeline",
+          "type": "default",
+          "title": "{txt:#ffffff:Timeline • التاريخ}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/timeline.json",
+          "image": "https://i.ytimg.com/vi/eLwuFQTyMO4/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Timeline • التاريخ}"
+          },
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "documentary-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الرئيسية}",
+          "layout": "0,0,2,1",
+          "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-documentary",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الرئيسية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "documentary-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "documentary-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:doc-ajdoc-live",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

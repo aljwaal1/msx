@@ -1,0 +1,158 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:ناشونال جيوغرافيك أبوظبي}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-natgeo",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-vMK_H0ZF5fQ",
+          "type": "default",
+          "title": "{txt:#ffffff:Jaguar Beach Battle}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=vMK_H0ZF5fQ",
+          "image": "https://i.ytimg.com/vi/vMK_H0ZF5fQ/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:44:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Jaguar Beach Battle}"
+          },
+          "playerLabel": "Jaguar Beach Battle",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-yEHV2LR_N68",
+          "type": "default",
+          "title": "{txt:#ffffff:Hostile Planet  Ep 5 Oceans Storms of Change}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=yEHV2LR_N68",
+          "image": "https://i.ytimg.com/vi/yEHV2LR_N68/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:42:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Hostile Planet  Ep 5 Oceans Storms of Change}"
+          },
+          "playerLabel": "Hostile Planet  Ep 5 Oceans Storms of Change",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-VI08dP23-5A",
+          "type": "default",
+          "title": "{txt:#ffffff:كيف تصبح زعيماً | داخل عالم المافيا الأمريكية | ناشونال جيوغرافيك أبوظبي}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=VI08dP23-5A",
+          "image": "https://i.ytimg.com/vi/VI08dP23-5A/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:41:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:كيف تصبح زعيماً | داخل عالم المافيا الأمريكية | ناشونال جيوغرافيك أبوظبي}"
+          },
+          "playerLabel": "كيف تصبح زعيماً | داخل عالم المافيا الأمريكية | ناشونال جيوغرافيك أبوظبي",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-NyCBCzGjjdI",
+          "type": "default",
+          "title": "{txt:#ffffff:الحلقة الكاملة | بحر من الأمل: كنوز مياه أمريكا | ناشونال جيوغرافيك أبوظبي}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NyCBCzGjjdI",
+          "image": "https://i.ytimg.com/vi/NyCBCzGjjdI/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:46:07}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الحلقة الكاملة | بحر من الأمل: كنوز مياه أمريكا | ناشونال جيوغرافيك أبوظبي}"
+          },
+          "playerLabel": "الحلقة الكاملة | بحر من الأمل: كنوز مياه أمريكا | ناشونال جيوغرافيك أبوظبي",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-t8TdKuOP05E",
+          "type": "default",
+          "title": "{txt:#ffffff:الحلقة الكاملة | تلسكوب فضائي فائق الدقة | ناشونال جيوغرافيك أبوظبي}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=t8TdKuOP05E",
+          "image": "https://i.ytimg.com/vi/t8TdKuOP05E/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:44:08}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الحلقة الكاملة | تلسكوب فضائي فائق الدقة | ناشونال جيوغرافيك أبوظبي}"
+          },
+          "playerLabel": "الحلقة الكاملة | تلسكوب فضائي فائق الدقة | ناشونال جيوغرافيك أبوظبي",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-natgeo-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-natgeo",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-natgeo-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:5 خيارات}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

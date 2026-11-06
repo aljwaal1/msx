@@ -4,9 +4,9 @@
   "important": true,
   "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "private-tv-v3-live",
-  "reuse": true,
+  "flag": "tv-3-1-live",
   "cache": false,
+  "reuse": true,
   "restore": true,
   "refocus": 1,
   "transparent": 1,
@@ -17,12 +17,14 @@
     {
       "items": [
         {
-          "title": "{txt:#ffffff:الجزيرة مباشر}",
-          "playerLabel": "الجزيرة مباشر",
-          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/ajm.png",
-          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Lwbp9WfLslc",
+          "title": "{txt:#ffffff:الجزيرة الإخبارية}",
+          "playerLabel": "الجزيرة الإخبارية • 720p",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F02.m3u8",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/aja.png",
           "options": {
             "type": "pages",
+            "headline": "{txt:#ffffff:الجزيرة • اختيار طريقة التشغيل}",
+            "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
             "template": {
               "type": "default",
               "layout": "0,0,6,2",
@@ -31,22 +33,53 @@
             },
             "items": [
               {
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm.getaj.net%2FAJM%2Findex.m3u8",
-                "playerLabel": "الجزيرة مباشر",
+                "type": "default",
+                "title": "{txt:#ffffff:جودة تلقائية}",
+                "icon": "#ffffff:settings",
                 "color": "#163460",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • تلقائي"
+              },
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:HD 720p}",
+                "icon": "#ffffff:hd",
+                "color": "#163460",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F02.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • 720p"
+              },
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:بث خفيف 540p}",
                 "icon": "#ffffff:play-circle-filled",
-                "title": "{txt:#ffffff:مصدر بث احتياطي}"
+                "color": "#163460",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F03.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • بث خفيف 540p"
+              },
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:540p • مشغّل التلفاز}",
+                "icon": "#ffffff:live-tv",
+                "color": "#163460",
+                "action": "video:https://live-hls-web-aja-gcp.thehlive.com/AJA/03.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • المشغّل الأصلي"
+              },
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:Full HD 1080p}",
+                "icon": "#ffffff:high-quality",
+                "color": "#163460",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F01.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • 1080p"
               }
             ],
-            "headline": "{txt:#ffffff:خيارات التشغيل}",
-            "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
-          "id": "live-1",
-          "badge": "{txt:#ffffff:يوتيوب}",
+          "id": "live-2",
+          "badge": "{txt:#ffffff:HD 720p}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة مباشر}"
+            "headline": "{txt:#172b4d:الجزيرة الإخبارية}"
           },
           "type": "default",
           "color": "#112c50",
@@ -60,14 +93,27 @@
           "offset": "0,0,0,0.25"
         },
         {
-          "title": "{txt:#ffffff:الجزيرة الإخبارية}",
-          "playerLabel": "الجزيرة الإخبارية",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2Findex.m3u8",
-          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/aja.png",
+          "id": "live-now",
+          "type": "default",
+          "title": "{txt:#ffffff:الجزيرة الآن}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2F02.m3u8",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-news.png",
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:HD 720p}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الجزيرة الآن}"
+          },
+          "playerLabel": "الجزيرة الآن • 720p",
           "options": {
             "type": "pages",
-            "headline": "{txt:#ffffff:الجزيرة • اختيار طريقة التشغيل}",
-            "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
+            "headline": "{txt:#ffffff:الجزيرة الآن • خيارات التشغيل}",
             "template": {
               "type": "default",
               "layout": "0,0,6,2",
@@ -78,51 +124,73 @@
               {
                 "type": "default",
                 "title": "{txt:#ffffff:جودة تلقائية}",
-                "icon": "#ffffff:settings",
-                "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2Findex.m3u8",
-                "playerLabel": "الجزيرة الإخبارية • تلقائي"
-              },
-              {
-                "type": "default",
-                "title": "{txt:#ffffff:HD 720p}",
-                "icon": "#ffffff:hd",
-                "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F02.m3u8",
-                "playerLabel": "الجزيرة الإخبارية • 720p"
-              },
-              {
-                "type": "default",
-                "title": "{txt:#ffffff:بث خفيف 540p}",
                 "icon": "#ffffff:play-circle-filled",
                 "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F03.m3u8",
-                "playerLabel": "الجزيرة الإخبارية • بث خفيف 540p"
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
+                "playerLabel": "الجزيرة الآن • تلقائي"
               },
               {
                 "type": "default",
-                "title": "{txt:#ffffff:540p • مشغّل التلفاز}",
-                "icon": "#ffffff:live-tv",
+                "title": "{txt:#ffffff:مشغّل التلفاز • 480p}",
+                "icon": "#ffffff:play-circle-filled",
                 "color": "#163460",
-                "action": "video:https://live-hls-web-aja.getaj.net/AJA/03.m3u8",
-                "playerLabel": "الجزيرة الإخبارية • المشغّل الأصلي"
+                "action": "video:https://live-hls-web-aja2-ll-gcp.thehlive.com/AJA2/03.m3u8",
+                "playerLabel": "الجزيرة الآن • مشغّل التلفاز"
               },
               {
                 "type": "default",
                 "title": "{txt:#ffffff:Full HD 1080p}",
-                "icon": "#ffffff:high-quality",
+                "icon": "#ffffff:play-circle-filled",
                 "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F01.m3u8",
-                "playerLabel": "الجزيرة الإخبارية • 1080p"
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2F01.m3u8",
+                "playerLabel": "الجزيرة الآن • 1080p"
               }
             ],
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
-          "id": "live-2",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "title": "{txt:#ffffff:الجزيرة مباشر}",
+          "playerLabel": "الجزيرة مباشر",
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/ajm.png",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2F03.m3u8",
+          "options": {
+            "type": "pages",
+            "template": {
+              "type": "default",
+              "layout": "0,0,6,2",
+              "color": "#163460",
+              "alignment": "center"
+            },
+            "items": [
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:مشغّل التلفاز • 480p}",
+                "icon": "#ffffff:play-circle-filled",
+                "color": "#163460",
+                "action": "video:https://live-hls-web-ajm-ll-bp.thehlive.com/AJM/03.m3u8",
+                "playerLabel": "الجزيرة مباشر • مشغّل التلفاز"
+              },
+              {
+                "type": "default",
+                "title": "{txt:#ffffff:HD 720p}",
+                "icon": "#ffffff:play-circle-filled",
+                "color": "#163460",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2F02.m3u8",
+                "playerLabel": "الجزيرة مباشر • 720p"
+              }
+            ],
+            "headline": "{txt:#ffffff:خيارات التشغيل}",
+            "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
+            "caption": "{txt:#ffffff:خيارات التشغيل}"
+          },
+          "id": "live-1",
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة الإخبارية}"
+            "headline": "{txt:#172b4d:الجزيرة مباشر}"
           },
           "type": "default",
           "color": "#112c50",
@@ -132,22 +200,22 @@
           "alignment": "title-center",
           "truncation": "title",
           "enumerate": true,
-          "layout": "4,1,4,2",
+          "layout": "8,1,4,2",
           "offset": "0,0,0,0.25"
         },
         {
           "id": "live-2-light",
           "type": "default",
-          "title": "{txt:#ffffff:الجزيرة — بث خفيف}",
+          "title": "{txt:#ffffff:الجزيرة — مشغّل التلفاز}",
           "iconSize": "large",
           "alignment": "title-center",
           "color": "#112c50",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F03.m3u8",
-          "playerLabel": "الجزيرة الإخبارية • بث خفيف 540p",
-          "badge": "{txt:#ffffff:540p}",
+          "action": "video:https://live-hls-web-aja-gcp.thehlive.com/AJA/03.m3u8",
+          "playerLabel": "الجزيرة الإخبارية • مشغّل التلفاز 540p",
+          "badge": "{txt:#ffffff:540p أصلي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة — بث خفيف}"
+            "headline": "{txt:#172b4d:الجزيرة — مشغّل التلفاز}"
           },
           "options": {
             "type": "pages",
@@ -165,7 +233,7 @@
                 "title": "{txt:#ffffff:جودة تلقائية}",
                 "icon": "#ffffff:settings",
                 "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2Findex.m3u8",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
                 "playerLabel": "الجزيرة الإخبارية • تلقائي"
               },
               {
@@ -173,7 +241,7 @@
                 "title": "{txt:#ffffff:HD 720p}",
                 "icon": "#ffffff:hd",
                 "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F02.m3u8",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F02.m3u8",
                 "playerLabel": "الجزيرة الإخبارية • 720p"
               },
               {
@@ -181,7 +249,7 @@
                 "title": "{txt:#ffffff:بث خفيف 540p}",
                 "icon": "#ffffff:play-circle-filled",
                 "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F03.m3u8",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F03.m3u8",
                 "playerLabel": "الجزيرة الإخبارية • بث خفيف 540p"
               },
               {
@@ -189,7 +257,7 @@
                 "title": "{txt:#ffffff:540p • مشغّل التلفاز}",
                 "icon": "#ffffff:live-tv",
                 "color": "#163460",
-                "action": "video:https://live-hls-web-aja.getaj.net/AJA/03.m3u8",
+                "action": "video:https://live-hls-web-aja-gcp.thehlive.com/AJA/03.m3u8",
                 "playerLabel": "الجزيرة الإخبارية • المشغّل الأصلي"
               },
               {
@@ -197,7 +265,7 @@
                 "title": "{txt:#ffffff:Full HD 1080p}",
                 "icon": "#ffffff:high-quality",
                 "color": "#163460",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja.getaj.net%2FAJA%2F01.m3u8",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2F01.m3u8",
                 "playerLabel": "الجزيرة الإخبارية • 1080p"
               }
             ],
@@ -209,35 +277,13 @@
           "truncation": "title",
           "enumerate": true,
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/aja.png",
-          "layout": "8,1,4,2",
-          "offset": "0,0,0,0.25"
-        },
-        {
-          "id": "live-360",
-          "type": "default",
-          "title": "{txt:#ffffff:الجزيرة 360}",
-          "iconSize": "large",
-          "alignment": "title-center",
-          "color": "#112c50",
-          "action": "link:https://aljazeera360.com/home",
-          "badge": "{txt:#ffffff:عند الطلب}",
-          "badgeColor": "#0c2345",
-          "selection": {
-            "headline": "{txt:#172b4d:الجزيرة 360}"
-          },
-          "round": true,
-          "imageOverlay": 0,
-          "imageFiller": "cover",
-          "truncation": "title",
-          "enumerate": true,
-          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/aj360.png",
           "layout": "0,3,4,2",
           "offset": "0,0.35,0,0.25"
         },
         {
           "title": "{txt:#ffffff:فرانس 24 — العربية}",
           "playerLabel": "فرانس 24 العربية",
-          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=3ursYA8HMeo",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/fr-ar.png",
           "options": {
             "type": "pages",
@@ -249,11 +295,12 @@
             },
             "items": [
               {
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037222%2FF24_AR_HI_HLS%2Fmaster_2300.m3u8",
-                "playerLabel": "فرانس 24 العربية",
-                "color": "#163460",
+                "type": "default",
+                "title": "{txt:#ffffff:مشغّل التلفاز}",
                 "icon": "#ffffff:play-circle-filled",
-                "title": "{txt:#ffffff:تشغيل المصدر الاحتياطي}"
+                "color": "#163460",
+                "action": "video:https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+                "playerLabel": "فرانس 24 العربية"
               }
             ],
             "headline": "{txt:#ffffff:خيارات التشغيل}",
@@ -261,7 +308,7 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "id": "live-3",
-          "badge": "{txt:#ffffff:يوتيوب}",
+          "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
             "headline": "{txt:#172b4d:فرانس 24 — العربية}"
@@ -280,7 +327,7 @@
         {
           "title": "{txt:#ffffff:فرانس 24 — الإنجليزية}",
           "playerLabel": "فرانس 24 الإنجليزية",
-          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ap-UM1O9RBU",
+          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/fr-en.png",
           "options": {
             "type": "pages",
@@ -292,11 +339,12 @@
             },
             "items": [
               {
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
-                "playerLabel": "France 24 English",
-                "color": "#163460",
+                "type": "default",
+                "title": "{txt:#ffffff:مشغّل التلفاز}",
                 "icon": "#ffffff:play-circle-filled",
-                "title": "{txt:#ffffff:تشغيل المصدر الاحتياطي}"
+                "color": "#163460",
+                "action": "video:https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+                "playerLabel": "فرانس 24 الإنجليزية"
               }
             ],
             "headline": "{txt:#ffffff:خيارات التشغيل}",
@@ -304,7 +352,7 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "id": "live-4",
-          "badge": "{txt:#ffffff:يوتيوب}",
+          "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
             "headline": "{txt:#172b4d:فرانس 24 — الإنجليزية}"
@@ -323,13 +371,13 @@
         {
           "id": "live-home-0",
           "type": "default",
-          "layout": "0,0,2,1",
           "title": "{txt:#ffffff:الرئيسية}",
-          "centration": "title",
-          "alignment": "center",
-          "color": "#a52b3d",
-          "enumerate": false,
+          "layout": "0,0,2,1",
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-live",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:الرئيسية}"
@@ -337,24 +385,24 @@
           "key": "red"
         },
         {
-          "id": "live-page-count-0",
+          "id": "live-count-0",
           "type": "space",
-          "layout": "2,0,6,1",
           "title": "{txt:#172b4d:الصفحة 1 من 2}",
-          "centration": "title",
+          "layout": "2,0,6,1",
           "alignment": "center",
+          "centration": "title",
           "color": "#f3f6fb"
         },
         {
           "id": "live-next-0",
           "type": "default",
-          "layout": "10,0,2,1",
           "title": "{txt:#ffffff:التالي}",
-          "centration": "title",
-          "alignment": "center",
-          "color": "#112c50",
-          "enumerate": false,
+          "layout": "10,0,2,1",
           "action": "focus:live-5",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:التالي}"
@@ -535,15 +583,37 @@
           "offset": "0,0.35,0,0.25"
         },
         {
+          "id": "live-360",
+          "type": "default",
+          "title": "{txt:#ffffff:الجزيرة 360 • برامج}",
+          "iconSize": "large",
+          "alignment": "title-center",
+          "color": "#112c50",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/docs/aj360.json",
+          "badge": "{txt:#ffffff:مكتبة رسمية}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الجزيرة 360 • برامج}"
+          },
+          "round": true,
+          "imageOverlay": 0,
+          "imageFiller": "cover",
+          "truncation": "title",
+          "enumerate": false,
+          "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/aj360.png",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
           "id": "live-home-1",
           "type": "default",
-          "layout": "0,0,2,1",
           "title": "{txt:#ffffff:الرئيسية}",
-          "centration": "title",
-          "alignment": "center",
-          "color": "#a52b3d",
-          "enumerate": false,
+          "layout": "0,0,2,1",
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-live",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:الرئيسية}"
@@ -551,24 +621,24 @@
           "key": "red"
         },
         {
-          "id": "live-page-count-1",
+          "id": "live-count-1",
           "type": "space",
-          "layout": "2,0,6,1",
           "title": "{txt:#172b4d:الصفحة 2 من 2}",
-          "centration": "title",
+          "layout": "2,0,6,1",
           "alignment": "center",
+          "centration": "title",
           "color": "#f3f6fb"
         },
         {
           "id": "live-prev-1",
           "type": "default",
-          "layout": "8,0,2,1",
           "title": "{txt:#ffffff:السابق}",
-          "centration": "title",
-          "alignment": "center",
+          "layout": "8,0,2,1",
+          "action": "focus:live-2",
           "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
           "enumerate": false,
-          "action": "focus:live-1",
           "round": true,
           "selection": {
             "headline": "{txt:#172b4d:السابق}"

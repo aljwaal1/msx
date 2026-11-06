@@ -1,0 +1,372 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:Free Documentary}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-free-doc",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-H4jRIXwVDKs",
+          "type": "default",
+          "title": "{txt:#ffffff:شعب الأيوريو | باراغواي: يناضلون من أجل البقاء معزولين | فيلم وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=H4jRIXwVDKs",
+          "image": "https://i.ytimg.com/vi/H4jRIXwVDKs/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:22:03}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:شعب الأيوريو | باراغواي: يناضلون من أجل البقاء معزولين | فيلم وثائقي مجاني}"
+          },
+          "playerLabel": "شعب الأيوريو | باراغواي: يناضلون من أجل البقاء معزولين | فيلم وثائقي مجاني",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-cZ-9gfffuZY",
+          "type": "default",
+          "title": "{txt:#ffffff:حياة على ارتفاع 4000 متر | بيرو: كفاح شعب الكيتشوا من أجل البقاء | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=cZ-9gfffuZY",
+          "image": "https://i.ytimg.com/vi/cZ-9gfffuZY/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:22:03}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:حياة على ارتفاع 4000 متر | بيرو: كفاح شعب الكيتشوا من أجل البقاء | وثائقي مجاني}"
+          },
+          "playerLabel": "حياة على ارتفاع 4000 متر | بيرو: كفاح شعب الكيتشوا من أجل البقاء | وثائقي مجاني",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-Vud0P5qWNPU",
+          "type": "default",
+          "title": "{txt:#ffffff:مدينة واحدة، 13 سجناً | داخل عاصمة السجون في أمريكا | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Vud0P5qWNPU",
+          "image": "https://i.ytimg.com/vi/Vud0P5qWNPU/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:58:53}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:مدينة واحدة، 13 سجناً | داخل عاصمة السجون في أمريكا | وثائقي مجاني}"
+          },
+          "playerLabel": "مدينة واحدة، 13 سجناً | داخل عاصمة السجون في أمريكا | وثائقي مجاني",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-SxF7mCAXPVM",
+          "type": "default",
+          "title": "{txt:#ffffff:شعب الكيتشوا | الإكوادور: قبيلة الأمازون التي قاومت | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=SxF7mCAXPVM",
+          "image": "https://i.ytimg.com/vi/SxF7mCAXPVM/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:22:03}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:شعب الكيتشوا | الإكوادور: قبيلة الأمازون التي قاومت | وثائقي مجاني}"
+          },
+          "playerLabel": "شعب الكيتشوا | الإكوادور: قبيلة الأمازون التي قاومت | وثائقي مجاني",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-9vUdCbm6mg0",
+          "type": "default",
+          "title": "{txt:#ffffff:أرض لا تُروى: تونس | حكايات خفية من مفترق طرق شمال أفريقيا | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=9vUdCbm6mg0",
+          "image": "https://i.ytimg.com/vi/9vUdCbm6mg0/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:52:19}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:أرض لا تُروى: تونس | حكايات خفية من مفترق طرق شمال أفريقيا | وثائقي مجاني}"
+          },
+          "playerLabel": "أرض لا تُروى: تونس | حكايات خفية من مفترق طرق شمال أفريقيا | وثائقي مجاني",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-QSNwmBAPGsU",
+          "type": "default",
+          "title": "{txt:#ffffff:أمريكا، ولكن ليس تمامًا: داخل بورتوريكو | فيلم وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=QSNwmBAPGsU",
+          "image": "https://i.ytimg.com/vi/QSNwmBAPGsU/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:52:16}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:أمريكا، ولكن ليس تمامًا: داخل بورتوريكو | فيلم وثائقي مجاني}"
+          },
+          "playerLabel": "أمريكا، ولكن ليس تمامًا: داخل بورتوريكو | فيلم وثائقي مجاني",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-free-doc-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-free-doc",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-free-doc-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-free-doc-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-Z71rCxZ8btg",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-Z71rCxZ8btg",
+          "type": "default",
+          "title": "{txt:#ffffff:World's Toughest Trains | Surviving the Most Extreme Railways on Earth | Free Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Z71rCxZ8btg",
+          "image": "https://i.ytimg.com/vi/Z71rCxZ8btg/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:15:26}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:World's Toughest Trains | Surviving the Most Extreme Railways on Earth | Free Documentary}"
+          },
+          "playerLabel": "World's Toughest Trains | Surviving the Most Extreme Railways on Earth | Free Documentary",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-PTP5gkNo8RI",
+          "type": "default",
+          "title": "{txt:#ffffff:أضخم طائرات الشحن في العالم | نقل المستحيل | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=PTP5gkNo8RI",
+          "image": "https://i.ytimg.com/vi/PTP5gkNo8RI/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:47:05}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:أضخم طائرات الشحن في العالم | نقل المستحيل | وثائقي مجاني}"
+          },
+          "playerLabel": "أضخم طائرات الشحن في العالم | نقل المستحيل | وثائقي مجاني",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-eqtdsS3Rs9Y",
+          "type": "default",
+          "title": "{txt:#ffffff:Concrete Purgatory: The Ultra-Strict Prison Where Privacy Doesn't Exist | Free Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=eqtdsS3Rs9Y",
+          "image": "https://i.ytimg.com/vi/eqtdsS3Rs9Y/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:2:51:09}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Concrete Purgatory: The Ultra-Strict Prison Where Privacy Doesn't Exist | Free Documentary}"
+          },
+          "playerLabel": "Concrete Purgatory: The Ultra-Strict Prison Where Privacy Doesn't Exist | Free Documentary",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-w3Gbo-u7M1M",
+          "type": "default",
+          "title": "{txt:#ffffff:أضخم محطة غسيل سيارات في العالم: أسرار آلة التنظيف العملاقة | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=w3Gbo-u7M1M",
+          "image": "https://i.ytimg.com/vi/w3Gbo-u7M1M/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:49:46}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:أضخم محطة غسيل سيارات في العالم: أسرار آلة التنظيف العملاقة | وثائقي مجاني}"
+          },
+          "playerLabel": "أضخم محطة غسيل سيارات في العالم: أسرار آلة التنظيف العملاقة | وثائقي مجاني",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-6S10meb3NJQ",
+          "type": "default",
+          "title": "{txt:#ffffff:إنتاج Quintus الأصلي: أخطر عمليات الإنقاذ في العالم (إعادة إصدار) - النسخة الرئيسية FD}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6S10meb3NJQ",
+          "image": "https://i.ytimg.com/vi/6S10meb3NJQ/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:48:28}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:إنتاج Quintus الأصلي: أخطر عمليات الإنقاذ في العالم (إعادة إصدار) - النسخة الرئيسية FD}"
+          },
+          "playerLabel": "إنتاج Quintus الأصلي: أخطر عمليات الإنقاذ في العالم (إعادة إصدار) - النسخة الرئيسية FD",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-ESC3uoTQJus",
+          "type": "default",
+          "title": "{txt:#ffffff:السجناء الذين نخشاهم أكثر من غيرهم | داخل سجن شديد الحراسة للقتلة | وثائقي مجاني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=ESC3uoTQJus",
+          "image": "https://i.ytimg.com/vi/ESC3uoTQJus/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:1:33:35}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:السجناء الذين نخشاهم أكثر من غيرهم | داخل سجن شديد الحراسة للقتلة | وثائقي مجاني}"
+          },
+          "playerLabel": "السجناء الذين نخشاهم أكثر من غيرهم | داخل سجن شديد الحراسة للقتلة | وثائقي مجاني",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-free-doc-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-free-doc",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-free-doc-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-free-doc-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-H4jRIXwVDKs",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

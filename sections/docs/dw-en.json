@@ -1,0 +1,372 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:DW Documentary • English}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-dw-en",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-QP4Yh1i3wpk",
+          "type": "default",
+          "title": "{txt:#ffffff:From hate to peace - The power of reconciliation | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=QP4Yh1i3wpk",
+          "image": "https://i.ytimg.com/vi/QP4Yh1i3wpk/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:43:15}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:From hate to peace - The power of reconciliation | DW Documentary}"
+          },
+          "playerLabel": "From hate to peace - The power of reconciliation | DW Documentary",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-Vn80aXWj0O0",
+          "type": "default",
+          "title": "{txt:#ffffff:North Korea - Propaganda and the next generation | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Vn80aXWj0O0",
+          "image": "https://i.ytimg.com/vi/Vn80aXWj0O0/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:43:52}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:North Korea - Propaganda and the next generation | DW Documentary}"
+          },
+          "playerLabel": "North Korea - Propaganda and the next generation | DW Documentary",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-0ZDvKTJSpS4",
+          "type": "default",
+          "title": "{txt:#ffffff:Decoding conflicts - Sudan: The forgotten war | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=0ZDvKTJSpS4",
+          "image": "https://i.ytimg.com/vi/0ZDvKTJSpS4/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:28:15}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Decoding conflicts - Sudan: The forgotten war | DW Documentary}"
+          },
+          "playerLabel": "Decoding conflicts - Sudan: The forgotten war | DW Documentary",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-7eu4CU3IxU4",
+          "type": "default",
+          "title": "{txt:#ffffff:No future in Germany? Why skilled Polish workers are going home | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=7eu4CU3IxU4",
+          "image": "https://i.ytimg.com/vi/7eu4CU3IxU4/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:27:31}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:No future in Germany? Why skilled Polish workers are going home | DW Documentary}"
+          },
+          "playerLabel": "No future in Germany? Why skilled Polish workers are going home | DW Documentary",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-ifEJnQLaMvk",
+          "type": "default",
+          "title": "{txt:#ffffff:Cargo sailboats: A sea change for shipping? | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=ifEJnQLaMvk",
+          "image": "https://i.ytimg.com/vi/ifEJnQLaMvk/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:52:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Cargo sailboats: A sea change for shipping? | DW Documentary}"
+          },
+          "playerLabel": "Cargo sailboats: A sea change for shipping? | DW Documentary",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-M0cDGeD8bLs",
+          "type": "default",
+          "title": "{txt:#ffffff:Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=M0cDGeD8bLs",
+          "image": "https://i.ytimg.com/vi/M0cDGeD8bLs/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:42:32}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary}"
+          },
+          "playerLabel": "Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-dw-en-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-dw-en",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-dw-en-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-dw-en-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-ojOdB-7Dbdg",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-ojOdB-7Dbdg",
+          "type": "default",
+          "title": "{txt:#ffffff:Artificial intelligence and psychotherapy | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=ojOdB-7Dbdg",
+          "image": "https://i.ytimg.com/vi/ojOdB-7Dbdg/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:43:32}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Artificial intelligence and psychotherapy | DW Documentary}"
+          },
+          "playerLabel": "Artificial intelligence and psychotherapy | DW Documentary",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-cQmVOxGwg3g",
+          "type": "default",
+          "title": "{txt:#ffffff:North Korea's alliance with China and Russia | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=cQmVOxGwg3g",
+          "image": "https://i.ytimg.com/vi/cQmVOxGwg3g/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:42:22}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:North Korea's alliance with China and Russia | DW Documentary}"
+          },
+          "playerLabel": "North Korea's alliance with China and Russia | DW Documentary",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-n_rm51MDzog",
+          "type": "default",
+          "title": "{txt:#ffffff:Inside ICE: The fight against Trump's deportations | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=n_rm51MDzog",
+          "image": "https://i.ytimg.com/vi/n_rm51MDzog/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:29:12}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Inside ICE: The fight against Trump's deportations | DW Documentary}"
+          },
+          "playerLabel": "Inside ICE: The fight against Trump's deportations | DW Documentary",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-6OIhk5QBAS8",
+          "type": "default",
+          "title": "{txt:#ffffff:Greece's mobile hospital: Providing medical care to remote islands | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6OIhk5QBAS8",
+          "image": "https://i.ytimg.com/vi/6OIhk5QBAS8/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:27:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Greece's mobile hospital: Providing medical care to remote islands | DW Documentary}"
+          },
+          "playerLabel": "Greece's mobile hospital: Providing medical care to remote islands | DW Documentary",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-EDusb1gev90",
+          "type": "default",
+          "title": "{txt:#ffffff:Afghanistan's raw materials - The race is on | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=EDusb1gev90",
+          "image": "https://i.ytimg.com/vi/EDusb1gev90/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:54:22}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Afghanistan's raw materials - The race is on | DW Documentary}"
+          },
+          "playerLabel": "Afghanistan's raw materials - The race is on | DW Documentary",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-mEDXhHCwO6U",
+          "type": "default",
+          "title": "{txt:#ffffff:Between the czar and Hitler - The forgotten story of the White Army | DW Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=mEDXhHCwO6U",
+          "image": "https://i.ytimg.com/vi/mEDXhHCwO6U/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:42:42}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Between the czar and Hitler - The forgotten story of the White Army | DW Documentary}"
+          },
+          "playerLabel": "Between the czar and Hitler - The forgotten story of the White Army | DW Documentary",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-dw-en-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-dw-en",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-dw-en-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-dw-en-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-QP4Yh1i3wpk",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

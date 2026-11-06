@@ -1,0 +1,136 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:DW الوثائقية • عربي}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-dw-ar",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-OFqHEPhhITg",
+          "type": "default",
+          "title": "{txt:#ffffff:وثائقي | فك رموز الصراعات – لماذا لا يتحدث أحد عن الحرب في السودان؟ | وثائقية دي دبليو}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=OFqHEPhhITg",
+          "image": "https://i.ytimg.com/vi/OFqHEPhhITg/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:28:12}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:وثائقي | فك رموز الصراعات – لماذا لا يتحدث أحد عن الحرب في السودان؟ | وثائقية دي دبليو}"
+          },
+          "playerLabel": "وثائقي | فك رموز الصراعات – لماذا لا يتحدث أحد عن الحرب في السودان؟ | وثائقية دي دبليو",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-GHnIh0-FXNs",
+          "type": "default",
+          "title": "{txt:#ffffff:وثائقي | من الكراهية إلى السلام: قوة المصالحة | وثائقية دي دبليو}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=GHnIh0-FXNs",
+          "image": "https://i.ytimg.com/vi/GHnIh0-FXNs/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:43:12}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:وثائقي | من الكراهية إلى السلام: قوة المصالحة | وثائقية دي دبليو}"
+          },
+          "playerLabel": "وثائقي | من الكراهية إلى السلام: قوة المصالحة | وثائقية دي دبليو",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-MViVP-B9CwM",
+          "type": "default",
+          "title": "{txt:#ffffff:ريبورتاج | قوة عسكرية ألمانية جديدة - هل شباب ألمانيا مستعدون للقتال؟ | وثاقية دي دبليو}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=MViVP-B9CwM",
+          "image": "https://i.ytimg.com/vi/MViVP-B9CwM/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:12:26}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:ريبورتاج | قوة عسكرية ألمانية جديدة - هل شباب ألمانيا مستعدون للقتال؟ | وثاقية دي دبليو}"
+          },
+          "playerLabel": "ريبورتاج | قوة عسكرية ألمانية جديدة - هل شباب ألمانيا مستعدون للقتال؟ | وثاقية دي دبليو",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-QxZbAlIg-Xw",
+          "type": "default",
+          "title": "{txt:#ffffff:وثائقي | لا مستقبل في ألمانيا؟ لماذا يعود العمال البولنديون إلى وطنهم؟ | وثائقية دي دبليو}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=QxZbAlIg-Xw",
+          "image": "https://i.ytimg.com/vi/QxZbAlIg-Xw/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:27:31}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:وثائقي | لا مستقبل في ألمانيا؟ لماذا يعود العمال البولنديون إلى وطنهم؟ | وثائقية دي دبليو}"
+          },
+          "playerLabel": "وثائقي | لا مستقبل في ألمانيا؟ لماذا يعود العمال البولنديون إلى وطنهم؟ | وثائقية دي دبليو",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-dw-ar-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-dw-ar",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-dw-ar-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:4 خيارات}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

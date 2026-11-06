@@ -1,0 +1,372 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:ARTE • وثائقيات}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-arte",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-eWsbd_jtt1k",
+          "type": "default",
+          "title": "{txt:#ffffff:USA Midterms: Let My People Vote! | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=eWsbd_jtt1k",
+          "image": "https://i.ytimg.com/vi/eWsbd_jtt1k/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:24:56}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:USA Midterms: Let My People Vote! | ARTE.tv Documentary}"
+          },
+          "playerLabel": "USA Midterms: Let My People Vote! | ARTE.tv Documentary",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-IrkTo0CRHOI",
+          "type": "default",
+          "title": "{txt:#ffffff:USA: Trump and Latinos | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=IrkTo0CRHOI",
+          "image": "https://i.ytimg.com/vi/IrkTo0CRHOI/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:25:29}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:USA: Trump and Latinos | ARTE.tv Documentary}"
+          },
+          "playerLabel": "USA: Trump and Latinos | ARTE.tv Documentary",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-Xts4AxFbCrA",
+          "type": "default",
+          "title": "{txt:#ffffff:Midterms USA: Cost of Living | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Xts4AxFbCrA",
+          "image": "https://i.ytimg.com/vi/Xts4AxFbCrA/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:9:21}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Midterms USA: Cost of Living | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Midterms USA: Cost of Living | ARTE.tv Documentary",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-Qw4PNJQjuCo",
+          "type": "default",
+          "title": "{txt:#ffffff:Has Europe dropped the ball on biodiversity? | ARTE Europe Weekly}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Qw4PNJQjuCo",
+          "image": "https://i.ytimg.com/vi/Qw4PNJQjuCo/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:10:26}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Has Europe dropped the ball on biodiversity? | ARTE Europe Weekly}"
+          },
+          "playerLabel": "Has Europe dropped the ball on biodiversity? | ARTE Europe Weekly",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-Ou2RxP31h5k",
+          "type": "default",
+          "title": "{txt:#ffffff:USA: Anti-Vaccine Fever | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ou2RxP31h5k",
+          "image": "https://i.ytimg.com/vi/Ou2RxP31h5k/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:25:19}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:USA: Anti-Vaccine Fever | ARTE.tv Documentary}"
+          },
+          "playerLabel": "USA: Anti-Vaccine Fever | ARTE.tv Documentary",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-OW0DtqlAq2o",
+          "type": "default",
+          "title": "{txt:#ffffff:Israel: Orthodox Women's Quiet Revolution | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=OW0DtqlAq2o",
+          "image": "https://i.ytimg.com/vi/OW0DtqlAq2o/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:24:39}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Israel: Orthodox Women's Quiet Revolution | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Israel: Orthodox Women's Quiet Revolution | ARTE.tv Documentary",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-arte-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-arte",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-arte-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-arte-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-6ktSjNybtuk",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-6ktSjNybtuk",
+          "type": "default",
+          "title": "{txt:#ffffff:Israel: Where is the Left? | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6ktSjNybtuk",
+          "image": "https://i.ytimg.com/vi/6ktSjNybtuk/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:12:23}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Israel: Where is the Left? | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Israel: Where is the Left? | ARTE.tv Documentary",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-ugqcu_swoA8",
+          "type": "default",
+          "title": "{txt:#ffffff:Brazil: The BR-163 Corridor (Re-upload) | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=ugqcu_swoA8",
+          "image": "https://i.ytimg.com/vi/ugqcu_swoA8/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:24:58}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Brazil: The BR-163 Corridor (Re-upload) | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Brazil: The BR-163 Corridor (Re-upload) | ARTE.tv Documentary",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-4QB94dP0iOU",
+          "type": "default",
+          "title": "{txt:#ffffff:Brazil: Mothers Against Police Violence | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=4QB94dP0iOU",
+          "image": "https://i.ytimg.com/vi/4QB94dP0iOU/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:25:46}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Brazil: Mothers Against Police Violence | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Brazil: Mothers Against Police Violence | ARTE.tv Documentary",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-SwzDKxn8rRw",
+          "type": "default",
+          "title": "{txt:#ffffff:Brazil: My Uncle the Bolsonaro Supporter | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=SwzDKxn8rRw",
+          "image": "https://i.ytimg.com/vi/SwzDKxn8rRw/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:25:26}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Brazil: My Uncle the Bolsonaro Supporter | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Brazil: My Uncle the Bolsonaro Supporter | ARTE.tv Documentary",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-tTKx37UNOao",
+          "type": "default",
+          "title": "{txt:#ffffff:My MAGA Life | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=tTKx37UNOao",
+          "image": "https://i.ytimg.com/vi/tTKx37UNOao/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:50:53}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:My MAGA Life | ARTE.tv Documentary}"
+          },
+          "playerLabel": "My MAGA Life | ARTE.tv Documentary",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-3xdpPvpDhGE",
+          "type": "default",
+          "title": "{txt:#ffffff:Israel: War Under the Skin | ARTE.tv Documentary}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=3xdpPvpDhGE",
+          "image": "https://i.ytimg.com/vi/3xdpPvpDhGE/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:40:29}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Israel: War Under the Skin | ARTE.tv Documentary}"
+          },
+          "playerLabel": "Israel: War Under the Skin | ARTE.tv Documentary",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-arte-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-arte",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-arte-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-arte-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-eWsbd_jtt1k",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:Timeline • التاريخ}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-timeline",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-DGtE0IAWyss",
+          "type": "default",
+          "title": "{txt:#ffffff:Hitler's Countdown To War: The 18 Months That Plunged The World Into WW2}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=DGtE0IAWyss",
+          "image": "https://i.ytimg.com/vi/DGtE0IAWyss/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:2:14:01}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Hitler's Countdown To War: The 18 Months That Plunged The World Into WW2}"
+          },
+          "playerLabel": "Hitler's Countdown To War: The 18 Months That Plunged The World Into WW2",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-ikP6clhPmLc",
+          "type": "default",
+          "title": "{txt:#ffffff:1980 - 1999: خفايا الفصل الأخير المضطرب من الحرب الباردة}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=ikP6clhPmLc",
+          "image": "https://i.ytimg.com/vi/ikP6clhPmLc/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:1:47:21}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:1980 - 1999: خفايا الفصل الأخير المضطرب من الحرب الباردة}"
+          },
+          "playerLabel": "1980 - 1999: خفايا الفصل الأخير المضطرب من الحرب الباردة",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-k5REC5e9lBo",
+          "type": "default",
+          "title": "{txt:#ffffff:علماء آثار يكتشفون حطام طائرة B17 التي تحطمت في نورفولك}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=k5REC5e9lBo",
+          "image": "https://i.ytimg.com/vi/k5REC5e9lBo/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:50:32}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:علماء آثار يكتشفون حطام طائرة B17 التي تحطمت في نورفولك}"
+          },
+          "playerLabel": "علماء آثار يكتشفون حطام طائرة B17 التي تحطمت في نورفولك",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-nGq6d7r1cK8",
+          "type": "default",
+          "title": "{txt:#ffffff:1960 - 1985: The Most Critical Turning Points Of The Cold War}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=nGq6d7r1cK8",
+          "image": "https://i.ytimg.com/vi/nGq6d7r1cK8/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:2:33:58}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:1960 - 1985: The Most Critical Turning Points Of The Cold War}"
+          },
+          "playerLabel": "1960 - 1985: The Most Critical Turning Points Of The Cold War",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-UjBI94TZcsE",
+          "type": "default",
+          "title": "{txt:#ffffff:Archeologists Investigate The Secret Fortress Built To Protect London From Hitler}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=UjBI94TZcsE",
+          "image": "https://i.ytimg.com/vi/UjBI94TZcsE/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:48:26}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:Archeologists Investigate The Secret Fortress Built To Protect London From Hitler}"
+          },
+          "playerLabel": "Archeologists Investigate The Secret Fortress Built To Protect London From Hitler",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-57nbg7aXSAg",
+          "type": "default",
+          "title": "{txt:#ffffff:1945 - 1961: The Complete Story Of The Early Cold War}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=57nbg7aXSAg",
+          "image": "https://i.ytimg.com/vi/57nbg7aXSAg/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:2:32:19}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:1945 - 1961: The Complete Story Of The Early Cold War}"
+          },
+          "playerLabel": "1945 - 1961: The Complete Story Of The Early Cold War",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-timeline-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-timeline",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-timeline-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-timeline-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-s6UBugpwFxE",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-s6UBugpwFxE",
+          "type": "default",
+          "title": "{txt:#ffffff:علماء آثار ينقبون عن قاذفة قنابل محطمة من الحرب العالمية الثانية}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=s6UBugpwFxE",
+          "image": "https://i.ytimg.com/vi/s6UBugpwFxE/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:48:42}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:علماء آثار ينقبون عن قاذفة قنابل محطمة من الحرب العالمية الثانية}"
+          },
+          "playerLabel": "علماء آثار ينقبون عن قاذفة قنابل محطمة من الحرب العالمية الثانية",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "library-timeline-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-timeline",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-timeline-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-timeline-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-DGtE0IAWyss",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

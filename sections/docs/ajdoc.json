@@ -1,0 +1,372 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:مكتبة الجزيرة الوثائقية}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الوثائقيات}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-ajdoc",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-srCJOjtKJ3s",
+          "type": "default",
+          "title": "{txt:#ffffff:الاستعداد لغزو أوروبا.. كيف أعاد هتلر بناء الجيش الألماني بالدبابات؟}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=srCJOjtKJ3s",
+          "image": "https://i.ytimg.com/vi/srCJOjtKJ3s/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:45:05}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الاستعداد لغزو أوروبا.. كيف أعاد هتلر بناء الجيش الألماني بالدبابات؟}"
+          },
+          "playerLabel": "الاستعداد لغزو أوروبا.. كيف أعاد هتلر بناء الجيش الألماني بالدبابات؟",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-OoE8skAQejI",
+          "type": "default",
+          "title": "{txt:#ffffff:فيتنام.. أبناء الرماد | فيتنامي يواجه أباه الجندي الأمريكي الذي قتل شعبه}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=OoE8skAQejI",
+          "image": "https://i.ytimg.com/vi/OoE8skAQejI/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:54:56}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:فيتنام.. أبناء الرماد | فيتنامي يواجه أباه الجندي الأمريكي الذي قتل شعبه}"
+          },
+          "playerLabel": "فيتنام.. أبناء الرماد | فيتنامي يواجه أباه الجندي الأمريكي الذي قتل شعبه",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-pLtwyZvmUqU",
+          "type": "default",
+          "title": "{txt:#ffffff:ذهب الغابة.. ثمن تجارة العود القاتل}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=pLtwyZvmUqU",
+          "image": "https://i.ytimg.com/vi/pLtwyZvmUqU/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:46:55}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:ذهب الغابة.. ثمن تجارة العود القاتل}"
+          },
+          "playerLabel": "ذهب الغابة.. ثمن تجارة العود القاتل",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-nOZRn3E0gcc",
+          "type": "default",
+          "title": "{txt:#ffffff:معركة هرمجدون | أسرار العقيدة التي تحرك دعم أمريكا لإسرائيل}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=nOZRn3E0gcc",
+          "image": "https://i.ytimg.com/vi/nOZRn3E0gcc/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:47:27}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:معركة هرمجدون | أسرار العقيدة التي تحرك دعم أمريكا لإسرائيل}"
+          },
+          "playerLabel": "معركة هرمجدون | أسرار العقيدة التي تحرك دعم أمريكا لإسرائيل",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film--b4Gb7QXOFE",
+          "type": "default",
+          "title": "{txt:#ffffff:خزانة الجزري المشفرة.. كيف تحمي أسرارها بالحروف العربية؟}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=-b4Gb7QXOFE",
+          "image": "https://i.ytimg.com/vi/-b4Gb7QXOFE/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:5:51}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:خزانة الجزري المشفرة.. كيف تحمي أسرارها بالحروف العربية؟}"
+          },
+          "playerLabel": "خزانة الجزري المشفرة.. كيف تحمي أسرارها بالحروف العربية؟",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-R6Wr9D1zXXM",
+          "type": "default",
+          "title": "{txt:#ffffff:البشري | القاضي الذي انقلب على أفكاره العلمانية بعد نكسة 1967}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=R6Wr9D1zXXM",
+          "image": "https://i.ytimg.com/vi/R6Wr9D1zXXM/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:52:17}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:البشري | القاضي الذي انقلب على أفكاره العلمانية بعد نكسة 1967}"
+          },
+          "playerLabel": "البشري | القاضي الذي انقلب على أفكاره العلمانية بعد نكسة 1967",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-ajdoc-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-ajdoc",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-ajdoc-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-ajdoc-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-VCL2KhhFZjk",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-VCL2KhhFZjk",
+          "type": "default",
+          "title": "{txt:#ffffff:تشي غيفارا.. الصورة الأكثر شعبية في التاريخ | كيف أصبح رمزا عالميا؟}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=VCL2KhhFZjk",
+          "image": "https://i.ytimg.com/vi/VCL2KhhFZjk/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:52:58}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:تشي غيفارا.. الصورة الأكثر شعبية في التاريخ | كيف أصبح رمزا عالميا؟}"
+          },
+          "playerLabel": "تشي غيفارا.. الصورة الأكثر شعبية في التاريخ | كيف أصبح رمزا عالميا؟",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-tOJAuXBeerU",
+          "type": "default",
+          "title": "{txt:#ffffff:ناعورة أبي العافية.. حلم دفع الملكة إيزابيلا إلى إزالة عجلتها في قرطبة}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=tOJAuXBeerU",
+          "image": "https://i.ytimg.com/vi/tOJAuXBeerU/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:5:01}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:ناعورة أبي العافية.. حلم دفع الملكة إيزابيلا إلى إزالة عجلتها في قرطبة}"
+          },
+          "playerLabel": "ناعورة أبي العافية.. حلم دفع الملكة إيزابيلا إلى إزالة عجلتها في قرطبة",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film--O3QABoctIs",
+          "type": "default",
+          "title": "{txt:#ffffff:صراع المصائر الحلقة 1: الجوع والتمرد وسقوط القيصر الألماني}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=-O3QABoctIs",
+          "image": "https://i.ytimg.com/vi/-O3QABoctIs/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:51:22}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:صراع المصائر الحلقة 1: الجوع والتمرد وسقوط القيصر الألماني}"
+          },
+          "playerLabel": "صراع المصائر الحلقة 1: الجوع والتمرد وسقوط القيصر الألماني",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-NPW66YPrljI",
+          "type": "default",
+          "title": "{txt:#ffffff:نساء بورقيبة.. الحب والخيانة ومعركة تحرير المرأة في تونس}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=NPW66YPrljI",
+          "image": "https://i.ytimg.com/vi/NPW66YPrljI/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:1:04:06}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:نساء بورقيبة.. الحب والخيانة ومعركة تحرير المرأة في تونس}"
+          },
+          "playerLabel": "نساء بورقيبة.. الحب والخيانة ومعركة تحرير المرأة في تونس",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-POG4mg9EjOw",
+          "type": "default",
+          "title": "{txt:#ffffff:تيك توك.. كيف أصبحت الخوارزميات سلاحا سياسيا؟}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=POG4mg9EjOw",
+          "image": "https://i.ytimg.com/vi/POG4mg9EjOw/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:48:33}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:تيك توك.. كيف أصبحت الخوارزميات سلاحا سياسيا؟}"
+          },
+          "playerLabel": "تيك توك.. كيف أصبحت الخوارزميات سلاحا سياسيا؟",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-l2eWinge3pc",
+          "type": "default",
+          "title": "{txt:#ffffff:الزحافة.. كيف صمّم عالم مسلم آلة تشبه الدبابة؟}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=l2eWinge3pc",
+          "image": "https://i.ytimg.com/vi/l2eWinge3pc/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:5:45}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الزحافة.. كيف صمّم عالم مسلم آلة تشبه الدبابة؟}"
+          },
+          "playerLabel": "الزحافة.. كيف صمّم عالم مسلم آلة تشبه الدبابة؟",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-ajdoc-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الوثائقيات}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/documentary.json>doc-ajdoc",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الوثائقيات}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-ajdoc-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-ajdoc-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-srCJOjtKJ3s",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}

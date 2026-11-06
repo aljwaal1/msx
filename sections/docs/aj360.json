@@ -1,0 +1,262 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:الجزيرة 360 • برامج رسمية}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الأخبار}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-3-1-library-aj360",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "film-Ma17bzQX2eA",
+          "type": "default",
+          "title": "{txt:#ffffff:الجزيرة تدشن عقدها الرابع.. وتروي حكايتها كما لم ترو.}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Ma17bzQX2eA",
+          "image": "https://i.ytimg.com/vi/Ma17bzQX2eA/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:10:31}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:الجزيرة تدشن عقدها الرابع.. وتروي حكايتها كما لم ترو.}"
+          },
+          "playerLabel": "الجزيرة تدشن عقدها الرابع.. وتروي حكايتها كما لم ترو.",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-DLZ3sH5Jt2o",
+          "type": "default",
+          "title": "{txt:#ffffff:«غانيميد» | مع تميم}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=DLZ3sH5Jt2o",
+          "image": "https://i.ytimg.com/vi/DLZ3sH5Jt2o/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:5:09}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:«غانيميد» | مع تميم}"
+          },
+          "playerLabel": "«غانيميد» | مع تميم",
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-B9_yF5QhVog",
+          "type": "default",
+          "title": "{txt:#ffffff:كيف يحافظ الصحفي على دقته واتزانه حين تصبح المأساة التي ينقلها مأساته الشخصية؟}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=B9_yF5QhVog",
+          "image": "https://i.ytimg.com/vi/B9_yF5QhVog/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:42}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:كيف يحافظ الصحفي على دقته واتزانه حين تصبح المأساة التي ينقلها مأساته الشخصية؟}"
+          },
+          "playerLabel": "كيف يحافظ الصحفي على دقته واتزانه حين تصبح المأساة التي ينقلها مأساته الشخصية؟",
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "film-mmTpLtz9f8Y",
+          "type": "default",
+          "title": "{txt:#ffffff:شهادة وائل الدحدوح حول واقع العمل الصحفي خلال حرب الإبادة الإسرائيلية}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=mmTpLtz9f8Y",
+          "image": "https://i.ytimg.com/vi/mmTpLtz9f8Y/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:4:32}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:شهادة وائل الدحدوح حول واقع العمل الصحفي خلال حرب الإبادة الإسرائيلية}"
+          },
+          "playerLabel": "شهادة وائل الدحدوح حول واقع العمل الصحفي خلال حرب الإبادة الإسرائيلية",
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-0-ymLoz7w6Y",
+          "type": "default",
+          "title": "{txt:#ffffff:معنى فلسطين | مع تميم}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=0-ymLoz7w6Y",
+          "image": "https://i.ytimg.com/vi/0-ymLoz7w6Y/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:4:25}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:معنى فلسطين | مع تميم}"
+          },
+          "playerLabel": "معنى فلسطين | مع تميم",
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "film-a9Nw5ujmY-o",
+          "type": "default",
+          "title": "{txt:#ffffff:شهادة عبد الناصر عيسى | شاهد على العصر}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=a9Nw5ujmY-o",
+          "image": "https://i.ytimg.com/vi/a9Nw5ujmY-o/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:02}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:شهادة عبد الناصر عيسى | شاهد على العصر}"
+          },
+          "playerLabel": "شهادة عبد الناصر عيسى | شاهد على العصر",
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "library-aj360-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الأخبار}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json>live-360",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الأخبار}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-aj360-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-aj360-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:film-9SvAgxRc3W8",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "film-9SvAgxRc3W8",
+          "type": "default",
+          "title": "{txt:#ffffff:قوة السيف الرهف | مع تميم}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=9SvAgxRc3W8",
+          "image": "https://i.ytimg.com/vi/9SvAgxRc3W8/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:3:20}",
+          "badgeColor": "#0c2345",
+          "selection": {
+            "headline": "{txt:#172b4d:قوة السيف الرهف | مع تميم}"
+          },
+          "playerLabel": "قوة السيف الرهف | مع تميم",
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "library-aj360-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الأخبار}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json>live-360",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الأخبار}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "library-aj360-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "library-aj360-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:film-Ma17bzQX2eA",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}
