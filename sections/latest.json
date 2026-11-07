@@ -4,7 +4,7 @@
   "important": true,
   "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "private-tv-v3-latest",
+  "flag": "tv-latest-3-1-1",
   "reuse": true,
   "cache": false,
   "restore": true,
@@ -17,14 +17,14 @@
     {
       "items": [
         {
-          "title": "{txt:#ffffff:BBC — تعلّم الإنجليزية}",
-          "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html",
+          "title": "{txt:#ffffff:BBC • دروس الإنجليزية}",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/bbc_learning.json",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/bbc.png",
-          "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+          "badge": "{txt:#ffffff:دروس جاهزة}",
           "badgeColor": "#0c2345",
           "id": "latest-1",
           "selection": {
-            "headline": "{txt:#172b4d:BBC — تعلّم الإنجليزية}"
+            "headline": "{txt:#172b4d:BBC • دروس الإنجليزية}"
           },
           "type": "default",
           "color": "#112c50",

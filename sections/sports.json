@@ -4,7 +4,7 @@
   "important": true,
   "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "private-tv-v3-sports",
+  "flag": "tv-3-1-1-sports",
   "reuse": true,
   "cache": false,
   "restore": true,
@@ -89,15 +89,15 @@
           "offset": "0,0,0,0.25"
         },
         {
-          "title": "{txt:#ffffff:بي إن سبورت الإخبارية}",
-          "playerLabel": "beIN SPORTS الإخبارية",
+          "title": "{txt:#ffffff:بي إن SPORTS}",
+          "playerLabel": "beIN SPORTS • البث الرسمي",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/bein.png",
-          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=O_02mf1vpQo",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/bein_official.json",
           "id": "sports-2",
-          "badge": "{txt:#ffffff:يوتيوب}",
+          "badge": "{txt:#ffffff:المشاهدة الرسمية}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:بي إن سبورت الإخبارية}"
+            "headline": "{txt:#172b4d:بي إن SPORTS}"
           },
           "type": "default",
           "color": "#112c50",
@@ -106,7 +106,7 @@
           "imageFiller": "cover",
           "alignment": "title-center",
           "truncation": "title",
-          "enumerate": true,
+          "enumerate": false,
           "layout": "4,1,4,2",
           "offset": "0,0,0,0.25"
         },

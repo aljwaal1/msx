@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "style": "flat",
@@ -18,7 +18,7 @@
         "important": true,
         "extension": "{txt:#172b4d:موافق: فتح • يسار: القائمة}",
         "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-        "flag": "private-tv-home-v3-1",
+        "flag": "private-tv-home-v3-1-1",
         "refocus": 1,
         "cache": false,
         "reuse": true,
@@ -570,7 +570,7 @@
       }
     }
   ],
-  "flag": "private-tv-menu-v3-1",
+  "flag": "private-tv-menu-v3-1-1",
   "refocus": 1,
   "options": {
     "type": "pages",

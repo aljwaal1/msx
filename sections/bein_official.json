@@ -1,0 +1,62 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:بي إن SPORTS • المصدر الرسمي}",
+  "important": true,
+  "extension": "{txt:#172b4d:الناشر يمنع البث داخل MSX}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-bein-official-3-1-1",
+  "cache": false,
+  "refocus": 1,
+  "transparent": 1,
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "transparent": 1,
+      "items": [
+        {
+          "id": "bein-watch",
+          "type": "default",
+          "layout": "0,1,6,3",
+          "title": "{txt:#ffffff:رابط المشاهدة على YouTube}",
+          "icon": "#ffffff:open-in-new",
+          "color": "#112c50",
+          "alignment": "title-center",
+          "action": "link:window:https://www.youtube.com/watch?v=ekMxMIexsJ8",
+          "selection": {
+            "headline": "{txt:#172b4d:رابط المشاهدة الرسمي}"
+          },
+          "enumerate": false
+        },
+        {
+          "id": "bein-instructions",
+          "type": "default",
+          "layout": "6,1,6,3",
+          "title": "{txt:#ffffff:طريقة المشاهدة على التلفاز}",
+          "icon": "#ffffff:info",
+          "color": "#112c50",
+          "alignment": "title-center",
+          "action": "info:بي إن تمنع عرض البث الحالي داخل المواقع والتطبيقات الخارجية، ومنها MSX. افتح تطبيق YouTube الموجود على تلفازك، وابحث عن beIN SPORTS، ثم اختر البث المباشر من القناة الرسمية.",
+          "selection": {
+            "headline": "{txt:#172b4d:شاهد عبر تطبيق YouTube}"
+          },
+          "enumerate": false
+        },
+        {
+          "id": "bein-back",
+          "type": "default",
+          "layout": "0,0,2,1",
+          "title": "{txt:#ffffff:الرياضة}",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json>sports-2",
+          "key": "red",
+          "selection": {
+            "headline": "{txt:#172b4d:القنوات الرياضية}"
+          },
+          "enumerate": false
+        }
+      ]
+    }
+  ]
+}

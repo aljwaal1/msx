@@ -4,7 +4,7 @@
   "important": true,
   "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "private-tv-v3-learn_english",
+  "flag": "tv-learn-3-1-1",
   "reuse": true,
   "cache": false,
   "restore": true,
@@ -17,14 +17,14 @@
     {
       "items": [
         {
-          "title": "{txt:#ffffff:أحدث دروس BBC}",
+          "title": "{txt:#ffffff:دروس BBC Learning English}",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/bbc.png",
-          "action": "content:request:interaction:https://yt.msx.benzac.de/services/feeds.php?topic=BBC%20Learning%20English&channels=%40bbclearningenglish@https://msx.benzac.de/interaction/mrss.html",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/bbc_learning.json",
           "id": "learn_english-1",
-          "badge": "{txt:#ffffff:أحدث الفيديوهات}",
+          "badge": "{txt:#ffffff:12 درسًا}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:أحدث دروس BBC}"
+            "headline": "{txt:#172b4d:دروس BBC Learning English}"
           },
           "type": "default",
           "color": "#112c50",

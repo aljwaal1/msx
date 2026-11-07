@@ -1,0 +1,372 @@
+{
+  "type": "pages",
+  "headline": "{txt:#172b4d:BBC Learning English • دروس}",
+  "important": true,
+  "extension": "{txt:#172b4d:موافق: تشغيل • الأحمر: الإنجليزية}",
+  "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
+  "flag": "tv-bbc-3-1-1",
+  "cache": false,
+  "reuse": true,
+  "restore": true,
+  "refocus": 1,
+  "transparent": 1,
+  "wrap": false,
+  "preload": "none",
+  "captionUnderlay": 1,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "bbc--ukHyqiEH1U",
+          "type": "default",
+          "title": "{txt:#ffffff:Could vaccines cure cancer? ⏲️ 6 Minute English}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=-ukHyqiEH1U",
+          "image": "https://i.ytimg.com/vi/-ukHyqiEH1U/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:6:07}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Could vaccines cure cancer? ⏲️ 6 Minute English",
+          "selection": {
+            "headline": "{txt:#172b4d:Could vaccines cure cancer? ⏲️ 6 Minute English}"
+          },
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "bbc-6eBEGgGegOE",
+          "type": "default",
+          "title": "{txt:#ffffff:Food goes to waste | BBC Learning English from the News}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=6eBEGgGegOE",
+          "image": "https://i.ytimg.com/vi/6eBEGgGegOE/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:7:47}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Food goes to waste | BBC Learning English from the News",
+          "selection": {
+            "headline": "{txt:#172b4d:Food goes to waste | BBC Learning English from the News}"
+          },
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "bbc-uT8loXNAnzc",
+          "type": "default",
+          "title": "{txt:#ffffff:🌧️ Is the weather in the UK really that bad? | Weather words}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=uT8loXNAnzc",
+          "image": "https://i.ytimg.com/vi/uT8loXNAnzc/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:4:51}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "🌧️ Is the weather in the UK really that bad? | Weather words",
+          "selection": {
+            "headline": "{txt:#172b4d:🌧️ Is the weather in the UK really that bad? | Weather words}"
+          },
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "bbc-LMtpF7ZQqGA",
+          "type": "default",
+          "title": "{txt:#ffffff:Octopuses or dolphins? 🐙🐬 Which is your favourite? | Improve your listening with Real Easy English}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=LMtpF7ZQqGA",
+          "image": "https://i.ytimg.com/vi/LMtpF7ZQqGA/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:4:59}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Octopuses or dolphins? 🐙🐬 Which is your favourite? | Improve your listening with Real Easy English",
+          "selection": {
+            "headline": "{txt:#172b4d:Octopuses or dolphins? 🐙🐬 Which is your favourite? | Improve your listening with Real Easy English}"
+          },
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "bbc-npka43vhwNo",
+          "type": "default",
+          "title": "{txt:#ffffff:Is aircon the answer to a heating world? ⏲️ 6 Minute English}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=npka43vhwNo",
+          "image": "https://i.ytimg.com/vi/npka43vhwNo/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:6:14}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Is aircon the answer to a heating world? ⏲️ 6 Minute English",
+          "selection": {
+            "headline": "{txt:#172b4d:Is aircon the answer to a heating world? ⏲️ 6 Minute English}"
+          },
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "bbc-8P1StZMmGJ8",
+          "type": "default",
+          "title": "{txt:#ffffff:Lula surprises many with fourth election win | BBC Learning English from the News}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=8P1StZMmGJ8",
+          "image": "https://i.ytimg.com/vi/8P1StZMmGJ8/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:8:12}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Lula surprises many with fourth election win | BBC Learning English from the News",
+          "selection": {
+            "headline": "{txt:#172b4d:Lula surprises many with fourth election win | BBC Learning English from the News}"
+          },
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "bbc-home-0",
+          "type": "default",
+          "title": "{txt:#ffffff:الإنجليزية}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json>learn_english-1",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الإنجليزية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "bbc-count-0",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 1 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "bbc-next-0",
+          "type": "default",
+          "title": "{txt:#ffffff:التالي}",
+          "layout": "10,0,2,1",
+          "action": "focus:bbc-4uviHrd2Zh4",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:التالي}"
+          }
+        }
+      ],
+      "transparent": 1
+    },
+    {
+      "items": [
+        {
+          "id": "bbc-4uviHrd2Zh4",
+          "type": "default",
+          "title": "{txt:#ffffff:'Weird & wonderful' - 6 Minute English Box Set}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=4uviHrd2Zh4",
+          "image": "https://i.ytimg.com/vi/4uviHrd2Zh4/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:30:26}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "'Weird & wonderful' - 6 Minute English Box Set",
+          "selection": {
+            "headline": "{txt:#172b4d:'Weird & wonderful' - 6 Minute English Box Set}"
+          },
+          "layout": "0,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "bbc-VFA53-P4yPo",
+          "type": "default",
+          "title": "{txt:#ffffff:Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=VFA53-P4yPo",
+          "image": "https://i.ytimg.com/vi/VFA53-P4yPo/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:6:22}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English",
+          "selection": {
+            "headline": "{txt:#172b4d:Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English}"
+          },
+          "layout": "4,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "bbc-pjFlVc-EDzc",
+          "type": "default",
+          "title": "{txt:#ffffff:What should you eat for a better night’s sleep? ⏲️ 6 Minute English}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=pjFlVc-EDzc",
+          "image": "https://i.ytimg.com/vi/pjFlVc-EDzc/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:6:33}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "What should you eat for a better night’s sleep? ⏲️ 6 Minute English",
+          "selection": {
+            "headline": "{txt:#172b4d:What should you eat for a better night’s sleep? ⏲️ 6 Minute English}"
+          },
+          "layout": "8,1,4,2",
+          "offset": "0,0,0,0.25"
+        },
+        {
+          "id": "bbc-JYjXBX5kVCg",
+          "type": "default",
+          "title": "{txt:#ffffff:Why are so many young people around the world protesting? | BBC Learning English from the News}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=JYjXBX5kVCg",
+          "image": "https://i.ytimg.com/vi/JYjXBX5kVCg/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:7:58}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "Why are so many young people around the world protesting? | BBC Learning English from the News",
+          "selection": {
+            "headline": "{txt:#172b4d:Why are so many young people around the world protesting? | BBC Learning English from the News}"
+          },
+          "layout": "0,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "bbc-Z5sjzG4ZF_w",
+          "type": "default",
+          "title": "{txt:#ffffff:👄George's travel hot spots | Pronunciation Shadowing}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=Z5sjzG4ZF_w",
+          "image": "https://i.ytimg.com/vi/Z5sjzG4ZF_w/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:7:34}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "👄George's travel hot spots | Pronunciation Shadowing",
+          "selection": {
+            "headline": "{txt:#172b4d:👄George's travel hot spots | Pronunciation Shadowing}"
+          },
+          "layout": "4,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "bbc-KHimUkNBDiQ",
+          "type": "default",
+          "title": "{txt:#ffffff:What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English}",
+          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=KHimUkNBDiQ",
+          "image": "https://i.ytimg.com/vi/KHimUkNBDiQ/hqdefault.jpg",
+          "imageOverlay": 1,
+          "imageFiller": "cover",
+          "color": "#112c50",
+          "round": true,
+          "alignment": "title-center",
+          "truncation": "title",
+          "enumerate": true,
+          "badge": "{txt:#ffffff:6:59}",
+          "badgeColor": "#0c2345",
+          "playerLabel": "What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English",
+          "selection": {
+            "headline": "{txt:#172b4d:What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English}"
+          },
+          "layout": "8,3,4,2",
+          "offset": "0,0.35,0,0.25"
+        },
+        {
+          "id": "bbc-home-1",
+          "type": "default",
+          "title": "{txt:#ffffff:الإنجليزية}",
+          "layout": "0,0,2,1",
+          "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/learn_english.json>learn_english-1",
+          "color": "#a52b3d",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:الإنجليزية}"
+          },
+          "key": "red"
+        },
+        {
+          "id": "bbc-count-1",
+          "type": "space",
+          "title": "{txt:#172b4d:الصفحة 2 من 2}",
+          "layout": "2,0,6,1",
+          "alignment": "center",
+          "centration": "title",
+          "color": "#f3f6fb"
+        },
+        {
+          "id": "bbc-prev-1",
+          "type": "default",
+          "title": "{txt:#ffffff:السابق}",
+          "layout": "8,0,2,1",
+          "action": "focus:bbc--ukHyqiEH1U",
+          "color": "#112c50",
+          "alignment": "center",
+          "centration": "title",
+          "enumerate": false,
+          "round": true,
+          "selection": {
+            "headline": "{txt:#172b4d:السابق}"
+          }
+        }
+      ],
+      "transparent": 1
+    }
+  ]
+}
