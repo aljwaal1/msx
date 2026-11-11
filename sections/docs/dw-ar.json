@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:28:12}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:وثائقي | فك رموز الصراعات – لماذا لا يتحدث أحد عن الحرب في السودان؟ | وثائقية دي دبليو}"
+            "headline": "{txt:#004b72:وثائقي | فك رموز الصراعات – لماذا لا يتحدث أحد عن الحرب في السودان؟ | وثائقية دي دبليو}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "وثائقي | فك رموز الصراعات – لماذا لا يتحدث أحد عن الحرب في السودان؟ | وثائقية دي دبليو",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:43:12}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:وثائقي | من الكراهية إلى السلام: قوة المصالحة | وثائقية دي دبليو}"
+            "headline": "{txt:#004b72:وثائقي | من الكراهية إلى السلام: قوة المصالحة | وثائقية دي دبليو}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "وثائقي | من الكراهية إلى السلام: قوة المصالحة | وثائقية دي دبليو",
           "layout": "4,1,4,2",
@@ -76,7 +110,24 @@
           "badge": "{txt:#ffffff:12:26}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:ريبورتاج | قوة عسكرية ألمانية جديدة - هل شباب ألمانيا مستعدون للقتال؟ | وثاقية دي دبليو}"
+            "headline": "{txt:#004b72:ريبورتاج | قوة عسكرية ألمانية جديدة - هل شباب ألمانيا مستعدون للقتال؟ | وثاقية دي دبليو}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "ريبورتاج | قوة عسكرية ألمانية جديدة - هل شباب ألمانيا مستعدون للقتال؟ | وثاقية دي دبليو",
           "layout": "8,1,4,2",
@@ -98,7 +149,24 @@
           "badge": "{txt:#ffffff:27:31}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:وثائقي | لا مستقبل في ألمانيا؟ لماذا يعود العمال البولنديون إلى وطنهم؟ | وثائقية دي دبليو}"
+            "headline": "{txt:#004b72:وثائقي | لا مستقبل في ألمانيا؟ لماذا يعود العمال البولنديون إلى وطنهم؟ | وثائقية دي دبليو}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "وثائقي | لا مستقبل في ألمانيا؟ لماذا يعود العمال البولنديون إلى وطنهم؟ | وثائقية دي دبليو",
           "layout": "0,3,4,2",
@@ -116,7 +184,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -132,5 +217,44 @@
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

@@ -22,7 +22,24 @@
           "id": "help-1",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:طريقة التنقل}"
+            "headline": "{txt:#004b72:طريقة التنقل}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:طريقة التنقل}",
@@ -41,7 +58,24 @@
           "id": "help-2",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:تحديث التطبيق}"
+            "headline": "{txt:#004b72:تحديث التطبيق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:تحديث التطبيق}",
@@ -68,7 +102,24 @@
           "truncation": "title",
           "enumerate": true,
           "selection": {
-            "headline": "{txt:#172b4d:معلومات القنوات}"
+            "headline": "{txt:#004b72:معلومات القنوات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,1,4,2",
           "offset": "0,0,0,0.25"
@@ -79,7 +130,24 @@
           "id": "help-6",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:تحديث فيديوهات يوتيوب}"
+            "headline": "{txt:#004b72:تحديث فيديوهات يوتيوب}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:تحديث فيديوهات يوتيوب}",
@@ -94,11 +162,28 @@
         },
         {
           "icon": "#ffffff:verified",
-          "action": "info:تلفزيون خصوصي 3.1.1 — واجهة موحّدة وصور خفيفة، شريط عودة صغير، أزرار واضحة للصفحات والعودة إلى القسم المحدد.",
+          "action": "info:تلفزيون خصوصي 3.1.2 — الشريط الذهبي يحدد البطاقة الحالية، ويظهر اسمها أعلى الشاشة عند التنقل.",
           "id": "help-7",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:حول تلفزيون خصوصي}"
+            "headline": "{txt:#004b72:حول تلفزيون خصوصي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:حول تلفزيون خصوصي}",
@@ -123,7 +208,24 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-help",
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الرئيسية}"
+            "headline": "{txt:#004b72:الرئيسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -139,5 +241,51 @@
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

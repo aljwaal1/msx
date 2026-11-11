@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:47:27}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Sir David Attenborough Narrates Unforgettable Moments From Planet Earth II | BBC Earth}"
+            "headline": "{txt:#004b72:Sir David Attenborough Narrates Unforgettable Moments From Planet Earth II | BBC Earth}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Sir David Attenborough Narrates Unforgettable Moments From Planet Earth II | BBC Earth",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:3:19}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:السبب المقزز وراء ملاحقة هذه الأسماك لحيوان الأطوم | كوكب الأرض الثالث | 4K | BBC Earth}"
+            "headline": "{txt:#004b72:السبب المقزز وراء ملاحقة هذه الأسماك لحيوان الأطوم | كوكب الأرض الثالث | 4K | BBC Earth}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "السبب المقزز وراء ملاحقة هذه الأسماك لحيوان الأطوم | كوكب الأرض الثالث | 4K | BBC Earth",
           "layout": "4,1,4,2",
@@ -76,7 +110,24 @@
           "badge": "{txt:#ffffff:3:29}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:دولفين مذهل ينصب فخاً | كوكب الأرض الأزرق 3 | 4K | بي بي سي الأرض}"
+            "headline": "{txt:#004b72:دولفين مذهل ينصب فخاً | كوكب الأرض الأزرق 3 | 4K | بي بي سي الأرض}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "دولفين مذهل ينصب فخاً | كوكب الأرض الأزرق 3 | 4K | بي بي سي الأرض",
           "layout": "8,1,4,2",
@@ -98,7 +149,24 @@
           "badge": "{txt:#ffffff:47:15}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:في عالم الزواحف والحشرات | بي بي سي إيرث}"
+            "headline": "{txt:#004b72:في عالم الزواحف والحشرات | بي بي سي إيرث}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "في عالم الزواحف والحشرات | بي بي سي إيرث",
           "layout": "0,3,4,2",
@@ -120,7 +188,24 @@
           "badge": "{txt:#ffffff:6:00}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:سلاح الطبيعة السري في معركة مكافحة التغير المناخي | السرعة والنطاق | بي بي سي إيرث}"
+            "headline": "{txt:#004b72:سلاح الطبيعة السري في معركة مكافحة التغير المناخي | السرعة والنطاق | بي بي سي إيرث}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "سلاح الطبيعة السري في معركة مكافحة التغير المناخي | السرعة والنطاق | بي بي سي إيرث",
           "layout": "4,3,4,2",
@@ -142,7 +227,24 @@
           "badge": "{txt:#ffffff:41:31}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:عجائب آسيا الطبيعية | 4K UHD | بي بي سي إيرث}"
+            "headline": "{txt:#004b72:عجائب آسيا الطبيعية | 4K UHD | بي بي سي إيرث}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "عجائب آسيا الطبيعية | 4K UHD | بي بي سي إيرث",
           "layout": "8,3,4,2",
@@ -160,7 +262,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -185,7 +304,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -209,7 +345,24 @@
           "badge": "{txt:#ffffff:4:17}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:سنغافورة تهندس مستقبلاً للطبيعة | 20 عاماً على كوكب الأرض 2 | BBC Earth}"
+            "headline": "{txt:#004b72:سنغافورة تهندس مستقبلاً للطبيعة | 20 عاماً على كوكب الأرض 2 | BBC Earth}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "سنغافورة تهندس مستقبلاً للطبيعة | 20 عاماً على كوكب الأرض 2 | BBC Earth",
           "layout": "0,1,4,2",
@@ -231,7 +384,24 @@
           "badge": "{txt:#ffffff:1:05:07}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:رحلة مذهلة عبر براري أفريقيا | 4K UHD | بي بي سي إيرث}"
+            "headline": "{txt:#004b72:رحلة مذهلة عبر براري أفريقيا | 4K UHD | بي بي سي إيرث}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "رحلة مذهلة عبر براري أفريقيا | 4K UHD | بي بي سي إيرث",
           "layout": "4,1,4,2",
@@ -253,7 +423,24 @@
           "badge": "{txt:#ffffff:3:30}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الأخطبوط الذي يمشي على اليابسة | كوكبنا الأزرق 3 | 4K | بي بي سي إيرث}"
+            "headline": "{txt:#004b72:الأخطبوط الذي يمشي على اليابسة | كوكبنا الأزرق 3 | 4K | بي بي سي إيرث}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الأخطبوط الذي يمشي على اليابسة | كوكبنا الأزرق 3 | 4K | بي بي سي إيرث",
           "layout": "8,1,4,2",
@@ -275,7 +462,24 @@
           "badge": "{txt:#ffffff:1:48:02}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:| بي بي سي كوكب الأرض}"
+            "headline": "{txt:#004b72:| بي بي سي كوكب الأرض}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "| بي بي سي كوكب الأرض",
           "layout": "0,3,4,2",
@@ -297,7 +501,24 @@
           "badge": "{txt:#ffffff:4:22}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:هل يستطيع صغير حيوان الرنة هذا الهروب من ذئب القطب الشمالي؟ | 20 عاماً على Planet Earth II | BBC ...}"
+            "headline": "{txt:#004b72:هل يستطيع صغير حيوان الرنة هذا الهروب من ذئب القطب الشمالي؟ | 20 عاماً على Planet Earth II | BBC ...}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "هل يستطيع صغير حيوان الرنة هذا الهروب من ذئب القطب الشمالي؟ | 20 عاماً على Planet Earth II | BBC ...",
           "layout": "4,3,4,2",
@@ -319,7 +540,24 @@
           "badge": "{txt:#ffffff:43:13}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:أهوال الطبيعة الصغيرة | BBC Earth}"
+            "headline": "{txt:#004b72:أهوال الطبيعة الصغيرة | BBC Earth}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "أهوال الطبيعة الصغيرة | BBC Earth",
           "layout": "8,3,4,2",
@@ -337,7 +575,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -362,11 +617,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

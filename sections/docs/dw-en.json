@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:43:15}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:From hate to peace - The power of reconciliation | DW Documentary}"
+            "headline": "{txt:#004b72:From hate to peace - The power of reconciliation | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "From hate to peace - The power of reconciliation | DW Documentary",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:43:52}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:North Korea - Propaganda and the next generation | DW Documentary}"
+            "headline": "{txt:#004b72:North Korea - Propaganda and the next generation | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "North Korea - Propaganda and the next generation | DW Documentary",
           "layout": "4,1,4,2",
@@ -76,7 +110,24 @@
           "badge": "{txt:#ffffff:28:15}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Decoding conflicts - Sudan: The forgotten war | DW Documentary}"
+            "headline": "{txt:#004b72:Decoding conflicts - Sudan: The forgotten war | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Decoding conflicts - Sudan: The forgotten war | DW Documentary",
           "layout": "8,1,4,2",
@@ -98,7 +149,24 @@
           "badge": "{txt:#ffffff:27:31}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:No future in Germany? Why skilled Polish workers are going home | DW Documentary}"
+            "headline": "{txt:#004b72:No future in Germany? Why skilled Polish workers are going home | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "No future in Germany? Why skilled Polish workers are going home | DW Documentary",
           "layout": "0,3,4,2",
@@ -120,7 +188,24 @@
           "badge": "{txt:#ffffff:52:02}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Cargo sailboats: A sea change for shipping? | DW Documentary}"
+            "headline": "{txt:#004b72:Cargo sailboats: A sea change for shipping? | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Cargo sailboats: A sea change for shipping? | DW Documentary",
           "layout": "4,3,4,2",
@@ -142,7 +227,24 @@
           "badge": "{txt:#ffffff:42:32}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary}"
+            "headline": "{txt:#004b72:Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary",
           "layout": "8,3,4,2",
@@ -160,7 +262,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -185,7 +304,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -209,7 +345,24 @@
           "badge": "{txt:#ffffff:43:32}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Artificial intelligence and psychotherapy | DW Documentary}"
+            "headline": "{txt:#004b72:Artificial intelligence and psychotherapy | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Artificial intelligence and psychotherapy | DW Documentary",
           "layout": "0,1,4,2",
@@ -231,7 +384,24 @@
           "badge": "{txt:#ffffff:42:22}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:North Korea's alliance with China and Russia | DW Documentary}"
+            "headline": "{txt:#004b72:North Korea's alliance with China and Russia | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "North Korea's alliance with China and Russia | DW Documentary",
           "layout": "4,1,4,2",
@@ -253,7 +423,24 @@
           "badge": "{txt:#ffffff:29:12}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Inside ICE: The fight against Trump's deportations | DW Documentary}"
+            "headline": "{txt:#004b72:Inside ICE: The fight against Trump's deportations | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Inside ICE: The fight against Trump's deportations | DW Documentary",
           "layout": "8,1,4,2",
@@ -275,7 +462,24 @@
           "badge": "{txt:#ffffff:27:02}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Greece's mobile hospital: Providing medical care to remote islands | DW Documentary}"
+            "headline": "{txt:#004b72:Greece's mobile hospital: Providing medical care to remote islands | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Greece's mobile hospital: Providing medical care to remote islands | DW Documentary",
           "layout": "0,3,4,2",
@@ -297,7 +501,24 @@
           "badge": "{txt:#ffffff:54:22}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Afghanistan's raw materials - The race is on | DW Documentary}"
+            "headline": "{txt:#004b72:Afghanistan's raw materials - The race is on | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Afghanistan's raw materials - The race is on | DW Documentary",
           "layout": "4,3,4,2",
@@ -319,7 +540,24 @@
           "badge": "{txt:#ffffff:42:42}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Between the czar and Hitler - The forgotten story of the White Army | DW Documentary}"
+            "headline": "{txt:#004b72:Between the czar and Hitler - The forgotten story of the White Army | DW Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Between the czar and Hitler - The forgotten story of the White Army | DW Documentary",
           "layout": "8,3,4,2",
@@ -337,7 +575,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -362,11 +617,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

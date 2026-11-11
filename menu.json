@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "style": "flat",
@@ -18,7 +18,7 @@
         "important": true,
         "extension": "{txt:#172b4d:موافق: فتح • يسار: القائمة}",
         "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-        "flag": "private-tv-home-v3-1-1",
+        "flag": "private-tv-home-v3-1-2",
         "refocus": 1,
         "cache": false,
         "reuse": true,
@@ -43,7 +43,24 @@
             "id": "open-live",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:الأخبار والقنوات}"
+              "headline": "{txt:#004b72:الأخبار والقنوات}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-1",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -60,7 +77,24 @@
             "id": "open-sports",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:القنوات الرياضية}"
+              "headline": "{txt:#004b72:القنوات الرياضية}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-2",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -85,7 +119,24 @@
             "truncation": "title",
             "enumerate": false,
             "selection": {
-              "headline": "{txt:#172b4d:القنوات الوثائقية}"
+              "headline": "{txt:#004b72:القنوات الوثائقية}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-3",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             }
           },
           {
@@ -94,7 +145,24 @@
             "id": "open-dora",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:دورا والأطفال}"
+              "headline": "{txt:#004b72:دورا والأطفال}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-4",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -111,7 +179,24 @@
             "id": "open-letters",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:الحروف العربية}"
+              "headline": "{txt:#004b72:الحروف العربية}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-5",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -128,7 +213,24 @@
             "id": "open-numbers",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:الأرقام العربية}"
+              "headline": "{txt:#004b72:الأرقام العربية}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-6",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -145,7 +247,24 @@
             "id": "open-english",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:إنجليزية للأطفال}"
+              "headline": "{txt:#004b72:إنجليزية للأطفال}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-7",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -162,7 +281,24 @@
             "id": "open-learn_english",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:تعلّم الإنجليزية}"
+              "headline": "{txt:#004b72:تعلّم الإنجليزية}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-8",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -179,7 +315,24 @@
             "id": "open-latest",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:جديد يوتيوب}"
+              "headline": "{txt:#004b72:جديد يوتيوب}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-10]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-9",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -196,7 +349,24 @@
             "id": "open-help",
             "color": "#112c50",
             "selection": {
-              "headline": "{txt:#172b4d:المساعدة والتحديث}"
+              "headline": "{txt:#004b72:المساعدة والتحديث}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-10",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
             },
             "type": "default",
             "round": true,
@@ -236,6 +406,80 @@
           "headline": "{txt:#ffffff:خيارات التشغيل}",
           "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
           "caption": "{txt:#ffffff:خيارات التشغيل}"
+        },
+        "overlay": {
+          "items": [
+            {
+              "id": "focus-mark-1",
+              "type": "space",
+              "layout": "0,0,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-2",
+              "type": "space",
+              "layout": "3,0,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-3",
+              "type": "space",
+              "layout": "6,0,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-4",
+              "type": "space",
+              "layout": "9,0,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-5",
+              "type": "space",
+              "layout": "0,2,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-6",
+              "type": "space",
+              "layout": "3,2,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-7",
+              "type": "space",
+              "layout": "6,2,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-8",
+              "type": "space",
+              "layout": "9,2,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-9",
+              "type": "space",
+              "layout": "0,4,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            },
+            {
+              "id": "focus-mark-10",
+              "type": "space",
+              "layout": "3,4,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
+            }
+          ]
         }
       }
     },
@@ -570,7 +814,7 @@
       }
     }
   ],
-  "flag": "private-tv-menu-v3-1-1",
+  "flag": "private-tv-menu-v3-1-2",
   "refocus": 1,
   "options": {
     "type": "pages",

@@ -25,7 +25,24 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الأرقام والعدّ بالعربية}"
+            "headline": "{txt:#004b72:الأرقام والعدّ بالعربية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -47,7 +64,24 @@
           "badge": "{txt:#ffffff:فيديو}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:نعدّ من 1 إلى 10}"
+            "headline": "{txt:#004b72:نعدّ من 1 إلى 10}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -72,7 +106,24 @@
           "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json>home>open-numbers",
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الرئيسية}"
+            "headline": "{txt:#004b72:الرئيسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -88,5 +139,30 @@
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,6,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "6,1,6,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

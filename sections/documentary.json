@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:بث مباشر • يوتيوب}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة الوثائقية • مباشر}"
+            "headline": "{txt:#004b72:الجزيرة الوثائقية • مباشر}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الجزيرة الوثائقية",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:بث مباشر • عربي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الشرق الوثائقية}"
+            "headline": "{txt:#004b72:الشرق الوثائقية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الشرق الوثائقية",
           "options": {
@@ -96,7 +130,24 @@
           "badge": "{txt:#ffffff:بث مباشر • عربي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الشرق Discovery}"
+            "headline": "{txt:#004b72:الشرق Discovery}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الشرق Discovery",
           "options": {
@@ -138,7 +189,24 @@
           "badge": "{txt:#ffffff:مكتبة • عربي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:ناشونال جيوغرافيك أبوظبي}"
+            "headline": "{txt:#004b72:ناشونال جيوغرافيك أبوظبي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -159,7 +227,24 @@
           "badge": "{txt:#ffffff:مكتبة • عربي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:مكتبة الجزيرة الوثائقية}"
+            "headline": "{txt:#004b72:مكتبة الجزيرة الوثائقية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -180,7 +265,24 @@
           "badge": "{txt:#ffffff:مكتبة • عربي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:DW الوثائقية • عربي}"
+            "headline": "{txt:#004b72:DW الوثائقية • عربي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -197,7 +299,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الرئيسية}"
+            "headline": "{txt:#004b72:الرئيسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -222,7 +341,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -246,7 +382,24 @@
           "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:DW Documentary • English}"
+            "headline": "{txt:#004b72:DW Documentary • English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,1,4,2",
           "offset": "0,0,0,0.25"
@@ -267,7 +420,24 @@
           "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:BBC Earth • الطبيعة}"
+            "headline": "{txt:#004b72:BBC Earth • الطبيعة}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,1,4,2",
           "offset": "0,0,0,0.25"
@@ -288,7 +458,24 @@
           "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:ARTE • وثائقيات}"
+            "headline": "{txt:#004b72:ARTE • وثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,1,4,2",
           "offset": "0,0,0,0.25"
@@ -309,7 +496,24 @@
           "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Free Documentary}"
+            "headline": "{txt:#004b72:Free Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -330,7 +534,24 @@
           "badge": "{txt:#ffffff:مكتبة • إنجليزي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Timeline • التاريخ}"
+            "headline": "{txt:#004b72:Timeline • التاريخ}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -347,7 +568,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الرئيسية}"
+            "headline": "{txt:#004b72:الرئيسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -372,11 +610,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

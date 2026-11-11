@@ -4,7 +4,7 @@
   "important": true,
   "extension": "{txt:#172b4d:موافق: فتح • الأحمر: الرئيسية}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "tv-3-1-1-live",
+  "flag": "tv-3-1-2-live",
   "cache": false,
   "reuse": true,
   "restore": true,
@@ -86,7 +86,24 @@
           "badge": "{txt:#ffffff:أصلي • 540p}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة الإخبارية}"
+            "headline": "{txt:#004b72:الجزيرة الإخبارية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -119,7 +136,24 @@
           "badge": "{txt:#ffffff:أصلي • 480p}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة الآن}"
+            "headline": "{txt:#004b72:الجزيرة الآن}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الجزيرة الآن • المشغّل الأصلي 480p",
           "options": {
@@ -260,7 +294,24 @@
           "badge": "{txt:#ffffff:أصلي • 480p}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة مباشر}"
+            "headline": "{txt:#004b72:الجزيرة مباشر}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -294,7 +345,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "رؤيا الإخبارية • البث الرسمي",
           "selection": {
-            "headline": "{txt:#172b4d:رؤيا الإخبارية}"
+            "headline": "{txt:#004b72:رؤيا الإخبارية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -311,7 +379,24 @@
           "badge": "{txt:#ffffff:540p أصلي}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة — مشغّل التلفاز}"
+            "headline": "{txt:#004b72:الجزيرة — مشغّل التلفاز}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "options": {
             "type": "pages",
@@ -407,7 +492,24 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:فرانس 24 — العربية}"
+            "headline": "{txt:#004b72:فرانس 24 — العربية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -432,7 +534,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الرئيسية}"
+            "headline": "{txt:#004b72:الرئيسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -457,7 +576,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -496,7 +632,24 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:فرانس 24 — الإنجليزية}"
+            "headline": "{txt:#004b72:فرانس 24 — الإنجليزية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -545,7 +698,24 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:فرانس 24 — الفرنسية}"
+            "headline": "{txt:#004b72:فرانس 24 — الفرنسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -594,7 +764,24 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:DW عربية}"
+            "headline": "{txt:#004b72:DW عربية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -643,7 +830,24 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:CNBC عربية}"
+            "headline": "{txt:#004b72:CNBC عربية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -665,7 +869,24 @@
           "badge": "{txt:#ffffff:بث مباشر}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة الإنجليزية}"
+            "headline": "{txt:#004b72:الجزيرة الإنجليزية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "color": "#112c50",
@@ -689,7 +910,24 @@
           "badge": "{txt:#ffffff:مكتبة رسمية}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الجزيرة 360 • برامج}"
+            "headline": "{txt:#004b72:الجزيرة 360 • برامج}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "round": true,
           "imageOverlay": 0,
@@ -712,7 +950,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الرئيسية}"
+            "headline": "{txt:#004b72:الرئيسية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -737,11 +992,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

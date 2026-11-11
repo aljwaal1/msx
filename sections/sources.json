@@ -22,7 +22,24 @@
           "id": "help-3",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:حول البث المباشر}"
+            "headline": "{txt:#004b72:حول البث المباشر}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:حول البث المباشر}",
@@ -41,7 +58,24 @@
           "id": "help-4",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:بي إن سبورت المفتوحة}"
+            "headline": "{txt:#004b72:بي إن سبورت المفتوحة}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:بي إن سبورت المفتوحة}",
@@ -60,7 +94,24 @@
           "id": "help-5",
           "color": "#112c50",
           "selection": {
-            "headline": "{txt:#172b4d:دبي وأبوظبي والكأس}"
+            "headline": "{txt:#004b72:دبي وأبوظبي والكأس}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "type": "default",
           "title": "{txt:#ffffff:دبي وأبوظبي والكأس}",
@@ -85,7 +136,24 @@
           "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/help.json>help-channel-status",
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:المساعدة}"
+            "headline": "{txt:#004b72:المساعدة}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -101,5 +169,37 @@
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

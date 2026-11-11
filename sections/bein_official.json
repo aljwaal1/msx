@@ -4,7 +4,7 @@
   "important": true,
   "extension": "{txt:#172b4d:الناشر يمنع البث داخل MSX}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "tv-bein-official-3-1-1",
+  "flag": "tv-bein-official-3-1-2",
   "cache": false,
   "refocus": 1,
   "transparent": 1,
@@ -23,7 +23,24 @@
           "alignment": "title-center",
           "action": "link:window:https://www.youtube.com/watch?v=ekMxMIexsJ8",
           "selection": {
-            "headline": "{txt:#172b4d:رابط المشاهدة الرسمي}"
+            "headline": "{txt:#004b72:رابط المشاهدة الرسمي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "enumerate": false
         },
@@ -37,7 +54,24 @@
           "alignment": "title-center",
           "action": "info:بي إن تمنع عرض البث الحالي داخل المواقع والتطبيقات الخارجية، ومنها MSX. افتح تطبيق YouTube الموجود على تلفازك، وابحث عن beIN SPORTS، ثم اختر البث المباشر من القناة الرسمية.",
           "selection": {
-            "headline": "{txt:#172b4d:شاهد عبر تطبيق YouTube}"
+            "headline": "{txt:#004b72:شاهد عبر تطبيق YouTube}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "enumerate": false
         },
@@ -52,11 +86,53 @@
           "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/sports.json>sports-2",
           "key": "red",
           "selection": {
-            "headline": "{txt:#172b4d:القنوات الرياضية}"
+            "headline": "{txt:#004b72:القنوات الرياضية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "enumerate": false
         }
       ]
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,6,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "6,1,6,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:44:02}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Jaguar Beach Battle}"
+            "headline": "{txt:#004b72:Jaguar Beach Battle}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Jaguar Beach Battle",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:42:02}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Hostile Planet  Ep 5 Oceans Storms of Change}"
+            "headline": "{txt:#004b72:Hostile Planet  Ep 5 Oceans Storms of Change}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Hostile Planet  Ep 5 Oceans Storms of Change",
           "layout": "4,1,4,2",
@@ -76,7 +110,24 @@
           "badge": "{txt:#ffffff:41:02}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:كيف تصبح زعيماً | داخل عالم المافيا الأمريكية | ناشونال جيوغرافيك أبوظبي}"
+            "headline": "{txt:#004b72:كيف تصبح زعيماً | داخل عالم المافيا الأمريكية | ناشونال جيوغرافيك أبوظبي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "كيف تصبح زعيماً | داخل عالم المافيا الأمريكية | ناشونال جيوغرافيك أبوظبي",
           "layout": "8,1,4,2",
@@ -98,7 +149,24 @@
           "badge": "{txt:#ffffff:46:07}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الحلقة الكاملة | بحر من الأمل: كنوز مياه أمريكا | ناشونال جيوغرافيك أبوظبي}"
+            "headline": "{txt:#004b72:الحلقة الكاملة | بحر من الأمل: كنوز مياه أمريكا | ناشونال جيوغرافيك أبوظبي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الحلقة الكاملة | بحر من الأمل: كنوز مياه أمريكا | ناشونال جيوغرافيك أبوظبي",
           "layout": "0,3,4,2",
@@ -120,7 +188,24 @@
           "badge": "{txt:#ffffff:44:08}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:الحلقة الكاملة | تلسكوب فضائي فائق الدقة | ناشونال جيوغرافيك أبوظبي}"
+            "headline": "{txt:#004b72:الحلقة الكاملة | تلسكوب فضائي فائق الدقة | ناشونال جيوغرافيك أبوظبي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "الحلقة الكاملة | تلسكوب فضائي فائق الدقة | ناشونال جيوغرافيك أبوظبي",
           "layout": "4,3,4,2",
@@ -138,7 +223,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -154,5 +256,51 @@
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

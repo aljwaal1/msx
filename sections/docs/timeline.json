@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:2:14:01}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Hitler's Countdown To War: The 18 Months That Plunged The World Into WW2}"
+            "headline": "{txt:#004b72:Hitler's Countdown To War: The 18 Months That Plunged The World Into WW2}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Hitler's Countdown To War: The 18 Months That Plunged The World Into WW2",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:1:47:21}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:1980 - 1999: خفايا الفصل الأخير المضطرب من الحرب الباردة}"
+            "headline": "{txt:#004b72:1980 - 1999: خفايا الفصل الأخير المضطرب من الحرب الباردة}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "1980 - 1999: خفايا الفصل الأخير المضطرب من الحرب الباردة",
           "layout": "4,1,4,2",
@@ -76,7 +110,24 @@
           "badge": "{txt:#ffffff:50:32}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:علماء آثار يكتشفون حطام طائرة B17 التي تحطمت في نورفولك}"
+            "headline": "{txt:#004b72:علماء آثار يكتشفون حطام طائرة B17 التي تحطمت في نورفولك}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "علماء آثار يكتشفون حطام طائرة B17 التي تحطمت في نورفولك",
           "layout": "8,1,4,2",
@@ -98,7 +149,24 @@
           "badge": "{txt:#ffffff:2:33:58}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:1960 - 1985: The Most Critical Turning Points Of The Cold War}"
+            "headline": "{txt:#004b72:1960 - 1985: The Most Critical Turning Points Of The Cold War}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "1960 - 1985: The Most Critical Turning Points Of The Cold War",
           "layout": "0,3,4,2",
@@ -120,7 +188,24 @@
           "badge": "{txt:#ffffff:48:26}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Archeologists Investigate The Secret Fortress Built To Protect London From Hitler}"
+            "headline": "{txt:#004b72:Archeologists Investigate The Secret Fortress Built To Protect London From Hitler}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Archeologists Investigate The Secret Fortress Built To Protect London From Hitler",
           "layout": "4,3,4,2",
@@ -142,7 +227,24 @@
           "badge": "{txt:#ffffff:2:32:19}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:1945 - 1961: The Complete Story Of The Early Cold War}"
+            "headline": "{txt:#004b72:1945 - 1961: The Complete Story Of The Early Cold War}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "1945 - 1961: The Complete Story Of The Early Cold War",
           "layout": "8,3,4,2",
@@ -160,7 +262,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -185,7 +304,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -209,7 +345,24 @@
           "badge": "{txt:#ffffff:48:42}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:علماء آثار ينقبون عن قاذفة قنابل محطمة من الحرب العالمية الثانية}"
+            "headline": "{txt:#004b72:علماء آثار ينقبون عن قاذفة قنابل محطمة من الحرب العالمية الثانية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "علماء آثار ينقبون عن قاذفة قنابل محطمة من الحرب العالمية الثانية",
           "layout": "0,1,4,2",
@@ -227,7 +380,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -252,11 +422,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

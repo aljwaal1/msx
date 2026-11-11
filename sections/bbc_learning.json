@@ -4,7 +4,7 @@
   "important": true,
   "extension": "{txt:#172b4d:موافق: تشغيل • الأحمر: الإنجليزية}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-  "flag": "tv-bbc-3-1-1",
+  "flag": "tv-bbc-3-1-2",
   "cache": false,
   "reuse": true,
   "restore": true,
@@ -33,7 +33,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Could vaccines cure cancer? ⏲️ 6 Minute English",
           "selection": {
-            "headline": "{txt:#172b4d:Could vaccines cure cancer? ⏲️ 6 Minute English}"
+            "headline": "{txt:#004b72:Could vaccines cure cancer? ⏲️ 6 Minute English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,1,4,2",
           "offset": "0,0,0,0.25"
@@ -55,7 +72,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Food goes to waste | BBC Learning English from the News",
           "selection": {
-            "headline": "{txt:#172b4d:Food goes to waste | BBC Learning English from the News}"
+            "headline": "{txt:#004b72:Food goes to waste | BBC Learning English from the News}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,1,4,2",
           "offset": "0,0,0,0.25"
@@ -77,7 +111,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "🌧️ Is the weather in the UK really that bad? | Weather words",
           "selection": {
-            "headline": "{txt:#172b4d:🌧️ Is the weather in the UK really that bad? | Weather words}"
+            "headline": "{txt:#004b72:🌧️ Is the weather in the UK really that bad? | Weather words}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,1,4,2",
           "offset": "0,0,0,0.25"
@@ -99,7 +150,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Octopuses or dolphins? 🐙🐬 Which is your favourite? | Improve your listening with Real Easy English",
           "selection": {
-            "headline": "{txt:#172b4d:Octopuses or dolphins? 🐙🐬 Which is your favourite? | Improve your listening with Real Easy English}"
+            "headline": "{txt:#004b72:Octopuses or dolphins? 🐙🐬 Which is your favourite? | Improve your listening with Real Easy English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -121,7 +189,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Is aircon the answer to a heating world? ⏲️ 6 Minute English",
           "selection": {
-            "headline": "{txt:#172b4d:Is aircon the answer to a heating world? ⏲️ 6 Minute English}"
+            "headline": "{txt:#004b72:Is aircon the answer to a heating world? ⏲️ 6 Minute English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -143,7 +228,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Lula surprises many with fourth election win | BBC Learning English from the News",
           "selection": {
-            "headline": "{txt:#172b4d:Lula surprises many with fourth election win | BBC Learning English from the News}"
+            "headline": "{txt:#004b72:Lula surprises many with fourth election win | BBC Learning English from the News}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -160,7 +262,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الإنجليزية}"
+            "headline": "{txt:#004b72:الإنجليزية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -185,7 +304,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -210,7 +346,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "'Weird & wonderful' - 6 Minute English Box Set",
           "selection": {
-            "headline": "{txt:#172b4d:'Weird & wonderful' - 6 Minute English Box Set}"
+            "headline": "{txt:#004b72:'Weird & wonderful' - 6 Minute English Box Set}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,1,4,2",
           "offset": "0,0,0,0.25"
@@ -232,7 +385,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English",
           "selection": {
-            "headline": "{txt:#172b4d:Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English}"
+            "headline": "{txt:#004b72:Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,1,4,2",
           "offset": "0,0,0,0.25"
@@ -254,7 +424,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "What should you eat for a better night’s sleep? ⏲️ 6 Minute English",
           "selection": {
-            "headline": "{txt:#172b4d:What should you eat for a better night’s sleep? ⏲️ 6 Minute English}"
+            "headline": "{txt:#004b72:What should you eat for a better night’s sleep? ⏲️ 6 Minute English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,1,4,2",
           "offset": "0,0,0,0.25"
@@ -276,7 +463,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "Why are so many young people around the world protesting? | BBC Learning English from the News",
           "selection": {
-            "headline": "{txt:#172b4d:Why are so many young people around the world protesting? | BBC Learning English from the News}"
+            "headline": "{txt:#004b72:Why are so many young people around the world protesting? | BBC Learning English from the News}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "0,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -298,7 +502,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "👄George's travel hot spots | Pronunciation Shadowing",
           "selection": {
-            "headline": "{txt:#172b4d:👄George's travel hot spots | Pronunciation Shadowing}"
+            "headline": "{txt:#004b72:👄George's travel hot spots | Pronunciation Shadowing}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "4,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -320,7 +541,24 @@
           "badgeColor": "#0c2345",
           "playerLabel": "What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English",
           "selection": {
-            "headline": "{txt:#172b4d:What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English}"
+            "headline": "{txt:#004b72:What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "layout": "8,3,4,2",
           "offset": "0,0.35,0,0.25"
@@ -337,7 +575,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الإنجليزية}"
+            "headline": "{txt:#004b72:الإنجليزية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -362,11 +617,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }

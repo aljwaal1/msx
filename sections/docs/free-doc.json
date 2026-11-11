@@ -32,7 +32,24 @@
           "badge": "{txt:#ffffff:22:03}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:شعب الأيوريو | باراغواي: يناضلون من أجل البقاء معزولين | فيلم وثائقي مجاني}"
+            "headline": "{txt:#004b72:شعب الأيوريو | باراغواي: يناضلون من أجل البقاء معزولين | فيلم وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "شعب الأيوريو | باراغواي: يناضلون من أجل البقاء معزولين | فيلم وثائقي مجاني",
           "layout": "0,1,4,2",
@@ -54,7 +71,24 @@
           "badge": "{txt:#ffffff:22:03}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:حياة على ارتفاع 4000 متر | بيرو: كفاح شعب الكيتشوا من أجل البقاء | وثائقي مجاني}"
+            "headline": "{txt:#004b72:حياة على ارتفاع 4000 متر | بيرو: كفاح شعب الكيتشوا من أجل البقاء | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "حياة على ارتفاع 4000 متر | بيرو: كفاح شعب الكيتشوا من أجل البقاء | وثائقي مجاني",
           "layout": "4,1,4,2",
@@ -76,7 +110,24 @@
           "badge": "{txt:#ffffff:58:53}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:مدينة واحدة، 13 سجناً | داخل عاصمة السجون في أمريكا | وثائقي مجاني}"
+            "headline": "{txt:#004b72:مدينة واحدة، 13 سجناً | داخل عاصمة السجون في أمريكا | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "مدينة واحدة، 13 سجناً | داخل عاصمة السجون في أمريكا | وثائقي مجاني",
           "layout": "8,1,4,2",
@@ -98,7 +149,24 @@
           "badge": "{txt:#ffffff:22:03}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:شعب الكيتشوا | الإكوادور: قبيلة الأمازون التي قاومت | وثائقي مجاني}"
+            "headline": "{txt:#004b72:شعب الكيتشوا | الإكوادور: قبيلة الأمازون التي قاومت | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "شعب الكيتشوا | الإكوادور: قبيلة الأمازون التي قاومت | وثائقي مجاني",
           "layout": "0,3,4,2",
@@ -120,7 +188,24 @@
           "badge": "{txt:#ffffff:52:19}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:أرض لا تُروى: تونس | حكايات خفية من مفترق طرق شمال أفريقيا | وثائقي مجاني}"
+            "headline": "{txt:#004b72:أرض لا تُروى: تونس | حكايات خفية من مفترق طرق شمال أفريقيا | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "أرض لا تُروى: تونس | حكايات خفية من مفترق طرق شمال أفريقيا | وثائقي مجاني",
           "layout": "4,3,4,2",
@@ -142,7 +227,24 @@
           "badge": "{txt:#ffffff:52:16}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:أمريكا، ولكن ليس تمامًا: داخل بورتوريكو | فيلم وثائقي مجاني}"
+            "headline": "{txt:#004b72:أمريكا، ولكن ليس تمامًا: داخل بورتوريكو | فيلم وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "أمريكا، ولكن ليس تمامًا: داخل بورتوريكو | فيلم وثائقي مجاني",
           "layout": "8,3,4,2",
@@ -160,7 +262,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -185,7 +304,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:التالي}"
+            "headline": "{txt:#004b72:التالي}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-8",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
@@ -209,7 +345,24 @@
           "badge": "{txt:#ffffff:3:15:26}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:World's Toughest Trains | Surviving the Most Extreme Railways on Earth | Free Documentary}"
+            "headline": "{txt:#004b72:World's Toughest Trains | Surviving the Most Extreme Railways on Earth | Free Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-1",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "World's Toughest Trains | Surviving the Most Extreme Railways on Earth | Free Documentary",
           "layout": "0,1,4,2",
@@ -231,7 +384,24 @@
           "badge": "{txt:#ffffff:47:05}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:أضخم طائرات الشحن في العالم | نقل المستحيل | وثائقي مجاني}"
+            "headline": "{txt:#004b72:أضخم طائرات الشحن في العالم | نقل المستحيل | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "أضخم طائرات الشحن في العالم | نقل المستحيل | وثائقي مجاني",
           "layout": "4,1,4,2",
@@ -253,7 +423,24 @@
           "badge": "{txt:#ffffff:2:51:09}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:Concrete Purgatory: The Ultra-Strict Prison Where Privacy Doesn't Exist | Free Documentary}"
+            "headline": "{txt:#004b72:Concrete Purgatory: The Ultra-Strict Prison Where Privacy Doesn't Exist | Free Documentary}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "Concrete Purgatory: The Ultra-Strict Prison Where Privacy Doesn't Exist | Free Documentary",
           "layout": "8,1,4,2",
@@ -275,7 +462,24 @@
           "badge": "{txt:#ffffff:49:46}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:أضخم محطة غسيل سيارات في العالم: أسرار آلة التنظيف العملاقة | وثائقي مجاني}"
+            "headline": "{txt:#004b72:أضخم محطة غسيل سيارات في العالم: أسرار آلة التنظيف العملاقة | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "أضخم محطة غسيل سيارات في العالم: أسرار آلة التنظيف العملاقة | وثائقي مجاني",
           "layout": "0,3,4,2",
@@ -297,7 +501,24 @@
           "badge": "{txt:#ffffff:48:28}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:إنتاج Quintus الأصلي: أخطر عمليات الإنقاذ في العالم (إعادة إصدار) - النسخة الرئيسية FD}"
+            "headline": "{txt:#004b72:إنتاج Quintus الأصلي: أخطر عمليات الإنقاذ في العالم (إعادة إصدار) - النسخة الرئيسية FD}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "إنتاج Quintus الأصلي: أخطر عمليات الإنقاذ في العالم (إعادة إصدار) - النسخة الرئيسية FD",
           "layout": "4,3,4,2",
@@ -319,7 +540,24 @@
           "badge": "{txt:#ffffff:1:33:35}",
           "badgeColor": "#0c2345",
           "selection": {
-            "headline": "{txt:#172b4d:السجناء الذين نخشاهم أكثر من غيرهم | داخل سجن شديد الحراسة للقتلة | وثائقي مجاني}"
+            "headline": "{txt:#004b72:السجناء الذين نخشاهم أكثر من غيرهم | داخل سجن شديد الحراسة للقتلة | وثائقي مجاني}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "playerLabel": "السجناء الذين نخشاهم أكثر من غيرهم | داخل سجن شديد الحراسة للقتلة | وثائقي مجاني",
           "layout": "8,3,4,2",
@@ -337,7 +575,24 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:الوثائقيات}"
+            "headline": "{txt:#004b72:الوثائقيات}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-7",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           },
           "key": "red"
         },
@@ -362,11 +617,95 @@
           "enumerate": false,
           "round": true,
           "selection": {
-            "headline": "{txt:#172b4d:السابق}"
+            "headline": "{txt:#004b72:السابق}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-9",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
           }
         }
       ],
       "transparent": 1
     }
-  ]
+  ],
+  "overlay": {
+    "items": [
+      {
+        "id": "focus-mark-1",
+        "type": "space",
+        "layout": "0,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-2",
+        "type": "space",
+        "layout": "4,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-3",
+        "type": "space",
+        "layout": "8,1,4,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-4",
+        "type": "space",
+        "layout": "0,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-5",
+        "type": "space",
+        "layout": "4,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-6",
+        "type": "space",
+        "layout": "8,3,4,1",
+        "offset": "0,0.41,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-7",
+        "type": "space",
+        "layout": "0,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-8",
+        "type": "space",
+        "layout": "10,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      },
+      {
+        "id": "focus-mark-9",
+        "type": "space",
+        "layout": "8,0,2,1",
+        "offset": "0,0.06,0,-0.68",
+        "color": "transparent"
+      }
+    ]
+  }
 }
