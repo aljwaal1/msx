@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "style": "flat",
@@ -814,7 +814,7 @@
       }
     }
   ],
-  "flag": "private-tv-menu-v3-1-2",
+  "flag": "private-tv-menu-v3-1-3",
   "refocus": 1,
   "options": {
     "type": "pages",
