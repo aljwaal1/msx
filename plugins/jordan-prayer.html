@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>الأردن الرياضية | ساعة الأذان</title>
+  <style>
+    html, body { width:100%; height:100%; margin:0; overflow:hidden; background:#000; }
+    #player { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; }
+    #prayer-clock-face {
+      position:absolute; z-index:1; top:4%; left:5%; direction:rtl; pointer-events:none;
+      background:#10233b; background:rgba(12,26,44,.93); color:#fff;
+      border-top:3px solid #ffbd38; border-radius:7px; padding:.42em .75em .55em;
+      font:18px/1.35 Tahoma, Arial, sans-serif; font-size:1.55vw;
+      box-shadow:0 2px 12px rgba(0,0,0,.38);
+    }
+    #clock-row { white-space:nowrap; }
+    #brand { font-weight:bold; }
+    #clock { margin-right:.75em; color:#ffcf72; font-weight:bold; }
+    #city { margin-right:.35em; color:#d4e0ee; font-size:.72em; }
+    #prayer-line, #prayer-details { margin-top:.25em; color:#eef5ff; font-size:.84em; white-space:nowrap; }
+    #next-name, #next-time { color:#ffcf72; }
+    #countdown { color:#fff; font-family:monospace; }
+    #prayer-alert {
+      display:none; position:absolute; z-index:2; top:18%; left:5%; direction:rtl;
+      padding:.4em .75em; border-radius:6px; background:#ffbd38; color:#172639;
+      font:bold 22px Tahoma, Arial, sans-serif; font-size:2vw; pointer-events:none;
+    }
+    [dir=ltr] { display:inline-block; direction:ltr; unicode-bidi:embed; }
+  </style>
+  <script src="https://msx.benzac.de/js/tvx-plugin.min.js?v=0.0.16"></script>
+  <script src="https://msx.benzac.de/plugins/js/lib/hls.js?v=0.0.2"></script>
+  <script src="https://msx.benzac.de/plugins/js/hls.js?v=0.0.2"></script>
+</head>
+<body>
+  <video id="player" playsinline webkit-playsinline></video>
+  <div id="prayer-clock-face">
+    <div id="clock-row"><span id="brand">تلفزيون خصوصي</span><span id="clock" dir="ltr"></span><span id="city">عمّان</span></div>
+    <div id="prayer-line">جارٍ تحميل مواقيت الصلاة</div>
+    <div id="prayer-details" style="display:none">
+      <span>الأذان القادم</span> <strong id="next-name"></strong>
+      <span id="next-time" dir="ltr"></span> <span>· باقي</span>
+      <strong id="countdown" dir="ltr"></strong>
+    </div>
+  </div>
+  <div id="prayer-alert" role="status"></div>
+  <script id="prayer-clock">
+    (function () {
+      'use strict';
+      var hour = 3600000;
+      var day = 24 * hour;
+      var ammanOffset = 3 * hour;
+      var alertDuration = 20000;
+      var retryDelay = 60000;
+      var prayerNames = [
+        ['Fajr', 'الفجر'], ['Dhuhr', 'الظهر'], ['Asr', 'العصر'],
+        ['Maghrib', 'المغرب'], ['Isha', 'العشاء']
+      ];
+      var cache = {};
+      var clock = document.getElementById('clock');
+      var line = document.getElementById('prayer-line');
+      var details = document.getElementById('prayer-details');
+      var nextName = document.getElementById('next-name');
+      var nextTime = document.getElementById('next-time');
+      var countdown = document.getElementById('countdown');
+      var alert = document.getElementById('prayer-alert');
+
+      function pad(value) {
+        return (value < 10 ? '0' : '') + value;
+      }
+
+      function clockTime(timestamp) {
+        var date = new Date(timestamp + ammanOffset);
+        return pad(date.getUTCHours()) + ':' + pad(date.getUTCMinutes());
+      }
+
+      function dateKey(timestamp) {
+        var date = new Date(timestamp + ammanOffset);
+        return pad(date.getUTCDate()) + '-' + pad(date.getUTCMonth() + 1) + '-' + date.getUTCFullYear();
+      }
+
+      function readTimings(response, key) {
+        var timings = JSON.parse(response).data.timings;
+        var keyParts = key.split('-');
+        var isoDate = [keyParts[2], keyParts[1], keyParts[0]].join('-');
+        return prayerNames.map(function (prayer) {
+          var value = timings[prayer[0]];
+          if (typeof value !== 'string' || value.slice(0, 10) !== isoDate || !isFinite(Date.parse(value))) {
+            throw new Error('Invalid prayer time');
+          }
+          return { name: prayer[1], at: Date.parse(value) };
+        });
+      }
+
+      function requestDay(key, now) {
+        if (cache[key] && (cache[key].prayers || cache[key].pending || cache[key].retryAt > now)) {
+          return;
+        }
+        var record = { pending: true };
+        cache[key] = record;
+        function failed() {
+          record.pending = false;
+          record.retryAt = Date.now() + retryDelay;
+        }
+        try {
+          var xhr = new XMLHttpRequest();
+          xhr.open('GET', 'https://api.aladhan.com/v1/timingsByCity/' + key +
+            '?city=Amman&country=Jordan&method=23&iso8601=true', true);
+          xhr.timeout = 8000;
+          xhr.onload = function () {
+            try {
+              if (xhr.status !== 200) {
+                failed();
+                return;
+              }
+              record.prayers = readTimings(xhr.responseText, key);
+              record.pending = false;
+            } catch (error) {
+              failed();
+            }
+          };
+          xhr.onerror = xhr.ontimeout = failed;
+          xhr.send();
+        } catch (error) {
+          failed();
+        }
+      }
+
+      function remaining(ms) {
+        var seconds = Math.ceil(ms / 1000);
+        return pad(Math.floor(seconds / 3600)) + ':' +
+          pad(Math.floor(seconds / 60) % 60) + ':' + pad(seconds % 60);
+      }
+
+      function tick() {
+        var now = Date.now();
+        var today = dateKey(now);
+        var tomorrow = dateKey(now + day);
+        var yesterday = dateKey(now - day);
+        for (var key in cache) {
+          if (key !== today && key !== tomorrow && key !== yesterday) {
+            delete cache[key];
+          }
+        }
+        clock.textContent = clockTime(now);
+        requestDay(today, now);
+        requestDay(tomorrow, now);
+        var todayPrayers = cache[today].prayers;
+        var prayers = todayPrayers ? todayPrayers.concat(cache[tomorrow].prayers || []) : [];
+        var upcoming = null;
+        var current = null;
+        for (var i = 0; i < prayers.length; i++) {
+          var delta = prayers[i].at - now;
+          if (delta > 0) {
+            upcoming = prayers[i];
+            break;
+          }
+          if (delta > -alertDuration) {
+            current = prayers[i];
+          }
+        }
+
+        alert.style.display = current ? 'block' : 'none';
+        if (current) {
+          alert.textContent = 'حان الآن أذان ' + current.name + ' · عمّان';
+        }
+        details.style.display = upcoming ? 'block' : 'none';
+        line.style.display = upcoming ? 'none' : 'block';
+        if (upcoming) {
+          nextName.textContent = upcoming.name;
+          nextTime.textContent = clockTime(upcoming.at);
+          countdown.textContent = remaining(upcoming.at - now);
+        } else {
+          line.textContent = cache[today].pending || cache[tomorrow].pending
+            ? 'جارٍ تحميل مواقيت الصلاة' : 'مواقيت الصلاة غير متاحة الآن';
+        }
+      }
+
+      tick();
+      setInterval(tick, 1000);
+    }());
+  </script>
+</body>
+</html>
