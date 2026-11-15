@@ -9,7 +9,7 @@
   "reuse": true,
   "restore": true,
   "refocus": 1,
-  "flag": "private-tv-all-channels-v3-1-4",
+  "flag": "private-tv-all-channels-v3-1-5",
   "preload": "none",
   "captionUnderlay": 1,
   "overlay": {
@@ -117,7 +117,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-2",
@@ -216,7 +217,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-now",
@@ -315,7 +317,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-1",
@@ -414,7 +417,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-roya",
@@ -448,7 +452,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-3",
@@ -504,7 +509,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         }
       ]
     },
@@ -564,7 +570,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-5",
@@ -625,7 +632,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-6",
@@ -686,7 +694,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-7",
@@ -747,7 +756,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "live-8",
@@ -781,7 +791,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "sports-1",
@@ -865,7 +876,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         }
       ]
     },
@@ -903,7 +915,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": false
         },
         {
           "id": "sports-3",
@@ -963,7 +976,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "sports-prayer",
@@ -997,7 +1011,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": false
         },
         {
           "id": "doc-ajdoc-live",
@@ -1031,7 +1046,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "doc-asharq-doc",
@@ -1085,7 +1101,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "doc-asharq-discovery",
@@ -1139,7 +1156,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         }
       ]
     },
@@ -1204,7 +1222,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": true
         },
         {
           "id": "return-home",
@@ -1235,7 +1254,8 @@
                 }
               ]
             }
-          }
+          },
+          "enumerate": false
         }
       ]
     }
