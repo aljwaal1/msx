@@ -20,7 +20,7 @@
           "id": "doc-ajdoc-live",
           "type": "default",
           "title": "{txt:#ffffff:الجزيرة الوثائقية • مباشر}",
-          "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=TiPYdMXt_XI",
+          "action": "video:https://live-hls-web-ajd-ll-bp.thehlive.com/AJD/index_14.m3u8",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-play.png",
           "imageOverlay": 0,
           "imageFiller": "cover",
@@ -29,7 +29,7 @@
           "alignment": "title-center",
           "truncation": "title",
           "enumerate": true,
-          "badge": "{txt:#ffffff:بث مباشر • يوتيوب}",
+          "badge": "{txt:#ffffff:أصلي • 540p}",
           "badgeColor": "#0c2345",
           "selection": {
             "headline": "{txt:#004b72:الجزيرة الوثائقية • مباشر}",
@@ -51,9 +51,66 @@
               ]
             }
           },
-          "playerLabel": "الجزيرة الوثائقية",
+          "playerLabel": "الجزيرة الوثائقية • مباشر • 540p",
           "layout": "0,1,4,2",
-          "offset": "0,0,0,0.25"
+          "offset": "0,0,0,0.25",
+          "properties": {
+            "resume:position": "none",
+            "trigger:complete": "player:auto:restart"
+          },
+          "options": {
+            "type": "pages",
+            "headline": "{txt:#ffffff:الجزيرة الوثائقية • مباشر • طريقة التشغيل}",
+            "template": {
+              "type": "default",
+              "layout": "0,0,6,2",
+              "color": "#163460",
+              "alignment": "center"
+            },
+            "caption": "{txt:#ffffff:خيارات التشغيل}",
+            "items": [
+              {
+                "title": "{txt:#ffffff:مشغّل التلفاز • 540p}",
+                "action": "video:https://live-hls-web-ajd-ll-bp.thehlive.com/AJD/index_14.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • 540p",
+                "icon": "#ffffff:play-circle-filled",
+                "properties": {
+                  "resume:position": "none",
+                  "trigger:complete": "player:auto:restart"
+                }
+              },
+              {
+                "title": "{txt:#ffffff:مشغّل التلفاز • 720p}",
+                "action": "video:https://live-hls-web-ajd-ll-bp.thehlive.com/AJD/index_18.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • 720p",
+                "icon": "#ffffff:play-circle-filled",
+                "properties": {
+                  "resume:position": "none",
+                  "trigger:complete": "player:auto:restart"
+                }
+              },
+              {
+                "title": "{txt:#ffffff:مشغّل التلفاز • 1080p}",
+                "action": "video:https://live-hls-web-ajd-ll-bp.thehlive.com/AJD/index_19.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • 1080p",
+                "icon": "#ffffff:play-circle-filled",
+                "properties": {
+                  "resume:position": "none",
+                  "trigger:complete": "player:auto:restart"
+                }
+              },
+              {
+                "title": "{txt:#ffffff:مشغّل بديل • جودة تلقائية}",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • تلقائي",
+                "icon": "#ffffff:play-circle-filled",
+                "properties": {
+                  "resume:position": "none",
+                  "trigger:complete": "player:auto:restart"
+                }
+              }
+            ]
+          }
         },
         {
           "id": "doc-asharq-doc",
