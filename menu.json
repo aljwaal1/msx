@@ -1,6 +1,6 @@
 {
   "name": "تلفزيون خصوصي",
-  "version": "3.1.3",
+  "version": "3.1.4",
   "headline": "{txt:#172b4d:تلفزيون خصوصي}",
   "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
   "style": "flat",
@@ -18,7 +18,7 @@
         "important": true,
         "extension": "{txt:#172b4d:موافق: فتح • يسار: القائمة}",
         "background": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/background.png",
-        "flag": "private-tv-home-v3-1-2",
+        "flag": "private-tv-home-v3-1-4",
         "refocus": 1,
         "cache": false,
         "reuse": true,
@@ -38,6 +38,37 @@
         },
         "items": [
           {
+            "id": "open-channels",
+            "type": "default",
+            "title": "{txt:#ffffff:كل القنوات}",
+            "icon": "#ffffff:live-tv",
+            "iconSize": "large",
+            "round": true,
+            "alignment": "title-center",
+            "color": "#075879",
+            "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/channels.json",
+            "selection": {
+              "headline": "{txt:#004b72:كل القنوات}",
+              "action": "data",
+              "data": {
+                "actions": [
+                  {
+                    "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
+                    "data": {
+                      "color": "transparent"
+                    }
+                  },
+                  {
+                    "action": "update:content:overlay:focus-mark-1",
+                    "data": {
+                      "color": "#ffbd38"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
             "title": "{txt:#ffffff:الأخبار والقنوات}",
             "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/live.json",
             "id": "open-live",
@@ -48,13 +79,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-1",
+                    "action": "update:content:overlay:focus-mark-2",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -82,13 +113,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-2",
+                    "action": "update:content:overlay:focus-mark-3",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -124,13 +155,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-3",
+                    "action": "update:content:overlay:focus-mark-4",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -150,13 +181,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-4",
+                    "action": "update:content:overlay:focus-mark-5",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -184,13 +215,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-5",
+                    "action": "update:content:overlay:focus-mark-6",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -218,13 +249,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-6",
+                    "action": "update:content:overlay:focus-mark-7",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -252,13 +283,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-7",
+                    "action": "update:content:overlay:focus-mark-8",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -286,13 +317,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-10|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-8",
+                    "action": "update:content:overlay:focus-mark-9",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -320,13 +351,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-10]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-11]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-9",
+                    "action": "update:content:overlay:focus-mark-10",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -354,13 +385,13 @@
               "data": {
                 "actions": [
                   {
-                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9]",
+                    "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6|update:content:overlay:focus-mark-7|update:content:overlay:focus-mark-8|update:content:overlay:focus-mark-9|update:content:overlay:focus-mark-10]",
                     "data": {
                       "color": "transparent"
                     }
                   },
                   {
-                    "action": "update:content:overlay:focus-mark-10",
+                    "action": "update:content:overlay:focus-mark-11",
                     "data": {
                       "color": "#ffbd38"
                     }
@@ -478,9 +509,49 @@
               "layout": "3,4,3,1",
               "offset": "0,0.06,0,-0.68",
               "color": "transparent"
+            },
+            {
+              "id": "focus-mark-11",
+              "type": "space",
+              "layout": "6,4,3,1",
+              "offset": "0,0.06,0,-0.68",
+              "color": "transparent"
             }
           ]
         }
+      }
+    },
+    {
+      "id": "channels",
+      "label": "{txt:#172b4d:كل القنوات}",
+      "icon": "#003399:live-tv",
+      "transparent": 1,
+      "data": "https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/channels.json",
+      "options": {
+        "type": "pages",
+        "template": {
+          "type": "default",
+          "layout": "0,0,6,2",
+          "color": "#163460",
+          "alignment": "center"
+        },
+        "items": [
+          {
+            "icon": "#ffffff:home",
+            "action": "menu:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/menu.json",
+            "color": "#163460",
+            "title": "{txt:#ffffff:الرئيسية}"
+          },
+          {
+            "icon": "#ffffff:refresh",
+            "action": "reload",
+            "color": "#163460",
+            "title": "{txt:#ffffff:تحديث التطبيق}"
+          }
+        ],
+        "headline": "{txt:#ffffff:خيارات التشغيل}",
+        "extension": "{txt:#ffffff:الأسهم للاختيار • موافق للتنفيذ}",
+        "caption": "{txt:#ffffff:خيارات التشغيل}"
       }
     },
     {
@@ -814,7 +885,7 @@
       }
     }
   ],
-  "flag": "private-tv-menu-v3-1-3",
+  "flag": "private-tv-menu-v3-1-4",
   "refocus": 1,
   "options": {
     "type": "pages",
