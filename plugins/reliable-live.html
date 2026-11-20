@@ -25,7 +25,7 @@ function ReliableLivePlayer() {
     var lastPosition = 0, lastProgress = 0, stableSince = 0;
     var starting = false, loading = false, needsLoad = false;
     var manifestRequest = null;
-    var quality = 540;
+    var quality = 0;
     var source = '';
     var events = {};
 
@@ -94,6 +94,7 @@ function ReliableLivePlayer() {
         }
     }
     function chooseStream(text) {
+        if (quality === 0) { return url; }
         var lines = text.split(/\r?\n/);
         var chosen = null, smallest = null;
         for (var i = 0; i < lines.length; i++) {
@@ -134,9 +135,13 @@ function ReliableLivePlayer() {
                 video.load();
             } else if (typeof Hls !== 'undefined' && Hls.isSupported()) {
                 var instance = new Hls({
-                    maxBufferLength: 10,
-                    maxMaxBufferLength: 20,
-                    maxBufferSize: 12000000
+                    startLevel: -1,
+                    capLevelToPlayerSize: true,
+                    capLevelOnFPSDrop: true,
+                    maxBufferLength: 15,
+                    maxMaxBufferLength: 30,
+                    backBufferLength: 10,
+                    maxBufferSize: 20000000
                 });
                 hls = instance;
                 instance.on(Hls.Events.ERROR, function (event, data) {
