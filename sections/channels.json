@@ -9,7 +9,7 @@
   "reuse": true,
   "restore": true,
   "refocus": 1,
-  "flag": "private-tv-all-channels-v3-1-5",
+  "flag": "private-tv-all-channels-v3-1-9",
   "preload": "none",
   "captionUnderlay": 1,
   "overlay": {
@@ -775,6 +775,45 @@
           }
         },
         {
+          "id": "roya-sport",
+          "title": "{txt:#ffffff:رؤيا الرياضية}",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Ffast.kwikmotion.com%2Froya%2Fsport%2Fplaylist.m3u8",
+          "playerLabel": "رؤيا الرياضية",
+          "enumerate": true,
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "badge": "{txt:#ffffff:رياضة}",
+          "badgeColor": "#274967",
+          "layout": "0,5,12,1",
+          "alignment": "title-right",
+          "truncation": "title",
+          "selection": {
+            "headline": "{txt:#004b72:رؤيا الرياضية}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "id": "sports-1",
           "type": "default",
           "color": "#112c50",
@@ -836,20 +875,20 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "playerLabel": "الأردن الرياضية • جودة تلقائية",
-          "layout": "0,5,12,1",
+          "layout": "0,0,12,1",
           "selection": {
             "headline": "{txt:#004b72:الأردن الرياضية}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-6",
+                  "action": "update:content:overlay:focus-mark-1",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -858,11 +897,7 @@
             }
           },
           "enumerate": true
-        }
-      ]
-    },
-    {
-      "items": [
+        },
         {
           "id": "sports-2",
           "type": "default",
@@ -875,20 +910,20 @@
           "badgeColor": "#274967",
           "action": "content:https://raw.githubusercontent.com/aljwaal1/msx/refs/heads/main/sections/bein_official.json",
           "playerLabel": "beIN SPORTS • البث الرسمي",
-          "layout": "0,0,12,1",
+          "layout": "0,1,12,1",
           "selection": {
             "headline": "{txt:#004b72:بي إن SPORTS}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-1",
+                  "action": "update:content:overlay:focus-mark-2",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -936,20 +971,20 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "playerLabel": "عُمان الرياضية",
-          "layout": "0,1,12,1",
+          "layout": "0,2,12,1",
           "selection": {
             "headline": "{txt:#004b72:عُمان الرياضية}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-2",
+                  "action": "update:content:overlay:focus-mark-3",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -971,20 +1006,20 @@
           "badgeColor": "#274967",
           "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/179671c068789a554982b3932a3bd5963b40db83/plugins/jordan-prayer.html?url=https%3A%2F%2Fjrtv-live.ercdn.net%2Fjordansporthd%2Fjordansporthd.m3u8",
           "playerLabel": "الأردن الرياضية • ساعة الأذان",
-          "layout": "0,2,12,1",
+          "layout": "0,3,12,1",
           "selection": {
             "headline": "{txt:#004b72:الأردن الرياضية • ساعة الأذان}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-3",
+                  "action": "update:content:overlay:focus-mark-4",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -1006,20 +1041,20 @@
           "badgeColor": "#274967",
           "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
           "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
-          "layout": "0,3,12,1",
+          "layout": "0,4,12,1",
           "selection": {
             "headline": "{txt:#004b72:الجزيرة الوثائقية • مباشر}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-4",
+                  "action": "update:content:overlay:focus-mark-5",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -1103,20 +1138,20 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "playerLabel": "الشرق الوثائقية",
-          "layout": "0,4,12,1",
+          "layout": "0,5,12,1",
           "selection": {
             "headline": "{txt:#004b72:الشرق الوثائقية}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6]",
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-5",
+                  "action": "update:content:overlay:focus-mark-6",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -1125,7 +1160,11 @@
             }
           },
           "enumerate": true
-        },
+        }
+      ]
+    },
+    {
+      "items": [
         {
           "id": "doc-asharq-discovery",
           "type": "default",
@@ -1158,20 +1197,20 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "playerLabel": "الشرق Discovery",
-          "layout": "0,5,12,1",
+          "layout": "0,0,12,1",
           "selection": {
             "headline": "{txt:#004b72:الشرق Discovery}",
             "action": "data",
             "data": {
               "actions": [
                 {
-                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "action": "[update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
                   "data": {
                     "color": "transparent"
                   }
                 },
                 {
-                  "action": "update:content:overlay:focus-mark-6",
+                  "action": "update:content:overlay:focus-mark-1",
                   "data": {
                     "color": "#ffbd38"
                   }
@@ -1180,11 +1219,7 @@
             }
           },
           "enumerate": true
-        }
-      ]
-    },
-    {
-      "items": [
+        },
         {
           "id": "dora-2",
           "type": "default",
@@ -1224,9 +1259,184 @@
             "caption": "{txt:#ffffff:خيارات التشغيل}"
           },
           "playerLabel": "وناسة",
-          "layout": "0,0,12,1",
+          "layout": "0,1,12,1",
           "selection": {
             "headline": "{txt:#004b72:وناسة للأطفال}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-2",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
+          },
+          "enumerate": true
+        },
+        {
+          "id": "fajer-1",
+          "title": "{txt:#ffffff:الفجر 1}",
+          "action": "link:window:https://tv.alfajertv.com/?channel=fajer1",
+          "enumerate": false,
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "badge": "{txt:#ffffff:المشغّل الرسمي}",
+          "badgeColor": "#274967",
+          "layout": "0,2,12,1",
+          "alignment": "title-right",
+          "truncation": "title",
+          "selection": {
+            "headline": "{txt:#004b72:الفجر 1}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-3",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "fajer-2",
+          "title": "{txt:#ffffff:الفجر 2}",
+          "action": "link:window:https://tv.alfajertv.com/?channel=fajer2",
+          "enumerate": false,
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "badge": "{txt:#ffffff:المشغّل الرسمي}",
+          "badgeColor": "#274967",
+          "layout": "0,3,12,1",
+          "alignment": "title-right",
+          "truncation": "title",
+          "selection": {
+            "headline": "{txt:#004b72:الفجر 2}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-5|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-4",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "fajer-3",
+          "title": "{txt:#ffffff:الفجر 3}",
+          "action": "link:window:https://tv.alfajertv.com/?channel=fajer3",
+          "enumerate": false,
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "badge": "{txt:#ffffff:المشغّل الرسمي}",
+          "badgeColor": "#274967",
+          "layout": "0,4,12,1",
+          "alignment": "title-right",
+          "truncation": "title",
+          "selection": {
+            "headline": "{txt:#004b72:الفجر 3}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-6]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-5",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "fajer-4",
+          "title": "{txt:#ffffff:الفجر 4}",
+          "action": "link:window:https://tv.alfajertv.com/?channel=fajer4",
+          "enumerate": false,
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "badge": "{txt:#ffffff:المشغّل الرسمي}",
+          "badgeColor": "#274967",
+          "layout": "0,5,12,1",
+          "alignment": "title-right",
+          "truncation": "title",
+          "selection": {
+            "headline": "{txt:#004b72:الفجر 4}",
+            "action": "data",
+            "data": {
+              "actions": [
+                {
+                  "action": "[update:content:overlay:focus-mark-1|update:content:overlay:focus-mark-2|update:content:overlay:focus-mark-3|update:content:overlay:focus-mark-4|update:content:overlay:focus-mark-5]",
+                  "data": {
+                    "color": "transparent"
+                  }
+                },
+                {
+                  "action": "update:content:overlay:focus-mark-6",
+                  "data": {
+                    "color": "#ffbd38"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "id": "fajer-5",
+          "title": "{txt:#ffffff:الفجر 5}",
+          "action": "link:window:https://tv.alfajertv.com/?channel=fajer5",
+          "enumerate": false,
+          "type": "default",
+          "color": "#112c50",
+          "round": true,
+          "badge": "{txt:#ffffff:المشغّل الرسمي}",
+          "badgeColor": "#274967",
+          "layout": "0,0,12,1",
+          "alignment": "title-right",
+          "truncation": "title",
+          "selection": {
+            "headline": "{txt:#004b72:الفجر 5}",
             "action": "data",
             "data": {
               "actions": [
@@ -1244,8 +1454,7 @@
                 }
               ]
             }
-          },
-          "enumerate": true
+          }
         },
         {
           "id": "return-home",
@@ -1277,7 +1486,8 @@
               ]
             }
           },
-          "enumerate": false
+          "enumerate": false,
+          "truncation": "title"
         }
       ]
     }
