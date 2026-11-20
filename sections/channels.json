@@ -71,7 +71,7 @@
           "title": "{txt:#ffffff:رؤيا العامة}",
           "badge": "{txt:#ffffff:عام}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?source=roya",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?source=roya",
           "options": {
             "type": "pages",
             "headline": "رؤيا العامة",
@@ -83,14 +83,10 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?source=roya",
-                "playerLabel": "رؤيا العامة • بث خفيف 480p"
-              },
-              {
-                "title": "{txt:#ffffff:HD 720p}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?source=roya&quality=720",
-                "playerLabel": "رؤيا العامة • HD"
+                "title": "{txt:#ffffff:جودة تلقائية • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?source=roya",
+                "playerLabel": "رؤيا العامة • جودة تلقائية",
+                "icon": "#ffffff:settings"
               },
               {
                 "title": "{txt:#ffffff:المشغّل الرسمي لرؤيا}",
@@ -98,7 +94,7 @@
               }
             ]
           },
-          "playerLabel": "رؤيا العامة • بث خفيف 480p",
+          "playerLabel": "رؤيا العامة • جودة تلقائية",
           "layout": "0,0,12,1",
           "selection": {
             "headline": "{txt:#004b72:رؤيا العامة}",
@@ -132,7 +128,7 @@
           "title": "{txt:#ffffff:الجزيرة الإخبارية}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
           "options": {
             "type": "pages",
             "headline": "{txt:#ffffff:الجزيرة الإخبارية • التشغيل}",
@@ -144,14 +140,10 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
-                "playerLabel": "الجزيرة الإخبارية • بث خفيف"
-              },
-              {
-                "title": "{txt:#ffffff:HD 720p}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8&quality=720",
-                "playerLabel": "الجزيرة الإخبارية • HD"
+                "title": "{txt:#ffffff:جودة تلقائية • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • جودة تلقائية",
+                "icon": "#ffffff:settings"
               },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
@@ -175,7 +167,7 @@
               }
             ]
           },
-          "playerLabel": "الجزيرة الإخبارية • بث خفيف",
+          "playerLabel": "الجزيرة الإخبارية • جودة تلقائية",
           "properties": {
             "resume:position": "none",
             "trigger:complete": "player:auto:restart"
@@ -213,7 +205,7 @@
           "title": "{txt:#ffffff:الجزيرة الآن}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
           "options": {
             "type": "pages",
             "headline": "{txt:#ffffff:الجزيرة الآن • التشغيل}",
@@ -225,14 +217,10 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
-                "playerLabel": "الجزيرة الآن • بث خفيف"
-              },
-              {
-                "title": "{txt:#ffffff:HD 720p}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8&quality=720",
-                "playerLabel": "الجزيرة الآن • HD"
+                "title": "{txt:#ffffff:جودة تلقائية • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
+                "playerLabel": "الجزيرة الآن • جودة تلقائية",
+                "icon": "#ffffff:settings"
               },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
@@ -256,7 +244,7 @@
               }
             ]
           },
-          "playerLabel": "الجزيرة الآن • بث خفيف",
+          "playerLabel": "الجزيرة الآن • جودة تلقائية",
           "properties": {
             "resume:position": "none",
             "trigger:complete": "player:auto:restart"
@@ -294,7 +282,7 @@
           "title": "{txt:#ffffff:الجزيرة مباشر}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
           "options": {
             "type": "pages",
             "headline": "{txt:#ffffff:الجزيرة مباشر • التشغيل}",
@@ -306,14 +294,10 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
-                "playerLabel": "الجزيرة مباشر • بث خفيف"
-              },
-              {
-                "title": "{txt:#ffffff:HD 720p}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8&quality=720",
-                "playerLabel": "الجزيرة مباشر • HD"
+                "title": "{txt:#ffffff:جودة تلقائية • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
+                "playerLabel": "الجزيرة مباشر • جودة تلقائية",
+                "icon": "#ffffff:settings"
               },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
@@ -337,7 +321,7 @@
               }
             ]
           },
-          "playerLabel": "الجزيرة مباشر • بث خفيف",
+          "playerLabel": "الجزيرة مباشر • جودة تلقائية",
           "properties": {
             "resume:position": "none",
             "trigger:complete": "player:auto:restart"
@@ -714,8 +698,8 @@
           "title": "{txt:#ffffff:الجزيرة الإنجليزية}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
-          "playerLabel": "الجزيرة الإنجليزية • بث خفيف",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
+          "playerLabel": "الجزيرة الإنجليزية • جودة تلقائية",
           "layout": "0,4,12,1",
           "selection": {
             "headline": "{txt:#004b72:الجزيرة الإنجليزية}",
@@ -753,14 +737,10 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
-                "playerLabel": "الجزيرة الإنجليزية • بث خفيف"
-              },
-              {
-                "title": "{txt:#ffffff:HD 720p}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8&quality=720",
-                "playerLabel": "الجزيرة الإنجليزية • HD"
+                "title": "{txt:#ffffff:جودة تلقائية • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
+                "playerLabel": "الجزيرة الإنجليزية • جودة تلقائية",
+                "icon": "#ffffff:settings"
               },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
@@ -788,8 +768,8 @@
         {
           "id": "roya-sport",
           "title": "{txt:#ffffff:رؤيا الرياضية}",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Ffast.kwikmotion.com%2Froya%2Fsport%2Fplaylist.m3u8",
-          "playerLabel": "رؤيا الرياضية",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Ffast.kwikmotion.com%2Froya%2Fsport%2Fplaylist.m3u8",
+          "playerLabel": "رؤيا الرياضية • جودة تلقائية",
           "enumerate": true,
           "type": "default",
           "color": "#112c50",
@@ -1050,8 +1030,8 @@
           "title": "{txt:#ffffff:الجزيرة الوثائقية • مباشر}",
           "badge": "{txt:#ffffff:وثائقيات}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
-          "playerLabel": "الجزيرة الوثائقية • مباشر • بث خفيف",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+          "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
           "layout": "0,4,12,1",
           "selection": {
             "headline": "{txt:#004b72:الجزيرة الوثائقية • مباشر}",
@@ -1089,14 +1069,10 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
-                "playerLabel": "الجزيرة الوثائقية • مباشر • بث خفيف"
-              },
-              {
-                "title": "{txt:#ffffff:HD 720p}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8&quality=720",
-                "playerLabel": "الجزيرة الوثائقية • مباشر • HD"
+                "title": "{txt:#ffffff:جودة تلقائية • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
+                "icon": "#ffffff:settings"
               },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",

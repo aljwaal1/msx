@@ -250,8 +250,8 @@
         {
           "id": "roya-sport",
           "title": "{txt:#ffffff:رؤيا الرياضية}",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Ffast.kwikmotion.com%2Froya%2Fsport%2Fplaylist.m3u8",
-          "playerLabel": "رؤيا الرياضية",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/82ed83390aa77690f7ec1f6a904de6f35f1cf61f/plugins/reliable-live.html?url=https%3A%2F%2Ffast.kwikmotion.com%2Froya%2Fsport%2Fplaylist.m3u8",
+          "playerLabel": "رؤيا الرياضية • جودة تلقائية",
           "enumerate": true,
           "type": "default",
           "color": "#112c50",
