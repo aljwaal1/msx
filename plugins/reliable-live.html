@@ -24,6 +24,9 @@ function ReliableLivePlayer() {
     var delays = [2000, 5000, 10000, 20000, 30000, 30000];
     var lastPosition = 0, lastProgress = 0, stableSince = 0;
     var starting = false, loading = false, needsLoad = false;
+    var manifestRequest = null;
+    var quality = 540;
+    var source = '';
     var events = {};
 
     function message(text) {
@@ -37,6 +40,11 @@ function ReliableLivePlayer() {
         }
     }
     function destroyStream() {
+        if (manifestRequest) {
+            var request = manifestRequest;
+            manifestRequest = null;
+            request.abort();
+        }
         if (hls) {
             var previous = hls;
             hls = null;
@@ -85,10 +93,65 @@ function ReliableLivePlayer() {
             retry();
         }
     }
-    function load() {
-        if (disposed || !intended) {
-            return;
+    function chooseStream(text) {
+        var lines = text.split(/\r?\n/);
+        var chosen = null, smallest = null;
+        for (var i = 0; i < lines.length; i++) {
+            var resolution = /RESOLUTION=\d+x(\d+)/.exec(lines[i]);
+            if (!resolution || lines[i].indexOf('#EXT-X-STREAM-INF:') !== 0) {
+                continue;
+            }
+            var j = i + 1;
+            while (j < lines.length && (!lines[j].trim() || lines[j].charAt(0) === '#')) { j++; }
+            if (j >= lines.length) { continue; }
+            var entry = { height: Number(resolution[1]), path: lines[j].trim() };
+            if (!smallest || entry.height < smallest.height) { smallest = entry; }
+            if (entry.height <= quality && (!chosen || entry.height > chosen.height)) {
+                chosen = entry;
+            }
         }
+        chosen = chosen || smallest;
+        if (!chosen) { return url; }
+        var anchor = document.createElement('a');
+        // Resolve paths against the master URL, not the plugin page.
+        if (/^https?:\/\//.test(chosen.path)) { return chosen.path; }
+        anchor.href = url;
+        if (chosen.path.indexOf('//') === 0) {
+            return anchor.protocol + chosen.path;
+        }
+        if (chosen.path.charAt(0) === '/') {
+            return anchor.protocol + '//' + anchor.host + chosen.path;
+        }
+        return url.split('?')[0].replace(/[^/]*$/, '') + chosen.path;
+    }
+    function attach(source) {
+        if (disposed || !intended || terminal) { return; }
+        try {
+            var nativeHls = video.canPlayType('application/vnd.apple.mpegurl') ||
+                video.canPlayType('application/x-mpegURL');
+            if (nativeHls && (typeof Hls === 'undefined' || !Hls.isSupported())) {
+                video.src = source;
+                video.load();
+            } else if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+                var instance = new Hls({
+                    maxBufferLength: 10,
+                    maxMaxBufferLength: 20,
+                    maxBufferSize: 12000000
+                });
+                hls = instance;
+                instance.on(Hls.Events.ERROR, function (event, data) {
+                    if (hls === instance && data.fatal) { retry(); }
+                });
+                instance.loadSource(source);
+                instance.attachMedia(video);
+            } else {
+                video.src = source;
+                video.load();
+            }
+        } catch (error) { retry(); }
+    }
+    function load() {
+        if (disposed || !intended) { return; }
         loading = true;
         needsLoad = false;
         starting = true;
@@ -96,25 +159,53 @@ function ReliableLivePlayer() {
         lastProgress = Date.now();
         lastPosition = 0;
         TVXVideoPlugin.startLoading();
-        try {
-            destroyStream();
-            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-                var instance = new Hls({ maxBufferLength: 20, maxMaxBufferLength: 40 });
-                hls = instance;
-                instance.on(Hls.Events.ERROR, function (event, data) {
-                    if (hls === instance && data.fatal) {
-                        retry();
-                    }
-                });
-                instance.loadSource(url);
-                instance.attachMedia(video);
-            } else {
-                video.src = url;
-                video.load();
-            }
-        } catch (error) {
-            retry();
+        destroyStream();
+        if (source === 'roya') {
+            var ticket = new XMLHttpRequest();
+            manifestRequest = ticket;
+            ticket.open('GET', 'https://ticket.roya-tv.com/api/v5/fastchannel/1?device_type=1', true);
+            ticket.timeout = 10000;
+            ticket.onload = function () {
+                if (manifestRequest !== ticket || disposed || !intended) { return; }
+                manifestRequest = null;
+                try {
+                    var data = JSON.parse(ticket.responseText);
+                    var secured = data.data && data.data.secured_url;
+                    if (ticket.status !== 200 || !/^https:\/\//.test(secured || '')) { retry(); return; }
+                    url = secured;
+                    fetchManifest();
+                } catch (error) { retry(); }
+            };
+            ticket.onerror = ticket.ontimeout = function () {
+                if (manifestRequest === ticket) { manifestRequest = null; retry(); }
+            };
+            try { ticket.send(); } catch (error) { manifestRequest = null; retry(); }
+        } else {
+            fetchManifest();
         }
+    }
+    function fetchManifest() {
+        var request = new XMLHttpRequest();
+        manifestRequest = request;
+        function failed() {
+            if (manifestRequest === request) {
+                manifestRequest = null;
+                retry();
+            }
+        }
+        request.open('GET', url, true);
+        request.timeout = 10000;
+        request.onload = function () {
+            if (manifestRequest !== request || disposed || !intended) { return; }
+            manifestRequest = null;
+            if (request.status !== 200 || request.responseText.indexOf('#EXTM3U') < 0) {
+                retry();
+                return;
+            }
+            attach(chooseStream(request.responseText));
+        };
+        request.onerror = request.ontimeout = failed;
+        try { request.send(); } catch (error) { failed(); }
     }
     function tick() {
         if (disposed || !intended || terminal || retryTimer !== null) {
@@ -176,7 +267,10 @@ function ReliableLivePlayer() {
     };
     this.ready = function () {
         url = TVXServices.urlParams.get('url') || '';
-        if (!/^https:\/\//.test(url)) {
+        source = TVXServices.urlParams.get('source') || '';
+        var requestedQuality = Number(TVXServices.urlParams.get('quality'));
+        if (requestedQuality >= 240 && requestedQuality <= 1080) { quality = requestedQuality; }
+        if (source !== 'roya' && !/^https:\/\//.test(url)) {
             terminal = true;
             message('رابط البث غير صالح.');
             return;
@@ -199,6 +293,10 @@ function ReliableLivePlayer() {
     };
     this.pause = function () {
         intended = false;
+        if (manifestRequest) {
+            needsLoad = true;
+            destroyStream();
+        }
         clearRetry();
         message('');
         video.pause();
