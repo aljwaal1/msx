@@ -20,7 +20,7 @@
           "id": "doc-ajdoc-live",
           "type": "default",
           "title": "{txt:#ffffff:الجزيرة الوثائقية • مباشر}",
-          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-play.png",
           "imageOverlay": 0,
           "imageFiller": "cover",
@@ -51,7 +51,7 @@
               ]
             }
           },
-          "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
+          "playerLabel": "الجزيرة الوثائقية • مباشر • بث خفيف",
           "layout": "0,1,4,2",
           "offset": "0,0,0,0.25",
           "properties": {
@@ -69,10 +69,14 @@
             },
             "items": [
               {
-                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
-                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
-                "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
-                "icon": "#ffffff:refresh"
+                "title": "{txt:#ffffff:بث خفيف • إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • بث خفيف"
+              },
+              {
+                "title": "{txt:#ffffff:HD 720p}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/f56fe5532dd46f93b5ea0eed77349f100b350ddf/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8&quality=720",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • HD"
               },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
