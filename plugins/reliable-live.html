@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تلفزيون خصوصي • البث المباشر</title>
+<style>
+html,body { margin:0; width:100%; height:100%; background:#000; overflow:hidden; }
+video { width:100%; height:100%; object-fit:contain; }
+#status { display:none; position:absolute; left:8%; right:8%; bottom:10%; padding:18px; border-radius:8px; border-top:3px solid #ffbd38; background:rgba(12,26,44,.94); color:#fff; text-align:center; direction:rtl; font:24px Tahoma,Arial,sans-serif; }
+</style>
+<script src="https://msx.benzac.de/js/tvx-plugin.min.js?v=0.0.16"></script>
+<script src="https://msx.benzac.de/plugins/js/lib/hls.js?v=0.0.2"></script>
+</head>
+<body>
+<video id="player" playsinline webkit-playsinline></video>
+<div id="status" role="status"></div>
+<script>
+function ReliableLivePlayer() {
+    var self = this;
+    var video, status, hls = null, url = '';
+    var disposed = false, intended = true, terminal = false;
+    var retryTimer = null, watchdog = null, attempts = 0;
+    var delays = [2000, 5000, 10000, 20000, 30000, 30000];
+    var lastPosition = 0, lastProgress = 0, stableSince = 0;
+    var starting = false, loading = false, needsLoad = false;
+    var events = {};
+
+    function message(text) {
+        status.textContent = text;
+        status.style.display = text ? 'block' : 'none';
+    }
+    function clearRetry() {
+        if (retryTimer !== null) {
+            clearTimeout(retryTimer);
+            retryTimer = null;
+        }
+    }
+    function destroyStream() {
+        if (hls) {
+            var previous = hls;
+            hls = null;
+            previous.destroy();
+        }
+    }
+    function retry() {
+        if (disposed || !intended || retryTimer !== null || terminal) {
+            return;
+        }
+        stableSince = 0;
+        needsLoad = true;
+        destroyStream();
+        TVXVideoPlugin.stopLoading();
+        if (attempts >= delays.length) {
+            terminal = true;
+            loading = false;
+            message('تعذّر الاتصال بمصدر البث. جرّب فتح القناة مجددًا بعد قليل.');
+            return;
+        }
+        var delay = delays[attempts++];
+        message('انقطع البث، جارٍ إعادة الاتصال… المحاولة ' + attempts + ' من ' + delays.length);
+        retryTimer = setTimeout(function () {
+            retryTimer = null;
+            if (!disposed && intended) {
+                load();
+            }
+        }, delay);
+    }
+    function playVideo() {
+        if (disposed || !intended || terminal) {
+            return;
+        }
+        try {
+            var promise = video.play();
+            if (promise && promise.catch) {
+                promise.catch(function (error) {
+                    if (!disposed && error.name === 'NotAllowedError') {
+                        intended = false;
+                        message('اضغط موافق ثم تشغيل لبدء البث.');
+                        TVXVideoPlugin.stopLoading();
+                    }
+                });
+            }
+        } catch (error) {
+            retry();
+        }
+    }
+    function load() {
+        if (disposed || !intended) {
+            return;
+        }
+        loading = true;
+        needsLoad = false;
+        starting = true;
+        stableSince = 0;
+        lastProgress = Date.now();
+        lastPosition = 0;
+        TVXVideoPlugin.startLoading();
+        try {
+            destroyStream();
+            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+                var instance = new Hls({ maxBufferLength: 20, maxMaxBufferLength: 40 });
+                hls = instance;
+                instance.on(Hls.Events.ERROR, function (event, data) {
+                    if (hls === instance && data.fatal) {
+                        retry();
+                    }
+                });
+                instance.loadSource(url);
+                instance.attachMedia(video);
+            } else {
+                video.src = url;
+                video.load();
+            }
+        } catch (error) {
+            retry();
+        }
+    }
+    function tick() {
+        if (disposed || !intended || terminal || retryTimer !== null) {
+            return;
+        }
+        var now = Date.now();
+        if (video.currentTime > lastPosition + 0.05 && video.readyState >= 2) {
+            lastProgress = now;
+            if (!stableSince) {
+                stableSince = now;
+            }
+            if (now - stableSince >= 30000) {
+                attempts = 0;
+            }
+            message('');
+        } else if (now - lastProgress > 20000) {
+            retry();
+        }
+        lastPosition = video.currentTime;
+    }
+    this.init = function () {
+        video = document.getElementById('player');
+        status = document.getElementById('status');
+        events.canplay = function () {
+            if (!intended || terminal || retryTimer !== null) {
+                return;
+            }
+            if (starting) {
+                starting = false;
+                loading = false;
+                TVXVideoPlugin.applyVolume();
+                TVXVideoPlugin.startPlayback(true);
+            } else {
+                playVideo();
+            }
+        };
+        events.playing = function () {
+            if (intended && !terminal) {
+                loading = false;
+                TVXVideoPlugin.stopLoading();
+                TVXVideoPlugin.setState(TVXVideoState.PLAYING);
+            }
+        };
+        events.pause = function () {
+            if (!disposed) {
+                TVXVideoPlugin.setState(TVXVideoState.PAUSED);
+            }
+        };
+        events.waiting = function () {
+            if (intended) {
+                stableSince = 0;
+            }
+        };
+        events.error = events.ended = retry;
+        for (var event in events) {
+            video.addEventListener(event, events[event]);
+        }
+        watchdog = setInterval(tick, 1000);
+    };
+    this.ready = function () {
+        url = TVXServices.urlParams.get('url') || '';
+        if (!/^https:\/\//.test(url)) {
+            terminal = true;
+            message('رابط البث غير صالح.');
+            return;
+        }
+        load();
+    };
+    this.play = function () {
+        if (disposed) {
+            return;
+        }
+        intended = true;
+        if (terminal || (needsLoad && retryTimer === null)) {
+            if (terminal) { attempts = 0; }
+            terminal = false;
+            load();
+        } else if (!loading && !retryTimer) {
+            lastProgress = Date.now();
+            playVideo();
+        }
+    };
+    this.pause = function () {
+        intended = false;
+        clearRetry();
+        message('');
+        video.pause();
+    };
+    this.stop = this.pause;
+    this.dispose = function () {
+        disposed = true;
+        intended = false;
+        clearRetry();
+        clearInterval(watchdog);
+        for (var event in events) {
+            video.removeEventListener(event, events[event]);
+        }
+        destroyStream();
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+    };
+    this.getDuration = function () { return video.duration; };
+    this.getPosition = function () { return video.currentTime; };
+    this.setPosition = function (value) { video.currentTime = value; };
+    this.getVolume = function () { return video.volume * 100; };
+    this.setVolume = function (value) { video.volume = value / 100; };
+    this.isMuted = function () { return video.muted; };
+    this.setMuted = function (value) { video.muted = value; };
+    this.getSpeed = function () { return video.playbackRate; };
+    this.setSpeed = function (value) { video.playbackRate = value; };
+    this.getUpdateData = function () {
+        return { position: self.getPosition(), duration: self.getDuration(), speed: self.getSpeed() };
+    };
+}
+TVXPluginTools.onReady(function () {
+    TVXVideoPlugin.setupPlayer(new ReliableLivePlayer());
+    TVXVideoPlugin.init();
+});
+</script>
+</body>
+</html>
