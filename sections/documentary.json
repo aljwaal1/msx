@@ -20,7 +20,7 @@
           "id": "doc-ajdoc-live",
           "type": "default",
           "title": "{txt:#ffffff:الجزيرة الوثائقية • مباشر}",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
           "image": "https://raw.githubusercontent.com/aljwaal1/msx/e1a88fa0a52d7533e33df4cc94d9b10ab9b2f96b/assets/ui3/home-play.png",
           "imageOverlay": 0,
           "imageFiller": "cover",
@@ -68,6 +68,12 @@
               "alignment": "center"
             },
             "items": [
+              {
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
+                "icon": "#ffffff:refresh"
+              },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
                 "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",

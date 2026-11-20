@@ -71,7 +71,7 @@
           "title": "{txt:#ffffff:رؤيا العامة}",
           "badge": "{txt:#ffffff:عام}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.kwikmotion.com%2Froyatvpublic%2Froyatv.smil%2Fplaylist.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive.kwikmotion.com%2Froyatvlive%2Froyatv.smil%2Fplaylist.m3u8",
           "options": {
             "type": "pages",
             "headline": "رؤيا العامة",
@@ -83,15 +83,22 @@
             },
             "items": [
               {
-                "title": "البث المباشر • جودة تلقائية",
-                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.kwikmotion.com%2Froyatvpublic%2Froyatv.smil%2Fplaylist.m3u8"
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive.kwikmotion.com%2Froyatvlive%2Froyatv.smil%2Fplaylist.m3u8",
+                "playerLabel": "رؤيا العامة • Roya TV"
               },
               {
-                "title": "مشغّل التلفاز • 720p",
-                "action": "video:https://live.kwikmotion.com/royatvpublic/royatv.smil/royatvpublish/royatv_720p/chunks.m3u8"
+                "title": "{txt:#ffffff:المشغّل البديل}",
+                "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive.kwikmotion.com%2Froyatvlive%2Froyatv.smil%2Fplaylist.m3u8",
+                "playerLabel": "رؤيا العامة • Roya TV"
               },
               {
-                "title": "صفحة البث الرسمية",
+                "title": "{txt:#ffffff:مشغّل التلفاز}",
+                "action": "video:https://live.kwikmotion.com/royatvlive/royatv.smil/playlist.m3u8",
+                "playerLabel": "رؤيا العامة • Roya TV"
+              },
+              {
+                "title": "{txt:#ffffff:صفحة البث الرسمية}",
                 "action": "link:window:https://roya.tv/live-stream"
               }
             ]
@@ -130,7 +137,7 @@
           "title": "{txt:#ffffff:الجزيرة الإخبارية}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
           "options": {
             "type": "pages",
             "headline": "{txt:#ffffff:الجزيرة الإخبارية • التشغيل}",
@@ -141,6 +148,12 @@
               "alignment": "center"
             },
             "items": [
+              {
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
+                "playerLabel": "الجزيرة الإخبارية • جودة تلقائية",
+                "icon": "#ffffff:refresh"
+              },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
                 "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja-gcp.thehlive.com%2FAJA%2Findex.m3u8",
@@ -201,7 +214,7 @@
           "title": "{txt:#ffffff:الجزيرة الآن}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
           "options": {
             "type": "pages",
             "headline": "{txt:#ffffff:الجزيرة الآن • التشغيل}",
@@ -212,6 +225,12 @@
               "alignment": "center"
             },
             "items": [
+              {
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
+                "playerLabel": "الجزيرة الآن • جودة تلقائية",
+                "icon": "#ffffff:refresh"
+              },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
                 "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aja2-ll-gcp.thehlive.com%2FAJA2%2Findex.m3u8",
@@ -272,7 +291,7 @@
           "title": "{txt:#ffffff:الجزيرة مباشر}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
           "options": {
             "type": "pages",
             "headline": "{txt:#ffffff:الجزيرة مباشر • التشغيل}",
@@ -283,6 +302,12 @@
               "alignment": "center"
             },
             "items": [
+              {
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
+                "playerLabel": "الجزيرة مباشر • جودة تلقائية",
+                "icon": "#ffffff:refresh"
+              },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
                 "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajm-ll-bp.thehlive.com%2FAJM%2Findex.m3u8",
@@ -682,7 +707,7 @@
           "title": "{txt:#ffffff:الجزيرة الإنجليزية}",
           "badge": "{txt:#ffffff:أخبار}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
           "playerLabel": "الجزيرة الإنجليزية • جودة تلقائية",
           "layout": "0,4,12,1",
           "selection": {
@@ -720,6 +745,12 @@
               "alignment": "center"
             },
             "items": [
+              {
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
+                "playerLabel": "الجزيرة الإنجليزية • جودة تلقائية",
+                "icon": "#ffffff:refresh"
+              },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
                 "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-aje-gcp.thehlive.com%2FAJE%2Findex.m3u8",
@@ -973,7 +1004,7 @@
           "title": "{txt:#ffffff:الجزيرة الوثائقية • مباشر}",
           "badge": "{txt:#ffffff:وثائقيات}",
           "badgeColor": "#274967",
-          "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+          "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
           "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
           "layout": "0,3,12,1",
           "selection": {
@@ -1011,6 +1042,12 @@
               "alignment": "center"
             },
             "items": [
+              {
+                "title": "{txt:#ffffff:إعادة اتصال تلقائية}",
+                "action": "video:plugin:https://rawcdn.githack.com/aljwaal1/msx/d0e8b544872fc2240a8676dca053506b79ddb502/plugins/reliable-live.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
+                "playerLabel": "الجزيرة الوثائقية • مباشر • جودة تلقائية",
+                "icon": "#ffffff:refresh"
+              },
               {
                 "title": "{txt:#ffffff:جودة تلقائية • مشغّل HLS}",
                 "action": "video:plugin:https://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Flive-hls-web-ajd-ll-bp.thehlive.com%2FAJD%2Findex.m3u8",
